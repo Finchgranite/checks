@@ -97,6 +97,37 @@
    "To be written once the drill details arrive"
   ]
  },
+ "TOOL4": {
+  "photo": "photos/TOOL4.jpg",
+  "name": "Makita GA5040C electric polisher",
+  "family": "Hand tools",
+  "form": "03",
+  "detail": "Makita GA5040C 125 mm, 110 V via site transformer - POLISHING PADS ONLY, never a cutting or grinding disc (Graham 16 Sep 2026)",
+  "location": "Factory",
+  "status": "In use",
+  "recorded": "Weekly (CHK-005)",
+  "pre_use": [
+   "Polishing pad only - no disc fitted",
+   "Cable, plug and casing sound, no tape repairs",
+   "Guard and side handle fitted",
+   "Pad secure, spins true",
+   "Powered mask (CleanSpace) + ear defenders ON - PN-01 covers polishing too",
+   "Transformer TX1 checked first"
+  ]
+ },
+ "TX1": {
+  "photo": null,
+  "name": "110 V site transformer - DETAILS TO FOLLOW from Graham (16 Sep)",
+  "family": "Hand tools",
+  "form": "03",
+  "detail": "make / rating (kVA) / serial / where it lives - to be supplied",
+  "location": "Factory",
+  "status": "Pending",
+  "recorded": "Weekly (CHK-005) once added",
+  "pre_use": [
+   "To be written once the details arrive: casing, sockets, lead and plug sound; dry; not overloaded"
+  ]
+ },
  "TOOL3": {
   "photo": "photos/TOOL3.jpg",
   "name": "Wet polisher guns (air driven)",
