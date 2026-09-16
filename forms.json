@@ -30,5 +30,12 @@
  "07": {
   "name": "Fire, first aid, site walk",
   "prefill_template": ""
+ },
+ "done": {
+  "name": "Mark done (any diary item)",
+  "form_id": "MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UN1lJWTlQVzMxREE3MzA2QTcwME5VMkhHSiQlQCN0PWcu",
+  "q1_id": "r75c3dc075a5b4020877801cad410114f",
+  "prefill_template": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UN1lJWTlQVzMxREE3MzA2QTcwME5VMkhHSiQlQCN0PWcu&r75c3dc075a5b4020877801cad410114f=%22{ITEM}%22",
+  "built": "2026-09-16 HS-08 Mark done (group form, 5 Q; 'Enable pre-filled answers' switched ON under ... > Get Pre-filled URL - without it NO prefill works)"
  }
 }
