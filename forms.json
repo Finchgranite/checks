@@ -1,10 +1,34 @@
 {
  "_readme": "One entry per Microsoft Form family (01-07). Filled in during the Phase 2 build session. prefill_template = the 'Get pre-filled link' URL copied from Forms for ANY asset, with the URL-encoded asset value (e.g. %22BOOTH1%22) replaced by {ASSET}. The redirect page substitutes the scanned asset ID. Until a family has a template, its signs show 'Form not live yet - use the paper sheet'.",
- "01": { "name": "Dust booth", "prefill_template": "" },
- "02": { "name": "RPE (powered respirators)", "prefill_template": "" },
- "03": { "name": "Hand tools", "prefill_template": "" },
- "04": { "name": "Forklift", "prefill_template": "" },
- "05": { "name": "Lifting gear", "prefill_template": "" },
- "06": { "name": "Machinery, compressor, racks", "prefill_template": "" },
- "07": { "name": "Fire, first aid, site walk", "prefill_template": "" }
+ "01": {
+  "name": "Dust booth",
+  "form_id": "MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UMEhETTZNUUNZTUpMNlBMTUU2VTVKUDcxWiQlQCN0PWcu",
+  "q1_id": "r691bde3e4f364861ac3a2e61cd15fd2d",
+  "prefill_template": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UMEhETTZNUUNZTUpMNlBMTUU2VTVKUDcxWiQlQCN0PWcu&r691bde3e4f364861ac3a2e61cd15fd2d=%22BOOTH1%20-%20Dust%20booth%20Dal%20Prete%20IWATER%20%28s%2Fn%20116-19%29%22",
+  "built": "2026-09-16 HS-01 Dust booth check (group form, 28 Q, 7 sections, branching set)"
+ },
+ "02": {
+  "name": "RPE (powered respirators)",
+  "prefill_template": ""
+ },
+ "03": {
+  "name": "Hand tools",
+  "prefill_template": ""
+ },
+ "04": {
+  "name": "Forklift",
+  "prefill_template": ""
+ },
+ "05": {
+  "name": "Lifting gear",
+  "prefill_template": ""
+ },
+ "06": {
+  "name": "Machinery, compressor, racks",
+  "prefill_template": ""
+ },
+ "07": {
+  "name": "Fire, first aid, site walk",
+  "prefill_template": ""
+ }
 }
