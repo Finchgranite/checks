@@ -71,6 +71,7 @@
 
   let html = '';
   if (oou) html += '<div class="oou">OUT OF USE — DO NOT USE</div>';
+  if (a.photo) html += '<img src="' + esc(a.photo) + '" alt="" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px;margin-bottom:8px">';
   html += '<h1 class="' + (oou ? 'red' : '') + '">' + esc(id) + '</h1><h2>' + esc(a.name) + '</h2>' +
           '<div class="muted">' + esc(a.detail) + '<br>' + esc(a.location) + '</div>';
   if (formUrl) {

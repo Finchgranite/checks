@@ -1,5 +1,6 @@
 {
  "BOOTH1": {
+  "photo": null,
   "name": "Dust extraction booth",
   "family": "Dust booth",
   "form": "01",
@@ -16,6 +17,7 @@
   ]
  },
  "RPE1": {
+  "photo": null,
   "name": "Powered visor respirator",
   "family": "RPE",
   "form": "02",
@@ -31,6 +33,7 @@
   ]
  },
  "RPE2": {
+  "photo": null,
   "name": "Powered respirator Agile no.1",
   "family": "RPE",
   "form": "02",
@@ -47,6 +50,7 @@
   ]
  },
  "RPE3": {
+  "photo": null,
   "name": "Powered respirator Agile no.2",
   "family": "RPE",
   "form": "02",
@@ -63,6 +67,7 @@
   ]
  },
  "TOOL1": {
+  "photo": null,
   "name": "Wet air cutting saw 125 mm",
   "family": "Hand tools",
   "form": "03",
@@ -80,6 +85,7 @@
   ]
  },
  "TOOL2": {
+  "photo": null,
   "name": "Electric grinders / polishers / drills (110 V)",
   "family": "Hand tools",
   "form": "03",
@@ -97,6 +103,7 @@
   ]
  },
  "TOOL3": {
+  "photo": null,
   "name": "Air polishers",
   "family": "Hand tools",
   "form": "03",
@@ -114,6 +121,7 @@
   ]
  },
  "FLT1": {
+  "photo": null,
   "name": "Forklift truck",
   "family": "Forklift",
   "form": "04",
@@ -130,6 +138,7 @@
   ]
  },
  "FLTA1": {
+  "photo": null,
   "name": "FLT platform attachment (Vevor, yellow)",
   "family": "Forklift",
   "form": "04",
@@ -142,6 +151,7 @@
   ]
  },
  "FLTA2": {
+  "photo": null,
   "name": "FLT jib attachment (green, 1.25 t)",
   "family": "Forklift",
   "form": "04",
@@ -157,6 +167,7 @@
   ]
  },
  "VLD1": {
+  "photo": null,
   "name": "Vacuum lifter 625 kg (cutting shop)",
   "family": "Lifting gear",
   "form": "05",
@@ -173,6 +184,7 @@
   ]
  },
  "VLD2": {
+  "photo": null,
   "name": "Vacuum lifter 315 kg (cutting shop)",
   "family": "Lifting gear",
   "form": "05",
@@ -189,6 +201,7 @@
   ]
  },
  "VLD3": {
+  "photo": null,
   "name": "Vacuum lifter 200 kg (polishing shop)",
   "family": "Lifting gear",
   "form": "05",
@@ -205,6 +218,7 @@
   ]
  },
  "SC1": {
+  "photo": null,
   "name": "Scissor clamp 500 kg (polishing shop)",
   "family": "Lifting gear",
   "form": "05",
@@ -220,6 +234,7 @@
   ]
  },
  "SC2": {
+  "photo": null,
   "name": "Aligator scissor clamp 1000 kg (cutting shop)",
   "family": "Lifting gear",
   "form": "05",
@@ -235,6 +250,7 @@
   ]
  },
  "BS-I2": {
+  "photo": null,
   "name": "Bow shackle 1 t",
   "family": "Lifting gear",
   "form": "05",
@@ -249,6 +265,7 @@
   ]
  },
  "MFJC1": {
+  "photo": null,
   "name": "Manual jib crane (polishing shop)",
   "family": "Lifting gear",
   "form": "05",
@@ -261,6 +278,7 @@
   ]
  },
  "MFJC2": {
+  "photo": null,
   "name": "Articulated jib crane 1000 kg (cutting shop)",
   "family": "Lifting gear",
   "form": "05",
@@ -277,6 +295,7 @@
   ]
  },
  "ECB1": {
+  "photo": null,
   "name": "Electric chain block 0.5 t (polishing shop)",
   "family": "Lifting gear",
   "form": "05",
@@ -293,6 +312,7 @@
   ]
  },
  "ECB2": {
+  "photo": null,
   "name": "Electric chain block 1000 kg trolley (cutting shop)",
   "family": "Lifting gear",
   "form": "05",
@@ -309,6 +329,7 @@
   ]
  },
  "MT1": {
+  "photo": null,
   "name": "Manual trolley 500 kg",
   "family": "Lifting gear",
   "form": "05",
@@ -323,6 +344,7 @@
   ]
  },
  "SAW1": {
+  "photo": null,
   "name": "Bridge saw",
   "family": "Machinery",
   "form": "06",
@@ -340,6 +362,7 @@
   ]
  },
  "SAW2": {
+  "photo": null,
   "name": "Cobalm Ideal saw",
   "family": "Machinery",
   "form": "06",
@@ -352,6 +375,7 @@
   ]
  },
  "CNC1": {
+  "photo": null,
   "name": "CNC workstation",
   "family": "Machinery",
   "form": "06",
@@ -368,6 +392,7 @@
   ]
  },
  "POL1": {
+  "photo": null,
   "name": "Edge polisher",
   "family": "Machinery",
   "form": "06",
@@ -384,6 +409,7 @@
   ]
  },
  "AIR1": {
+  "photo": null,
   "name": "Compressor + 3 air receivers",
   "family": "Machinery",
   "form": "06",
@@ -400,6 +426,7 @@
   ]
  },
  "RACK1": {
+  "photo": null,
   "name": "Slab storage poles / racks (yard)",
   "family": "Machinery",
   "form": "06",
@@ -416,6 +443,7 @@
   ]
  },
  "FIRE-AL": {
+  "photo": null,
   "name": "Fire alarm",
   "family": "Fire",
   "form": "07",
@@ -431,6 +459,7 @@
   ]
  },
  "FIRE-EL": {
+  "photo": null,
   "name": "Emergency lighting",
   "family": "Fire",
   "form": "07",
@@ -445,6 +474,7 @@
   ]
  },
  "EXT1": {
+  "photo": null,
   "name": "Fire extinguisher 1",
   "family": "Fire",
   "form": "07",
@@ -461,6 +491,7 @@
   ]
  },
  "EXT2": {
+  "photo": null,
   "name": "Fire extinguisher 2",
   "family": "Fire",
   "form": "07",
@@ -477,6 +508,7 @@
   ]
  },
  "EXT3": {
+  "photo": null,
   "name": "Fire extinguisher 3",
   "family": "Fire",
   "form": "07",
@@ -493,6 +525,7 @@
   ]
  },
  "EXT4": {
+  "photo": null,
   "name": "Fire extinguisher 4",
   "family": "Fire",
   "form": "07",
@@ -509,6 +542,7 @@
   ]
  },
  "EXT5": {
+  "photo": null,
   "name": "Fire extinguisher 5",
   "family": "Fire",
   "form": "07",
@@ -525,6 +559,7 @@
   ]
  },
  "EXT6": {
+  "photo": null,
   "name": "Fire extinguisher 6",
   "family": "Fire",
   "form": "07",
@@ -541,6 +576,7 @@
   ]
  },
  "EXT7": {
+  "photo": null,
   "name": "Fire extinguisher 7",
   "family": "Fire",
   "form": "07",
@@ -557,6 +593,7 @@
   ]
  },
  "FIRE-DR": {
+  "photo": null,
   "name": "Fire doors + escape routes",
   "family": "Fire",
   "form": "07",
@@ -571,6 +608,7 @@
   ]
  },
  "FA1": {
+  "photo": null,
   "name": "First-aid kits + eyewash",
   "family": "First aid",
   "form": "07",
@@ -585,6 +623,7 @@
   ]
  },
  "SITE": {
+  "photo": null,
   "name": "Monthly site walk (CHK-003)",
   "family": "Site",
   "form": "07",
