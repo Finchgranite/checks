@@ -434,9 +434,9 @@
   "name": "Emergency lighting",
   "family": "Fire",
   "form": "07",
-  "detail": "All luminaires",
+  "detail": "NOT INSTALLED? - Graham 16 Sep; confirm, then Tony to quote (Q71)",
   "location": "Factory / office / showroom",
-  "status": "In use",
+  "status": "Not installed",
   "recorded": "Monthly function test",
   "pre_use": [
    "Press the test key / switch",
