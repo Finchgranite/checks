@@ -254,14 +254,14 @@
   "name": "Bow shackle 1 t",
   "family": "Lifting gear",
   "form": "05",
-  "detail": "Yellow pin, Q2/I2",
-  "location": "Factory",
+  "detail": "Marked Q2 / I2 (Zurich listed the pin as yellow in Jun 2026 - paint, not a requirement)",
+  "location": "Cutting shop",
   "status": "In use",
   "recorded": "Weekly interim inspection",
   "pre_use": [
    "Pin screws fully home",
    "No wear, bending or cracks",
-   "Rated 1 t"
+   "WLL 1 t stamp legible"
   ]
  },
  "MFJC1": {
