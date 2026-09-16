@@ -1,0 +1,600 @@
+{
+ "BOOTH1": {
+  "name": "Dust extraction booth",
+  "family": "Dust booth",
+  "form": "01",
+  "detail": "Dal Prete IWATER 4 MT water-wall booth, s/n 116-19 (2019)",
+  "location": "Factory - finishing area",
+  "status": "In use",
+  "recorded": "Daily (operator) | Weekly (Mon) | Sludge tank every 10-15 days | Monthly fan blades + bolts",
+  "pre_use": [
+   "Water level at the mark (10 cm below the top edge)",
+   "Fans and pump running, curtain flowing evenly",
+   "Work INSIDE the booth, facing the water wall",
+   "Powered mask on (APF 20)",
+   "No dust or mist escaping the face"
+  ]
+ },
+ "RPE1": {
+  "name": "Powered visor respirator",
+  "family": "RPE",
+  "form": "02",
+  "detail": "Trend Airshield Pro, EN 12941 TH2P-S, APF 20",
+  "location": "Factory - RPE store / wearer",
+  "status": "In use",
+  "recorded": "Weekly wearer log | Monthly check (CHK-002 Part B) | Filter change log",
+  "pre_use": [
+   "Battery charged, fan running, air felt at the face",
+   "Visor clean, no cracks, seal in place",
+   "Both filters fitted and seated",
+   "Low-battery alarm not sounding"
+  ]
+ },
+ "RPE2": {
+  "name": "Powered respirator Agile no.1",
+  "family": "RPE",
+  "form": "02",
+  "detail": "CleanSpace Agile, s/n P0 001 695, EN 12941 TH2, APF 20 - ISSUED to Gerard Tyrer 15 Sep 2026",
+  "location": "Wearer: Gerard Tyrer",
+  "status": "In use",
+  "recorded": "Weekly wearer log (FORM 023 p2) | Monthly check | Filter change log",
+  "pre_use": [
+   "Power unit charged (3 LEDs)",
+   "Self-test / flow test passed",
+   "Filter fitted and seated, not loaded",
+   "Facepiece and seal clean, no damage",
+   "Head harness holds"
+  ]
+ },
+ "RPE3": {
+  "name": "Powered respirator Agile no.2",
+  "family": "RPE",
+  "form": "02",
+  "detail": "CleanSpace Agile, s/n (write at issue), EN 12941 TH2, APF 20 - NOT YET ISSUED",
+  "location": "Factory - RPE store",
+  "status": "In use",
+  "recorded": "Weekly wearer log | Monthly check | Filter change log",
+  "pre_use": [
+   "Power unit charged (3 LEDs)",
+   "Self-test / flow test passed",
+   "Filter fitted and seated, not loaded",
+   "Facepiece and seal clean, no damage",
+   "Head harness holds"
+  ]
+ },
+ "TOOL1": {
+  "name": "Wet air cutting saw 125 mm",
+  "family": "Hand tools",
+  "form": "03",
+  "detail": "Gison GPW-215CA, s/n 2674663 (bought 7 Sep 2026)",
+  "location": "Factory - booth",
+  "status": "In use",
+  "recorded": "Weekly (CHK-005)",
+  "pre_use": [
+   "WATER flowing at the blade BEFORE it touches stone",
+   "Guard fitted and undamaged",
+   "Blade correct, tight, no cracks or missing segments",
+   "Air hose, couplings and clips sound",
+   "Powered mask (APF 20) + ear defenders ON - 92 dB(A)",
+   "Only inside the booth, fan + water running"
+  ]
+ },
+ "TOOL2": {
+  "name": "Electric grinders / polishers / drills (110 V)",
+  "family": "Hand tools",
+  "form": "03",
+  "detail": "All 110 V electric hand tools, leads + transformer",
+  "location": "Factory",
+  "status": "In use",
+  "recorded": "Weekly (CHK-005)",
+  "pre_use": [
+   "Lead, plug and casing undamaged - NO tape, NO joins",
+   "Guard fitted",
+   "Disc / pad correct, tight, in date",
+   "Not used on a wet floor",
+   "Powered mask + ear defenders ON",
+   "Only inside the booth, water on"
+  ]
+ },
+ "TOOL3": {
+  "name": "Air polishers",
+  "family": "Hand tools",
+  "form": "03",
+  "detail": "Pneumatic polishers + hoses",
+  "location": "Factory - booth",
+  "status": "In use",
+  "recorded": "Weekly (CHK-005)",
+  "pre_use": [
+   "Hose, couplings and oiler sound",
+   "Guard fitted",
+   "Pad correct and tight",
+   "Water on before it touches stone",
+   "Powered mask + ear defenders ON",
+   "Only inside the booth"
+  ]
+ },
+ "FLT1": {
+  "name": "Forklift truck",
+  "family": "Forklift",
+  "form": "04",
+  "detail": "Mitsubishi diesel DF18X-13401, 2145 kg @ 500 mm",
+  "location": "Yard",
+  "status": "In use",
+  "recorded": "Daily pre-shift (CHK-004) + hours reading",
+  "pre_use": [
+   "Authorised operator only, hi-vis, boots",
+   "Tyres, brakes, steering, horn, lights, beacon, reversing alarm",
+   "Mast, chains, forks, hydraulics - no leaks",
+   "Seatbelt on",
+   "Attachment matches the load chart"
+  ]
+ },
+ "FLTA1": {
+  "name": "FLT platform attachment (Vevor, yellow)",
+  "family": "Forklift",
+  "form": "04",
+  "detail": "Goods only - SWL NOT MARKED",
+  "location": "Yard",
+  "status": "Out of use",
+  "recorded": "Only: still not in use until SWL marked + examined",
+  "pre_use": [
+   "DO NOT USE until the SWL is marked and Zurich have examined it"
+  ]
+ },
+ "FLTA2": {
+  "name": "FLT jib attachment (green, 1.25 t)",
+  "family": "Forklift",
+  "form": "04",
+  "detail": "AFA0001",
+  "location": "Yard",
+  "status": "In use",
+  "recorded": "With the forklift daily check",
+  "pre_use": [
+   "Pins and locking secure",
+   "Hook latch works",
+   "No cracks, bends or corrosion",
+   "Load within 1.25 t"
+  ]
+ },
+ "VLD1": {
+  "name": "Vacuum lifter 625 kg (cutting shop)",
+  "family": "Lifting gear",
+  "form": "05",
+  "detail": "Elephant LM3RP, 75034 (2022)",
+  "location": "Cutting shop",
+  "status": "In use",
+  "recorded": "Weekly interim inspection",
+  "pre_use": [
+   "Pads clean, not cut or worn",
+   "Seals and hoses sound",
+   "Vacuum holds - alarm/gauge OK",
+   "Slab surface clean and dry before lifting",
+   "Nobody under the load"
+  ]
+ },
+ "VLD2": {
+  "name": "Vacuum lifter 315 kg (cutting shop)",
+  "family": "Lifting gear",
+  "form": "05",
+  "detail": "Vacuum Lifting Company, 1274 (2009)",
+  "location": "Cutting shop",
+  "status": "In use",
+  "recorded": "Weekly interim inspection",
+  "pre_use": [
+   "Pads clean, not cut or worn",
+   "Seals and hoses sound",
+   "Vacuum holds - alarm/gauge OK",
+   "Slab surface clean and dry before lifting",
+   "Nobody under the load"
+  ]
+ },
+ "VLD3": {
+  "name": "Vacuum lifter 200 kg (polishing shop)",
+  "family": "Lifting gear",
+  "form": "05",
+  "detail": "Sidelia, 949 (2006)",
+  "location": "Polishing shop",
+  "status": "In use",
+  "recorded": "Weekly interim inspection",
+  "pre_use": [
+   "Pad clean, not cut or worn",
+   "Seals and hoses sound",
+   "Vacuum holds",
+   "Slab surface clean and dry",
+   "Nobody under the load"
+  ]
+ },
+ "SC1": {
+  "name": "Scissor clamp 500 kg (polishing shop)",
+  "family": "Lifting gear",
+  "form": "05",
+  "detail": "Yellow, marked P",
+  "location": "Polishing shop",
+  "status": "In use",
+  "recorded": "Weekly interim inspection",
+  "pre_use": [
+   "Jaws, rubbers and pins sound",
+   "Springs return, no cracks",
+   "Load within 500 kg and gripped square",
+   "Nobody under the load"
+  ]
+ },
+ "SC2": {
+  "name": "Aligator scissor clamp 1000 kg (cutting shop)",
+  "family": "Lifting gear",
+  "form": "05",
+  "detail": "Green, 15-60 mm, not marked",
+  "location": "Cutting shop",
+  "status": "In use",
+  "recorded": "Weekly interim inspection",
+  "pre_use": [
+   "Jaws, rubbers and pins sound",
+   "Springs return, no cracks",
+   "Slab thickness 15-60 mm, within 1000 kg",
+   "Nobody under the load"
+  ]
+ },
+ "BS-I2": {
+  "name": "Bow shackle 1 t",
+  "family": "Lifting gear",
+  "form": "05",
+  "detail": "Yellow pin, Q2/I2",
+  "location": "Factory",
+  "status": "In use",
+  "recorded": "Weekly interim inspection",
+  "pre_use": [
+   "Pin screws fully home",
+   "No wear, bending or cracks",
+   "Rated 1 t"
+  ]
+ },
+ "MFJC1": {
+  "name": "Manual jib crane (polishing shop)",
+  "family": "Lifting gear",
+  "form": "05",
+  "detail": "Not marked - SWL unknown",
+  "location": "Polishing shop",
+  "status": "Out of use",
+  "recorded": "Only: still tagged out and not used",
+  "pre_use": [
+   "DO NOT USE - no SWL, not examined (Zurich June 2026)"
+  ]
+ },
+ "MFJC2": {
+  "name": "Articulated jib crane 1000 kg (cutting shop)",
+  "family": "Lifting gear",
+  "form": "05",
+  "detail": "Elephant, 75034 (2022)",
+  "location": "Cutting shop",
+  "status": "In use",
+  "recorded": "Weekly interim inspection",
+  "pre_use": [
+   "Hook latch closes",
+   "Chain / wire not twisted or damaged",
+   "Brake holds, limits work",
+   "Slew and travel smooth",
+   "Nobody under the load"
+  ]
+ },
+ "ECB1": {
+  "name": "Electric chain block 0.5 t (polishing shop)",
+  "family": "Lifting gear",
+  "form": "05",
+  "detail": "Yale, DE012333",
+  "location": "Polishing shop",
+  "status": "In use",
+  "recorded": "Weekly interim inspection",
+  "pre_use": [
+   "Hook latch closes",
+   "Chain lubricated, no stretched or damaged links",
+   "Brake holds, up/down limits work",
+   "Pendant and cable sound",
+   "Nobody under the load"
+  ]
+ },
+ "ECB2": {
+  "name": "Electric chain block 1000 kg trolley (cutting shop)",
+  "family": "Lifting gear",
+  "form": "05",
+  "detail": "RWM, 169003 (2022)",
+  "location": "Cutting shop",
+  "status": "In use",
+  "recorded": "Weekly interim inspection",
+  "pre_use": [
+   "Hook latch closes",
+   "Chain lubricated, no stretched or damaged links",
+   "Brake holds, limits work",
+   "Trolley runs freely, end stops in place",
+   "Nobody under the load"
+  ]
+ },
+ "MT1": {
+  "name": "Manual trolley 500 kg",
+  "family": "Lifting gear",
+  "form": "05",
+  "detail": "Pfaff, T-5060 (2005)",
+  "location": "Factory",
+  "status": "In use",
+  "recorded": "Weekly interim inspection",
+  "pre_use": [
+   "Wheels and brake OK",
+   "Frame not bent or cracked",
+   "Load within 500 kg and stable"
+  ]
+ },
+ "SAW1": {
+  "name": "Bridge saw",
+  "family": "Machinery",
+  "form": "06",
+  "detail": "GMM Brio Extra CN2",
+  "location": "Cutting shop",
+  "status": "In use",
+  "recorded": "Weekly | Monthly safety-function test",
+  "pre_use": [
+   "Guards and enclosure in place, nothing bypassed",
+   "E-stop reachable and working",
+   "Water flowing at the blade before cutting",
+   "Blade correct and secure",
+   "Leads and hoses sound",
+   "Lock-off padlock available"
+  ]
+ },
+ "SAW2": {
+  "name": "Cobalm Ideal saw",
+  "family": "Machinery",
+  "form": "06",
+  "detail": "OUT OF USE - HSE Prohibition Notice PN-02 until guarded",
+  "location": "Cutting shop",
+  "status": "Out of use",
+  "recorded": "Only: still isolated, tagged out, not used",
+  "pre_use": [
+   "DO NOT USE - HSE PROHIBITION NOTICE in force"
+  ]
+ },
+ "CNC1": {
+  "name": "CNC workstation",
+  "family": "Machinery",
+  "form": "06",
+  "detail": "Biesse / Intermac Master 38.3 (2023)",
+  "location": "Cutting shop",
+  "status": "In use",
+  "recorded": "Weekly | Monthly safety-function test",
+  "pre_use": [
+   "Guards, doors and interlocks in place",
+   "E-stop reachable and working",
+   "Water flow and coolant OK",
+   "Tooling secure, correct program",
+   "Trained operator only"
+  ]
+ },
+ "POL1": {
+  "name": "Edge polisher",
+  "family": "Machinery",
+  "form": "06",
+  "detail": "Musa",
+  "location": "Polishing shop",
+  "status": "In use",
+  "recorded": "Weekly | Monthly safety-function test",
+  "pre_use": [
+   "Guards in place, nothing bypassed",
+   "E-stop reachable and working",
+   "Water on at the heads",
+   "Heads and belts sound",
+   "Leads dry and undamaged"
+  ]
+ },
+ "AIR1": {
+  "name": "Compressor + 3 air receivers",
+  "family": "Machinery",
+  "form": "06",
+  "detail": "SCR20PM2 (C2-1806075, 2018) + 270 L vertical receiver (9885-19)",
+  "location": "Compressor room",
+  "status": "In use",
+  "recorded": "Weekly: drain receivers, leaks, gauge, safety valve, hoses",
+  "pre_use": [
+   "No leaks or hissing",
+   "Pressure gauge in the green",
+   "Receivers drained this week",
+   "Hoses and couplings sound",
+   "Compressed air NEVER used for blowing down clothes or dust"
+  ]
+ },
+ "RACK1": {
+  "name": "Slab storage poles / racks (yard)",
+  "family": "Machinery",
+  "form": "06",
+  "detail": "Vertical slab poles / racks - A-frames no longer used",
+  "location": "Yard",
+  "status": "In use",
+  "recorded": "Weekly visual (HSG76 para 645)",
+  "pre_use": [
+   "Slabs restrained, leaning IN, nothing overhanging",
+   "Poles / posts upright, base and floor fixings sound",
+   "Fall zone clear, forklift route clear",
+   "Load / max slab count notice visible",
+   "Never stand between slabs"
+  ]
+ },
+ "FIRE-AL": {
+  "name": "Fire alarm",
+  "family": "Fire",
+  "form": "07",
+  "detail": "Panel + call points - CURRENTLY BROKEN, Ben on the supplier",
+  "location": "Factory / office",
+  "status": "In use",
+  "recorded": "WEEKLY call-point test (rotate the call point, record which one)",
+  "pre_use": [
+   "Test WEEKLY at the same time",
+   "Tell everyone first",
+   "Note which call point was tested",
+   "Sounders heard in every area"
+  ]
+ },
+ "FIRE-EL": {
+  "name": "Emergency lighting",
+  "family": "Fire",
+  "form": "07",
+  "detail": "All luminaires",
+  "location": "Factory / office / showroom",
+  "status": "In use",
+  "recorded": "Monthly function test",
+  "pre_use": [
+   "Press the test key / switch",
+   "Every fitting lights",
+   "Note any that fail"
+  ]
+ },
+ "EXT1": {
+  "name": "Fire extinguisher 1",
+  "family": "Fire",
+  "form": "07",
+  "detail": "Location: ________ (Graham to write)",
+  "location": "________",
+  "status": "In use",
+  "recorded": "Monthly visual",
+  "pre_use": [
+   "In place and unobstructed",
+   "Pin and tamper tag intact",
+   "Gauge in the green",
+   "Service label in date",
+   "No damage or corrosion"
+  ]
+ },
+ "EXT2": {
+  "name": "Fire extinguisher 2",
+  "family": "Fire",
+  "form": "07",
+  "detail": "Location: ________",
+  "location": "________",
+  "status": "In use",
+  "recorded": "Monthly visual",
+  "pre_use": [
+   "In place and unobstructed",
+   "Pin and tamper tag intact",
+   "Gauge in the green",
+   "Service label in date",
+   "No damage or corrosion"
+  ]
+ },
+ "EXT3": {
+  "name": "Fire extinguisher 3",
+  "family": "Fire",
+  "form": "07",
+  "detail": "Location: ________",
+  "location": "________",
+  "status": "In use",
+  "recorded": "Monthly visual",
+  "pre_use": [
+   "In place and unobstructed",
+   "Pin and tamper tag intact",
+   "Gauge in the green",
+   "Service label in date",
+   "No damage or corrosion"
+  ]
+ },
+ "EXT4": {
+  "name": "Fire extinguisher 4",
+  "family": "Fire",
+  "form": "07",
+  "detail": "Location: ________",
+  "location": "________",
+  "status": "In use",
+  "recorded": "Monthly visual",
+  "pre_use": [
+   "In place and unobstructed",
+   "Pin and tamper tag intact",
+   "Gauge in the green",
+   "Service label in date",
+   "No damage or corrosion"
+  ]
+ },
+ "EXT5": {
+  "name": "Fire extinguisher 5",
+  "family": "Fire",
+  "form": "07",
+  "detail": "Location: ________",
+  "location": "________",
+  "status": "In use",
+  "recorded": "Monthly visual",
+  "pre_use": [
+   "In place and unobstructed",
+   "Pin and tamper tag intact",
+   "Gauge in the green",
+   "Service label in date",
+   "No damage or corrosion"
+  ]
+ },
+ "EXT6": {
+  "name": "Fire extinguisher 6",
+  "family": "Fire",
+  "form": "07",
+  "detail": "Location: ________",
+  "location": "________",
+  "status": "In use",
+  "recorded": "Monthly visual",
+  "pre_use": [
+   "In place and unobstructed",
+   "Pin and tamper tag intact",
+   "Gauge in the green",
+   "Service label in date",
+   "No damage or corrosion"
+  ]
+ },
+ "EXT7": {
+  "name": "Fire extinguisher 7",
+  "family": "Fire",
+  "form": "07",
+  "detail": "6 l water, new Mar 2026 - Location: ________",
+  "location": "________",
+  "status": "In use",
+  "recorded": "Monthly visual",
+  "pre_use": [
+   "In place and unobstructed",
+   "Pin and tamper tag intact",
+   "Gauge in the green",
+   "Service label in date",
+   "No damage or corrosion"
+  ]
+ },
+ "FIRE-DR": {
+  "name": "Fire doors + escape routes",
+  "family": "Fire",
+  "form": "07",
+  "detail": "All exits, routes and assembly point",
+  "location": "Factory / office / showroom",
+  "status": "In use",
+  "recorded": "Monthly (in the site walk)",
+  "pre_use": [
+   "Exits open freely, not locked or blocked",
+   "Routes clear",
+   "Signs and assembly point visible"
+  ]
+ },
+ "FA1": {
+  "name": "First-aid kits + eyewash",
+  "family": "First aid",
+  "form": "07",
+  "detail": "Kits at: ________",
+  "location": "Factory / office",
+  "status": "In use",
+  "recorded": "Monthly contents + expiry",
+  "pre_use": [
+   "Kit stocked to the contents list",
+   "Eyewash sealed and in date",
+   "First-aider notice up to date"
+  ]
+ },
+ "SITE": {
+  "name": "Monthly site walk (CHK-003)",
+  "family": "Site",
+  "form": "07",
+  "detail": "Whole site - yard, factory, fire, welfare, paperwork",
+  "location": "Whole site",
+  "status": "In use",
+  "recorded": "Monthly by Graham or Ben",
+  "pre_use": [
+   "Walk the whole site with the form open",
+   "Every X becomes an action with an owner and a date"
+  ]
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "_readme": "One entry per Microsoft Form family (01-07). Filled in during the Phase 2 build session. prefill_template = the 'Get pre-filled link' URL copied from Forms for ANY asset, with the URL-encoded asset value (e.g. %22BOOTH1%22) replaced by {ASSET}. The redirect page substitutes the scanned asset ID. Until a family has a template, its signs show 'Form not live yet - use the paper sheet'.",
+ "01": { "name": "Dust booth", "prefill_template": "" },
+ "02": { "name": "RPE (powered respirators)", "prefill_template": "" },
+ "03": { "name": "Hand tools", "prefill_template": "" },
+ "04": { "name": "Forklift", "prefill_template": "" },
+ "05": { "name": "Lifting gear", "prefill_template": "" },
+ "06": { "name": "Machinery, compressor, racks", "prefill_template": "" },
+ "07": { "name": "Fire, first aid, site walk", "prefill_template": "" }
+}
