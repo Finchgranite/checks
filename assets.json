@@ -1,6 +1,6 @@
 {
  "BOOTH1": {
-  "photo": null,
+  "photo": "photos/BOOTH1.jpg",
   "name": "Dust extraction booth",
   "family": "Dust booth",
   "form": "01",
@@ -17,7 +17,7 @@
   ]
  },
  "RPE1": {
-  "photo": null,
+  "photo": "photos/RPE1.jpg",
   "name": "Powered visor respirator",
   "family": "RPE",
   "form": "02",
@@ -33,7 +33,7 @@
   ]
  },
  "RPE2": {
-  "photo": null,
+  "photo": "photos/RPE2.jpg",
   "name": "Powered respirator Agile no.1",
   "family": "RPE",
   "form": "02",
@@ -50,7 +50,7 @@
   ]
  },
  "RPE3": {
-  "photo": null,
+  "photo": "photos/RPE3.jpg",
   "name": "Powered respirator Agile no.2",
   "family": "RPE",
   "form": "02",
@@ -67,7 +67,7 @@
   ]
  },
  "TOOL1": {
-  "photo": null,
+  "photo": "photos/TOOL1.jpg",
   "name": "Wet air cutting saw 125 mm",
   "family": "Hand tools",
   "form": "03",
@@ -167,7 +167,7 @@
   ]
  },
  "VLD1": {
-  "photo": null,
+  "photo": "photos/VLD1.jpg",
   "name": "Vacuum lifter 625 kg (cutting shop)",
   "family": "Lifting gear",
   "form": "05",
@@ -278,7 +278,7 @@
   ]
  },
  "MFJC2": {
-  "photo": null,
+  "photo": "photos/MFJC2.jpg",
   "name": "Articulated jib crane 1000 kg (cutting shop)",
   "family": "Lifting gear",
   "form": "05",
@@ -295,7 +295,7 @@
   ]
  },
  "ECB1": {
-  "photo": null,
+  "photo": "photos/ECB1.jpg",
   "name": "Electric chain block 0.5 t (polishing shop)",
   "family": "Lifting gear",
   "form": "05",
@@ -312,7 +312,7 @@
   ]
  },
  "ECB2": {
-  "photo": null,
+  "photo": "photos/ECB2.jpg",
   "name": "Electric chain block 1000 kg trolley (cutting shop)",
   "family": "Lifting gear",
   "form": "05",
@@ -362,7 +362,7 @@
   ]
  },
  "SAW2": {
-  "photo": null,
+  "photo": "photos/SAW2.jpg",
   "name": "Cobalm Ideal saw",
   "family": "Machinery",
   "form": "06",
@@ -409,7 +409,7 @@
   ]
  },
  "AIR1": {
-  "photo": null,
+  "photo": "photos/AIR1.jpg",
   "name": "Compressor + 3 air receivers",
   "family": "Machinery",
   "form": "06",
@@ -473,6 +473,24 @@
    "Note any that fail"
   ]
  },
+ "EXT": {
+  "photo": null,
+  "name": "Fire extinguishers - monthly walk (all 7)",
+  "family": "Fire",
+  "form": "07",
+  "detail": "Cert 11619: 7 units incl. 1 x 6 l water (new Mar 2026) - numbered EXT1-EXT7 on the labels",
+  "location": "Sign next to the alarm panel",
+  "status": "In use",
+  "recorded": "Monthly visual of all 7 in ONE form (grid EXT1-EXT7)",
+  "pre_use": [
+   "Walk to every extinguisher EXT1-EXT7",
+   "In place and unobstructed",
+   "Pin and tamper tag intact",
+   "Gauge in the green",
+   "Service label in date",
+   "No damage or corrosion"
+  ]
+ },
  "EXT1": {
   "photo": null,
   "name": "Fire extinguisher 1",
@@ -480,7 +498,7 @@
   "form": "07",
   "detail": "Location: ________ (Graham to write)",
   "location": "________",
-  "status": "In use",
+  "status": "Label only",
   "recorded": "Monthly visual",
   "pre_use": [
    "In place and unobstructed",
@@ -497,7 +515,7 @@
   "form": "07",
   "detail": "Location: ________",
   "location": "________",
-  "status": "In use",
+  "status": "Label only",
   "recorded": "Monthly visual",
   "pre_use": [
    "In place and unobstructed",
@@ -514,7 +532,7 @@
   "form": "07",
   "detail": "Location: ________",
   "location": "________",
-  "status": "In use",
+  "status": "Label only",
   "recorded": "Monthly visual",
   "pre_use": [
    "In place and unobstructed",
@@ -531,7 +549,7 @@
   "form": "07",
   "detail": "Location: ________",
   "location": "________",
-  "status": "In use",
+  "status": "Label only",
   "recorded": "Monthly visual",
   "pre_use": [
    "In place and unobstructed",
@@ -548,7 +566,7 @@
   "form": "07",
   "detail": "Location: ________",
   "location": "________",
-  "status": "In use",
+  "status": "Label only",
   "recorded": "Monthly visual",
   "pre_use": [
    "In place and unobstructed",
@@ -565,7 +583,7 @@
   "form": "07",
   "detail": "Location: ________",
   "location": "________",
-  "status": "In use",
+  "status": "Label only",
   "recorded": "Monthly visual",
   "pre_use": [
    "In place and unobstructed",
@@ -582,7 +600,7 @@
   "form": "07",
   "detail": "6 l water, new Mar 2026 - Location: ________",
   "location": "________",
-  "status": "In use",
+  "status": "Label only",
   "recorded": "Monthly visual",
   "pre_use": [
    "In place and unobstructed",
