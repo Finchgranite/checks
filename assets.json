@@ -84,30 +84,12 @@
    "Only inside the booth, fan + water running"
   ]
  },
- "TOOL2": {
-  "photo": null,
-  "name": "Electric grinders / polishers / drills (110 V)",
-  "family": "Hand tools",
-  "form": "03",
-  "detail": "All 110 V electric hand tools, leads + transformer",
-  "location": "Factory",
-  "status": "In use",
-  "recorded": "Weekly (CHK-005)",
-  "pre_use": [
-   "Lead, plug and casing undamaged - NO tape, NO joins",
-   "Guard fitted",
-   "Disc / pad correct, tight, in date",
-   "Not used on a wet floor",
-   "Powered mask + ear defenders ON",
-   "Only inside the booth, water on"
-  ]
- },
  "TOOL3": {
   "photo": null,
-  "name": "Air polishers",
+  "name": "Wet polisher guns (air driven)",
   "family": "Hand tools",
   "form": "03",
-  "detail": "Pneumatic polishers + hoses",
+  "detail": "Pneumatic water-fed polishers + hoses - the only polishers in use (110 V electric grinders withdrawn Sep 2026)",
   "location": "Factory - booth",
   "status": "In use",
   "recorded": "Weekly (CHK-005)",
