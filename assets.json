@@ -219,13 +219,10 @@
   "form": "05",
   "detail": "Yellow, marked P",
   "location": "Polishing shop",
-  "status": "In use",
-  "recorded": "Weekly interim inspection",
+  "status": "Withdrawn",
+  "recorded": "None - withdrawn from use",
   "pre_use": [
-   "Jaws, rubbers and pins sound",
-   "Springs return, no cracks",
-   "Load within 500 kg and gripped square",
-   "Nobody under the load"
+   "NOT IN USE - Graham 16 Sep 2026"
   ]
  },
  "SC2": {
