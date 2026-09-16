@@ -84,6 +84,19 @@
    "Only inside the booth, fan + water running"
   ]
  },
+ "TOOL2": {
+  "photo": null,
+  "name": "Drill - DETAILS TO FOLLOW from Graham (16 Sep)",
+  "family": "Hand tools",
+  "form": "03",
+  "detail": "make / model / serial / electric or air / wet or dry - to be supplied",
+  "location": "Factory",
+  "status": "Pending",
+  "recorded": "Weekly (CHK-005) once added",
+  "pre_use": [
+   "To be written once the drill details arrive"
+  ]
+ },
  "TOOL3": {
   "photo": null,
   "name": "Wet polisher guns (air driven)",
