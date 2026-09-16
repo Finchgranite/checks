@@ -98,7 +98,7 @@
   ]
  },
  "TOOL3": {
-  "photo": null,
+  "photo": "photos/TOOL3.jpg",
   "name": "Wet polisher guns (air driven)",
   "family": "Hand tools",
   "form": "03",
@@ -146,7 +146,7 @@
   ]
  },
  "FLTA2": {
-  "photo": null,
+  "photo": "photos/FLTA2.jpg",
   "name": "FLT jib attachment (green, 1.25 t)",
   "family": "Forklift",
   "form": "04",
@@ -179,7 +179,7 @@
   ]
  },
  "VLD2": {
-  "photo": null,
+  "photo": "photos/VLD2.jpg",
   "name": "Vacuum lifter 315 kg (cutting shop)",
   "family": "Lifting gear",
   "form": "05",
@@ -229,7 +229,7 @@
   ]
  },
  "SC2": {
-  "photo": null,
+  "photo": "photos/SC2.jpg",
   "name": "Aligator scissor clamp 1000 kg (cutting shop)",
   "family": "Lifting gear",
   "form": "05",
@@ -245,7 +245,7 @@
   ]
  },
  "BS-I2": {
-  "photo": null,
+  "photo": "photos/BS-I2.jpg",
   "name": "Bow shackle 1 t",
   "family": "Lifting gear",
   "form": "05",
@@ -260,7 +260,7 @@
   ]
  },
  "MFJC1": {
-  "photo": null,
+  "photo": "photos/MFJC1.jpg",
   "name": "Manual jib crane (polishing shop)",
   "family": "Lifting gear",
   "form": "05",
@@ -324,7 +324,7 @@
   ]
  },
  "MT1": {
-  "photo": null,
+  "photo": "photos/MT1.jpg",
   "name": "Manual trolley 500 kg",
   "family": "Lifting gear",
   "form": "05",
@@ -421,7 +421,7 @@
   ]
  },
  "RACK1": {
-  "photo": null,
+  "photo": "photos/RACK1.jpg",
   "name": "Slab storage poles / racks (yard)",
   "family": "Machinery",
   "form": "06",
@@ -438,7 +438,7 @@
   ]
  },
  "FIRE-AL": {
-  "photo": null,
+  "photo": "photos/FIRE-AL.jpg",
   "name": "Fire alarm",
   "family": "Fire",
   "form": "07",
@@ -469,7 +469,7 @@
   ]
  },
  "EXT": {
-  "photo": null,
+  "photo": "photos/EXT.jpg",
   "name": "Fire extinguishers - monthly walk (all 7)",
   "family": "Fire",
   "form": "07",
@@ -606,7 +606,7 @@
   ]
  },
  "FIRE-DR": {
-  "photo": null,
+  "photo": "photos/FIRE-DR.jpg",
   "name": "Fire doors + escape routes",
   "family": "Fire",
   "form": "07",
@@ -621,7 +621,7 @@
   ]
  },
  "FA1": {
-  "photo": null,
+  "photo": "photos/FA1.jpg",
   "name": "First-aid kits + eyewash",
   "family": "First aid",
   "form": "07",
