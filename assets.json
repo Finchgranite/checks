@@ -178,12 +178,12 @@
   "name": "FLT platform attachment (Vevor, yellow)",
   "family": "Forklift",
   "form": "04",
-  "detail": "Goods only - SWL NOT MARKED",
+  "detail": "Goods only - SWL never marked",
   "location": "Yard",
-  "status": "Out of use",
-  "recorded": "Only: still not in use until SWL marked + examined",
+  "status": "Withdrawn",
+  "recorded": "None - being disposed of",
   "pre_use": [
-   "DO NOT USE until the SWL is marked and Zurich have examined it"
+   "BEING SCRAPPED - do not use"
   ],
   "why": "LOLER reg 7: lifting equipment must be marked with its safe working load. LOLER reg 9: examined every 12 months. Unmarked, so Zurich could not examine it (June 2026) and it may not be used."
  },

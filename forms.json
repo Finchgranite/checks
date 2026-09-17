@@ -43,10 +43,9 @@
   "prefill_template": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UMFhaQUs4OTkxOVJKVDBWUUNOWUxCNzA4NCQlQCN0PWcu&r82364c0e1ec8a3206cecbaa13cda9a11={ASSET}",
   "options": {
    "FLT1": "FLT1 - Mitsubishi forklift DF18X-13401",
-   "FLTA1": "FLTA1 - Vevor platform attachment (OUT OF USE)",
    "FLTA2": "FLTA2 - Jib attachment 1.25 t"
   },
-  "built": "2026-09-17 HS-04 Forklift check (31 items)"
+  "built": "2026-09-17 HS-04 Forklift check (31 items) FLTA1 removed 17 Sep 2026 (Vevor platform scrapped)."
  },
  "05": {
   "name": "Lifting gear",
