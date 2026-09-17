@@ -192,16 +192,15 @@
   "name": "FLT jib attachment (green, 1.25 t)",
   "family": "Forklift",
   "form": "04",
-  "detail": "AFA0001",
+  "detail": "OUT OF USE - AFA0001 - no current LOLER thorough examination until Zurich attend 12 Oct 2026",
   "location": "Yard",
-  "status": "In use",
-  "recorded": "With the forklift daily check",
+  "status": "Out of use",
+  "recorded": "Only: still out of use and not lifting",
   "pre_use": [
-   "Pins and locking secure",
-   "Hook latch works",
-   "No cracks, bends or corrosion",
-   "Load within 1.25 t",
-   "NO CURRENT LOLER EXAMINATION until Zurich attend 12 Oct - check with Graham before use"
+   "DO NOT USE - no current LOLER thorough examination",
+   "It was never examined in June - no SWL was marked, so Zurich could not test it",
+   "SWL 1.25 t is now marked and Zurich examine it on 12 Oct",
+   "Back in use only when Graham says the certificate is in"
   ],
   "why": "LOLER reg 7: lifting equipment must be marked with its safe working load - it was not, so Zurich could not examine it on 9 Jun 2026. Now marked. LOLER reg 9(3)(a)(ii): it has NO current thorough examination until Zurich attend on 12 Oct 2026."
  },
