@@ -64,7 +64,10 @@
   let formUrl = '';
   if (f.prefill_template) {
     // Microsoft Forms pre-filled links carry the choice value as a JSON string: r<qid>=%22BOOTH1%22
-    formUrl = f.prefill_template.replace('{ASSET}', encodeURIComponent('"' + id + '"')).replace('{ASSET_RAW}', encodeURIComponent(id));
+    // A Choice pre-fill only selects when the value matches the option text EXACTLY, so look the
+    // scanned id up in the family's `options` map first and fall back to the bare id.
+    const choice = (f.options && f.options[id]) || id;
+    formUrl = f.prefill_template.replace('{ASSET}', encodeURIComponent('"' + choice + '"')).replace('{ASSET_RAW}', encodeURIComponent(choice));
   } else if (f.url) {
     formUrl = f.url;
   }
