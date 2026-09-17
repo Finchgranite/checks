@@ -2,32 +2,91 @@
  "_readme": "Extra buttons on an asset's QR landing page, beyond the check form. Keyed by asset id. Each entry is {label, url}. The page shows them in order and, when an asset has ANY of them, it stops auto-forwarding to the check form so the reader gets the menu. Manuals live in the private Manuals library on the hs-checks SharePoint site - they are the manufacturers' copyright, held for our own staff's use. NEVER copy a manual into this public repo or link one from a public URL.",
  "_library": "https://finchgranite.sharepoint.com/sites/hs-checks/Manuals",
  "BOOTH1": [
-  { "label": "Booth manual", "url": "https://finchgranite.sharepoint.com/sites/hs-checks/Manuals/BOOTH1%20-%20Dal%20Prete%20IWATER%20dust%20booth%20-%20user%20manual.pdf" }
+  {
+   "label": "Booth manual",
+   "url": "https://finchgranite.sharepoint.com/sites/hs-checks/Manuals/BOOTH1%20-%20Dal%20Prete%20IWATER%20dust%20booth%20-%20user%20manual.pdf"
+  }
  ],
  "SAW1": [
-  { "label": "Saw manual", "url": "https://finchgranite.sharepoint.com/sites/hs-checks/Manuals/SAW1%20-%20GMM%20Brio%20Extra%20CN2%20bridge%20saw%20-%20manual.pdf" }
+  {
+   "label": "Saw manual",
+   "url": "https://finchgranite.sharepoint.com/sites/hs-checks/Manuals/SAW1%20-%20GMM%20Brio%20Extra%20CN2%20bridge%20saw%20-%20manual.pdf"
+  }
  ],
  "CNC1": [
-  { "label": "CNC manual", "url": "https://finchgranite.sharepoint.com/sites/hs-checks/Manuals/CNC1%20-%20Intermac%20Master%2038.3%20-%20user%20manual.pdf" },
-  { "label": "Operator training checklist", "url": "https://finchgranite.sharepoint.com/sites/hs-checks/Manuals/CNC1%20-%20Intermac%20Master%2038.3%20-%20operator%20training%20checklist.pdf" }
+  {
+   "label": "CNC manual",
+   "url": "https://finchgranite.sharepoint.com/sites/hs-checks/Manuals/CNC1%20-%20Intermac%20Master%2038.3%20-%20user%20manual.pdf"
+  },
+  {
+   "label": "Operator training checklist",
+   "url": "https://finchgranite.sharepoint.com/sites/hs-checks/Manuals/CNC1%20-%20Intermac%20Master%2038.3%20-%20operator%20training%20checklist.pdf"
+  }
  ],
  "AIR1": [
-  { "label": "Compressor manual", "url": "https://finchgranite.sharepoint.com/sites/hs-checks/Manuals/AIR1%20-%20SCR20PM2%20compressor%20-%20manual.pdf" },
-  { "label": "Air dryer manual", "url": "https://finchgranite.sharepoint.com/sites/hs-checks/Manuals/AIR1%20-%20compressor%20air%20dryer%20E5-E6%20-%20instruction%20book.pdf" }
+  {
+   "label": "Compressor manual",
+   "url": "https://finchgranite.sharepoint.com/sites/hs-checks/Manuals/AIR1%20-%20SCR20PM2%20compressor%20-%20manual.pdf"
+  },
+  {
+   "label": "Air dryer manual",
+   "url": "https://finchgranite.sharepoint.com/sites/hs-checks/Manuals/AIR1%20-%20compressor%20air%20dryer%20E5-E6%20-%20instruction%20book.pdf"
+  }
  ],
  "MFJC2": [
-  { "label": "Jib crane manual", "url": "https://finchgranite.sharepoint.com/sites/hs-checks/Manuals/MFJC2%20-%20Elephant%20jib%20crane%20C5%201000-7%20-%20installation%2C%20use%20and%20maintenance.pdf" }
+  {
+   "label": "Jib crane manual",
+   "url": "https://finchgranite.sharepoint.com/sites/hs-checks/Manuals/MFJC2%20-%20Elephant%20jib%20crane%20C5%201000-7%20-%20installation%2C%20use%20and%20maintenance.pdf"
+  }
  ],
  "ECB2": [
-  { "label": "Chain hoist manual", "url": "https://finchgranite.sharepoint.com/sites/hs-checks/Manuals/ECB2%20-%20RWM%20electric%20chain%20hoist%20-%20operation%20and%20maintenance.pdf" }
+  {
+   "label": "Chain hoist manual",
+   "url": "https://finchgranite.sharepoint.com/sites/hs-checks/Manuals/ECB2%20-%20RWM%20electric%20chain%20hoist%20-%20operation%20and%20maintenance.pdf"
+  }
  ],
  "VLD1": [
-  { "label": "Vacuum lifter manual", "url": "https://finchgranite.sharepoint.com/sites/hs-checks/Manuals/VLD1%20-%20Elephant%20LM3RP%20vacuum%20lifter%20-%20operation%20and%20maintenance.pdf" }
+  {
+   "label": "Vacuum lifter manual",
+   "url": "https://finchgranite.sharepoint.com/sites/hs-checks/Manuals/VLD1%20-%20Elephant%20LM3RP%20vacuum%20lifter%20-%20operation%20and%20maintenance.pdf"
+  }
  ],
  "RPE2": [
-  { "label": "CleanSpace Agile instructions", "url": "https://finchgranite.sharepoint.com/sites/hs-checks/Manuals/RPE2%20RPE3%20-%20CleanSpace%20Agile%20-%20user%20instructions.pdf" }
+  {
+   "label": "CleanSpace Agile instructions",
+   "url": "https://finchgranite.sharepoint.com/sites/hs-checks/Manuals/RPE2%20RPE3%20-%20CleanSpace%20Agile%20-%20user%20instructions.pdf"
+  }
  ],
  "RPE3": [
-  { "label": "CleanSpace Agile instructions", "url": "https://finchgranite.sharepoint.com/sites/hs-checks/Manuals/RPE2%20RPE3%20-%20CleanSpace%20Agile%20-%20user%20instructions.pdf" }
+  {
+   "label": "CleanSpace Agile instructions",
+   "url": "https://finchgranite.sharepoint.com/sites/hs-checks/Manuals/RPE2%20RPE3%20-%20CleanSpace%20Agile%20-%20user%20instructions.pdf"
+  }
+ ],
+ "RPE1": [
+  {
+   "label": "Airshield Pro instructions",
+   "url": "https://finchgranite.sharepoint.com/sites/hs-checks/Manuals/RPE1%20-%20Trend%20Airshield%20Pro%20-%20user%20instructions%20%28EN%2012941%2C%20MANU-AIR-PRO%20v5.1%29.pdf"
+  }
+ ],
+ "TOOL4": [
+  {
+   "label": "Makita GA5040C manual",
+   "url": "https://finchgranite.sharepoint.com/sites/hs-checks/Manuals/TOOL4%20-%20Makita%20GA5040C%20-%20instruction%20manual.pdf"
+  },
+  {
+   "label": "Makita parts drawing",
+   "url": "https://finchgranite.sharepoint.com/sites/hs-checks/Manuals/TOOL4%20-%20Makita%20GA5040C%20-%20parts%20drawing.pdf"
+  }
+ ],
+ "TOOL1": [
+  {
+   "label": "Gison catalogue and specs",
+   "url": "https://finchgranite.sharepoint.com/sites/hs-checks/Manuals/TOOL1%20-%20Gison%20wet%20air%20tools%20-%20catalogue%20and%20specs.pdf"
+  },
+  {
+   "label": "Gison parts list",
+   "url": "https://finchgranite.sharepoint.com/sites/hs-checks/Manuals/TOOL1%20-%20Gison%20GPW-215%20-%20parts%20list.pdf"
+  }
  ]
 }
