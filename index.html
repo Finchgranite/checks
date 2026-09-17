@@ -40,11 +40,12 @@
   let id = (params.get('id') || [...params.keys()][0] || '').trim().toUpperCase();
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
-  let assets = {}, forms = {};
+  let assets = {}, forms = {}, manuals = {};
   try {
-    [assets, forms] = await Promise.all([
+    [assets, forms, manuals] = await Promise.all([
       fetch('assets.json', {cache: 'no-store'}).then(r => r.json()),
-      fetch('forms.json',  {cache: 'no-store'}).then(r => r.ok ? r.json() : {}).catch(() => ({}))
+      fetch('forms.json',  {cache: 'no-store'}).then(r => r.ok ? r.json() : {}).catch(() => ({})),
+      fetch('manuals.json',{cache: 'no-store'}).then(r => r.ok ? r.json() : {}).catch(() => ({}))
     ]);
   } catch (e) {
     card.innerHTML = '<h2>Could not load the asset list</h2><p class="muted">Check the signal and try again, or use the paper sheet.</p>';
@@ -77,12 +78,25 @@
   if (a.photo) html += '<img src="' + esc(a.photo) + '" alt="" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px;margin-bottom:8px">';
   html += '<h1 class="' + (oou ? 'red' : '') + '">' + esc(id) + '</h1><h2>' + esc(a.name) + '</h2>' +
           '<div class="muted">' + esc(a.detail) + '<br>' + esc(a.location) + '</div>';
+  // A manual, a maintenance form or anything else beyond the check form turns this page from a
+  // staging post into a menu. Auto-forwarding would rob the reader of the other choices, so the
+  // page only forwards when the check form is the ONLY destination.
+  const extras = (manuals[id] || []);
+  const isMenu = extras.length > 0;
+
   if (formUrl) {
-    html += '<a class="btn" href="' + formUrl + '">Open the check form →</a>' +
-            '<div class="muted" style="text-align:center">Opening automatically…</div>';
+    html += '<a class="btn" href="' + formUrl + '">Do the check →</a>';
+    if (!isMenu) html += '<div class="muted" style="text-align:center">Opening automatically…</div>';
   } else {
     html += '<a class="btn grey">Form not live yet — use the paper sheet</a>' +
             '<div class="muted" style="text-align:center">Recorded check: ' + esc(a.recorded) + '</div>';
+  }
+  for (const m of extras) {
+    html += '<a class="btn" style="background:#3f4a5a" href="' + esc(m.url) + '">' + esc(m.label) + ' →</a>';
+  }
+  if (isMenu) {
+    html += '<div class="muted" style="text-align:center;font-size:12px">Manuals open in SharePoint — ' +
+            'sign in with your work account.</div>';
   }
   html += '<p style="margin-top:16px"><b>' + (oou ? 'Why it is out of use:' : 'Before you use it — every time:') + '</b></p><ul>' +
           (a.pre_use || []).map(s => '<li>' + esc(s) + '</li>').join('') + '</ul>';
@@ -90,7 +104,7 @@
   html += '<div class="fault"><b>FAULT? STOP.</b><br>Tag it out. Report it on the form with a photo. Tell Graham or Ben.</div>';
   card.innerHTML = html;
 
-  if (formUrl) setTimeout(() => location.replace(formUrl), 900);
+  if (formUrl && !isMenu) setTimeout(() => location.replace(formUrl), 900);
 })();
 </script>
 </body>
