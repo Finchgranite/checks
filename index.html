@@ -60,10 +60,19 @@
   }
 
   const oou = (a.status || '').toLowerCase() === 'out of use';
-  if (oou) band.classList.add('red');
+  // WITHDRAWN is not the same as OUT OF USE. Out of use means the machine is still here and
+  // still needs its weekly confirmation that it is isolated, so it keeps its form. Withdrawn
+  // means the item is gone - scrapped or removed from service for good. It has no options
+  // entry on any form, so auto-forwarding would drop a lad onto a form where the item is not
+  // even listed, and the likeliest outcome is that he picks the nearest-looking thing and
+  // records a check against the WRONG asset. So: no form, no forward, just a plain statement.
+  const withdrawn = (a.status || '').toLowerCase() === 'withdrawn';
+  if (oou || withdrawn) band.classList.add('red');
   const f = forms[a.form] || {};
   let formUrl = '';
-  if (f.prefill_template) {
+  if (withdrawn) {
+    formUrl = '';
+  } else if (f.prefill_template) {
     // Microsoft Forms pre-filled links carry the choice value as a JSON string: r<qid>=%22BOOTH1%22
     // A Choice pre-fill only selects when the value matches the option text EXACTLY, so look the
     // scanned id up in the family's `options` map first and fall back to the bare id.
@@ -74,7 +83,8 @@
   }
 
   let html = '';
-  if (oou) html += '<div class="oou">OUT OF USE — DO NOT USE</div>';
+  if (withdrawn) html += '<div class="oou">WITHDRAWN — NOT IN SERVICE</div>';
+  else if (oou) html += '<div class="oou">OUT OF USE — DO NOT USE</div>';
   if (a.photo) html += '<img src="' + esc(a.photo) + '" alt="" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px;margin-bottom:8px">';
   html += '<h1 class="' + (oou ? 'red' : '') + '">' + esc(id) + '</h1><h2>' + esc(a.name) + '</h2>' +
           '<div class="muted">' + esc(a.detail) + '<br>' + esc(a.location) + '</div>';
@@ -88,8 +98,11 @@
     html += '<a class="btn" href="' + formUrl + '">Do the check →</a>';
     if (!isMenu) html += '<div class="muted" style="text-align:center">Opening automatically…</div>';
   } else {
-    html += '<a class="btn grey">Form not live yet — use the paper sheet</a>' +
-            '<div class="muted" style="text-align:center">Recorded check: ' + esc(a.recorded) + '</div>';
+    html += withdrawn
+      ? '<a class="btn grey">No check — this item has been withdrawn</a>' +
+        '<div class="muted" style="text-align:center">If this is still on site, it should not be. Tell Graham or Ben.</div>'
+      : '<a class="btn grey">Form not live yet — use the paper sheet</a>' +
+        '<div class="muted" style="text-align:center">Recorded check: ' + esc(a.recorded) + '</div>';
   }
   for (const m of extras) {
     html += '<a class="btn" style="background:#3f4a5a" href="' + esc(m.url) + '">' + esc(m.label) + ' →</a>';
@@ -98,10 +111,10 @@
     html += '<div class="muted" style="text-align:center;font-size:12px">Manuals open in SharePoint — ' +
             'sign in with your work account.</div>';
   }
-  html += '<p style="margin-top:16px"><b>' + (oou ? 'Why it is out of use:' : 'Before you use it — every time:') + '</b></p><ul>' +
+  html += '<p style="margin-top:16px"><b>' + (withdrawn ? 'Why it was withdrawn:' : oou ? 'Why it is out of use:' : 'Before you use it — every time:') + '</b></p><ul>' +
           (a.pre_use || []).map(s => '<li>' + esc(s) + '</li>').join('') + '</ul>';
   if (a.why) html += '<p class="muted" style="font-size:13px"><b>Why?</b> ' + esc(a.why) + '</p>';
-  html += '<div class="fault"><b>FAULT? STOP.</b><br>Tag it out. Report it on the form with a photo. Tell Graham or Ben.</div>';
+  if (!withdrawn) html += '<div class="fault"><b>FAULT? STOP.</b><br>Tag it out. Report it on the form with a photo. Tell Graham or Ben.</div>';
   card.innerHTML = html;
 
   if (formUrl && !isMenu) setTimeout(() => location.replace(formUrl), 900);
