@@ -63,10 +63,10 @@
   "name": "Powered respirator Agile no.2",
   "family": "RPE",
   "form": "02",
-  "detail": "CleanSpace Agile, s/n (write at issue), EN 12941 TH2, APF 20 - NOT YET ISSUED",
-  "location": "Factory - RPE store",
+  "detail": "CleanSpace Agile, s/n P0 001 691, EN 12941 TH2, APF 20 - ISSUED to Derek Soar 21 Sep 2026",
+  "location": "Wearer: Derek Soar",
   "status": "In use",
-  "recorded": "Weekly wearer log | Monthly check | Filter change log",
+  "recorded": "Weekly wearer log (FORM 023 p2) | Monthly check | Filter change log",
   "pre_use": [
    "Power unit charged (3 LEDs)",
    "Self-test / flow test passed",
