@@ -114,6 +114,7 @@
   html += '<p style="margin-top:16px"><b>' + (withdrawn ? 'Why it was withdrawn:' : oou ? 'Why it is out of use:' : 'Before you use it — every time:') + '</b></p><ul>' +
           (a.pre_use || []).map(s => '<li>' + esc(s) + '</li>').join('') + '</ul>';
   if (a.why) html += '<p class="muted" style="font-size:13px"><b>Why?</b> ' + esc(a.why) + '</p>';
+  if (a.service) html += '<p class="muted" style="font-size:13px"><b>Service / help:</b> ' + esc(a.service) + '</p>';
   if (!withdrawn) html += '<div class="fault"><b>FAULT? STOP.</b><br>Tag it out. Report it on the form with a photo. Tell Graham or Ben.</div>';
   card.innerHTML = html;
 
