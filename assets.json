@@ -7,9 +7,10 @@
   "detail": "Dal Prete IWATER 4 MT water-wall booth, s/n 116-19 (2019)",
   "location": "Factory - finishing area",
   "status": "In use",
-  "recorded": "Daily (operator) | Weekly (Mon) | Sludge tank every 10-15 days | Monthly fan blades + bolts",
+  "recorded": "Weekly (Mon) - scan | Sludge tank - interval per the LEV examiner (manual: every 10-15 days) | Monthly fan blades + bolts - scan",
   "pre_use": [
    "Water level at the mark (10 cm below the top edge)",
+   "Frames and residue cleaned, machine stopped first (daily, manual 7.1.1)",
    "Fans and pump running, curtain flowing evenly",
    "Work INSIDE the booth, facing the water wall",
    "Powered mask on (APF 20)",
@@ -181,7 +182,7 @@
   "detail": "Mitsubishi diesel DF18X-13401, 2145 kg @ 500 mm",
   "location": "Yard",
   "status": "In use",
-  "recorded": "Daily pre-shift (CHK-004) + hours reading",
+  "recorded": "Daily pre-shift check (CHK-004)",
   "pre_use": [
    "Authorised operator only, hi-vis, boots",
    "Tyres, brakes, steering, horn, lights, beacon, reversing alarm",
@@ -191,7 +192,7 @@
   ],
   "why": "LOLER reg 9: thorough examination every 12 months (Zurich). PUWER reg 5/6 and HSE guide L117: the driver does a daily pre-use check and reports defects - the brake lights, fault code and hoses Zurich found are exactly what it catches.",
   "video": "",
-  "service": ""
+  "service": "AC Forklifts (we hire the truck from them) - Gary 07979 906287"
  },
  "FLTA1": {
   "photo": null,
@@ -454,7 +455,7 @@
   ],
   "why": "PUWER reg 5/6: maintained, inspected at suitable intervals, recorded. PUWER reg 11/16: guards and emergency stops kept working - tested monthly (L22 para 89). COSHH reg 9 / HSE sheet ST3A: water and mist control working before every cut.",
   "video": "",
-  "service": ""
+  "service": "Saw technician: Paul Hamilton 07714 781040"
  },
  "SAW2": {
   "photo": "photos/SAW2.jpg",
@@ -470,7 +471,7 @@
   ],
   "why": "HSE Prohibition Notice PN-02 (3 Sep 2026): this saw may not be used until it is guarded to PUWER reg 11 - a guard-locking interlock that holds the door shut until the blade has stopped, or an enclosure with light curtain and braking - and HSE told.",
   "video": "",
-  "service": ""
+  "service": "Saw technician: Paul Hamilton 07714 781040"
  },
  "CNC1": {
   "photo": "photos/CNC1.jpg",
@@ -500,13 +501,13 @@
   "detail": "Comandulli Musa 7+2 DX, s/n 08015 (2015), 3x415 V 14 kW - guard doors on safety interlocks, key reset on the panel",
   "location": "Polishing shop",
   "status": "In use",
-  "recorded": "Weekly | Monthly safety-function test",
+  "recorded": "Weekly look-over | Monthly safety test (e-stops + every guard door)",
   "pre_use": [
-   "Guards in place, nothing bypassed",
-   "E-stop reachable and working",
-   "Water on at the heads",
-   "Heads and belts sound",
-   "Leads dry and undamaged"
+   "Guard doors closed and latched, nothing bypassed",
+   "Both e-stops clear to reach",
+   "Water on at every head before the stone",
+   "Key in the switch and working",
+   "Nothing taped, tied or wedged"
   ],
   "why": "PUWER reg 5/6: maintained, inspected at suitable intervals, recorded. PUWER reg 11/16: guards and emergency stops kept working - tested monthly (L22 para 89). COSHH reg 9 / ST3A: water suppression working before use.",
   "video": "",
@@ -800,6 +801,27 @@
    "Every X becomes an action with an owner and a date"
   ],
   "why": "Management Regs 1999 reg 5: the employer must monitor and review its health and safety arrangements. This walk is the management check that every other check is happening - and the evidence HSE will ask for by 7 Dec 2026.",
+  "video": "",
+  "service": ""
+ },
+ "VAC1": {
+  "photo": null,
+  "name": "M-class vacuum (de-robe point) - Numatic TRM240",
+  "family": "Hand tools",
+  "form": "03",
+  "detail": "Numatic TradeLine TRM240 M-Class, H14 HEPA filter, low-airflow indicator, 110 V version - correct for the factory yellow sockets (ordered 30 Sep 2026, Hugh Crane NU918744) - serial to add on arrival",
+  "location": "Exit from the dusty area / locker point",
+  "status": "Pending",
+  "recorded": "Weekly (CHK-005) | Filter change log",
+  "pre_use": [
+   "Red airflow light OFF when running (on = bag full / blockage / filter - stop and fix)",
+   "HepaFlo bag fitted, not overfull",
+   "Hose, brush and seals undamaged",
+   "Lid latched, filter seated",
+   "110 V yellow plug and lead sound (fixed yellow sockets in the factory)",
+   "DRY use only - never on wet coveralls or slurry"
+  ],
+  "why": "",
   "video": "",
   "service": ""
  }
