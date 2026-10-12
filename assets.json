@@ -599,12 +599,17 @@
   "detail": "Cert 11619: 7 units incl. 1 x 6 l water (new Mar 2026) - numbered EXT1-EXT7 on the labels",
   "location": "Sign next to the alarm panel",
   "status": "In use",
-  "recorded": "MONTHLY - one form",
+  "recorded": "MONTHLY - one form - tick each of the 7 that is OK",
   "pre_use": [
-   "PW Fire annual service - cert 11619 exp Mar 2027"
+   "Walk to every extinguisher EXT1-EXT7",
+   "In place and unobstructed",
+   "Pin and tamper tag intact",
+   "Gauge in the green",
+   "Service label in date",
+   "No damage or corrosion"
   ],
   "why": "Fire Safety Order 2005 art 17: extinguishers kept in efficient working order under a suitable system of maintenance. BS 5306-3 and the government's factories guide: monthly user check, annual service (PW Fire, cert 11619).",
-  "video": "BS 5306-3; can be done on the monthly site walk",
+  "video": "",
   "service": ""
  },
  "EXT1": {
