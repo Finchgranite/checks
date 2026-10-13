@@ -8,7 +8,12 @@
   "options": {
    "BOOTH1": "BOOTH1 - Dust booth Dal Prete IWATER (s/n 116-19)"
   },
-  "built": "2026-09-16 HS-01 Dust booth check (group form, 35 items, branching set)"
+  "built": "2026-09-16 HS-01 Dust booth check (group form, 35 items, branching set)",
+  "check_type_q": "rad257d03854f4b12818b0ea79143dfa3",
+  "cadence_options": {
+   "Weekly": "Weekly",
+   "Monthly": "Monthly (sludge tank + filters, belts, fan drums, bolts)"
+  }
  },
  "02": {
   "name": "RPE (powered respirators)",
@@ -109,5 +114,6 @@
   "q1_id": "r75c3dc075a5b4020877801cad410114f",
   "prefill_template": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UN1lJWTlQVzMxREE3MzA2QTcwME5VMkhHSiQlQCN0PWcu&r75c3dc075a5b4020877801cad410114f=%22{ITEM}%22",
   "built": "2026-09-16 HS-08 Mark done (group form, 5 Q; 'Enable pre-filled answers' switched ON under ... > Get Pre-filled URL - without it NO prefill works)"
- }
+ },
+ "_readme_due": "13 Oct 2026: optional per family - check_type_q = the Forms question id of 'Check type' / 'What are you doing today?', cadence_options = cadence word -> EXACT option text. index.html adds &r<check_type_q>=%22<option>%22 to the prefilled link when exactly one check is due/overdue, so the right branch opens. Families without it still show the due banner; the person picks."
 }

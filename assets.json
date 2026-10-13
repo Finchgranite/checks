@@ -7,7 +7,7 @@
   "detail": "Dal Prete IWATER 4 MT water-wall booth, s/n 116-19 (2019)",
   "location": "Factory - finishing area",
   "status": "In use",
-  "recorded": "Weekly (Mon) - scan | Sludge tank - interval per the LEV examiner (manual: every 10-15 days) | Monthly fan blades + bolts - scan",
+  "recorded": "Weekly (Mon) - scan | Monthly - sludge tank emptied + refilled, filters cleaned, fan belts + fan drums checked, bolts tight - scan",
   "pre_use": [
    "Water level at the mark (10 cm below the top edge)",
    "Frames and residue cleaned, machine stopped first (daily, manual 7.1.1)",
@@ -16,7 +16,7 @@
    "Powered mask on (APF 20)",
    "No dust or mist escaping the face"
   ],
-  "why": "COSHH reg 9(1): the booth must be kept in efficient working order and in a clean condition, checked weekly (L5 para 172) and examined every 14 months. The tank is emptied every 10-15 days because HSE sheet ST3A says contaminated water is replaced per the maker's instructions.",
+  "why": "COSHH reg 9(1): the booth must be kept in efficient working order and in a clean condition, checked weekly (L5 para 172) and examined every 14 months. Monthly: tank emptied and refilled, filters cleaned, fan belts and fan drums checked - the booth now takes wet-finishing mist only, so the maker's 10-15 day tank interval (dry dust) is relaxed to monthly; HSE sheet ST3A: contaminated water replaced per the supplier's instructions.",
   "video": "",
   "service": ""
  },
@@ -216,7 +216,7 @@
   "name": "FLT jib attachment (green, 1.25 t)",
   "family": "Forklift",
   "form": "04",
-  "detail": "OUT OF USE - AFA0001 - no current LOLER thorough examination until Zurich attend 12 Oct 2026",
+  "detail": "AFA0001 - green jib attachment 1.25 t (LOLER OK 9 Jun 2026, rep 63733232/3; load test quote requested from NTCE 13 Oct 2026)",
   "location": "Yard",
   "status": "Out of use",
   "recorded": "Only: still out of use and not lifting",
@@ -348,12 +348,14 @@
   "name": "Manual jib crane (polishing shop)",
   "family": "Lifting gear",
   "form": "05",
-  "detail": "Not marked - SWL unknown",
+  "detail": "No maker's plate - SWL 500 kg as marked by us (Zurich examined OK 12 Oct 2026, rep 63643232/4)",
   "location": "Polishing shop",
   "status": "Out of use",
   "recorded": "Only: still tagged out and not used",
   "pre_use": [
-   "DO NOT USE - no SWL, not examined (Zurich June 2026)"
+   "PASSED Zurich 12 Oct 2026 - stays tagged out until Graham signs it back into use",
+   "No lifting until the tag is off and the weekly lifting-gear check is on it",
+   "SWL 500 kg - never exceed"
   ],
   "why": "LOLER reg 7: lifting equipment must be marked with its safe working load. LOLER reg 9: examined every 12 months. Unmarked and unexamined, so it may not be used until Zurich rate and examine it (12 Oct 2026).",
   "video": "",

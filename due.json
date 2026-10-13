@@ -1,0 +1,472 @@
+{
+ "generated": "2026-10-13T17:07",
+ "today": "2026-10-13",
+ "assets": {
+  "BOOTH1": {
+   "checks": [
+    {
+     "label": "Weekly",
+     "cadence": "Weekly",
+     "last": "2026-09-17",
+     "due": "2026-09-21",
+     "state": "overdue"
+    },
+    {
+     "label": "Monthly",
+     "cadence": "Monthly",
+     "last": null,
+     "due": "2026-11-02",
+     "state": "first"
+    }
+   ],
+   "external": [
+    {
+     "label": "LEV thorough examination and test (Zurich)",
+     "due": "2027-12-09",
+     "state": "ok"
+    }
+   ]
+  },
+  "TOOL1": {
+   "checks": [
+    {
+     "label": "Weekly",
+     "cadence": "Weekly",
+     "last": null,
+     "due": "2026-09-21",
+     "state": "overdue"
+    }
+   ],
+   "external": []
+  },
+  "TOOL2": {
+   "checks": [
+    {
+     "label": "Weekly",
+     "cadence": "Weekly",
+     "last": null,
+     "due": "2026-09-21",
+     "state": "overdue"
+    }
+   ],
+   "external": []
+  },
+  "TOOL3": {
+   "checks": [
+    {
+     "label": "Weekly",
+     "cadence": "Weekly",
+     "last": null,
+     "due": "2026-09-21",
+     "state": "overdue"
+    }
+   ],
+   "external": []
+  },
+  "FLT1": {
+   "checks": [
+    {
+     "label": "Weekly",
+     "cadence": "Weekly",
+     "last": "2026-10-12",
+     "due": "2026-10-19",
+     "state": "ok"
+    }
+   ],
+   "external": []
+  },
+  "VLD1": {
+   "checks": [
+    {
+     "label": "Weekly",
+     "cadence": "Weekly",
+     "last": null,
+     "due": "2026-09-21",
+     "state": "overdue"
+    }
+   ],
+   "external": [
+    {
+     "label": "LOLER thorough examination (Zurich)",
+     "due": "2026-12-09",
+     "state": "ok"
+    }
+   ]
+  },
+  "VLD2": {
+   "checks": [
+    {
+     "label": "Weekly",
+     "cadence": "Weekly",
+     "last": null,
+     "due": "2026-09-21",
+     "state": "overdue"
+    }
+   ],
+   "external": [
+    {
+     "label": "LOLER thorough examination (Zurich)",
+     "due": "2026-12-09",
+     "state": "ok"
+    }
+   ]
+  },
+  "VLD3": {
+   "checks": [
+    {
+     "label": "Weekly",
+     "cadence": "Weekly",
+     "last": null,
+     "due": "2026-09-21",
+     "state": "overdue"
+    }
+   ],
+   "external": [
+    {
+     "label": "LOLER thorough examination (Zurich)",
+     "due": "2026-12-09",
+     "state": "ok"
+    }
+   ]
+  },
+  "SC2": {
+   "checks": [
+    {
+     "label": "Weekly",
+     "cadence": "Weekly",
+     "last": "2026-10-12",
+     "due": "2026-10-19",
+     "state": "ok"
+    }
+   ],
+   "external": [
+    {
+     "label": "LOLER thorough examination (Zurich)",
+     "due": "2026-12-09",
+     "state": "ok"
+    }
+   ]
+  },
+  "BS-I2": {
+   "checks": [
+    {
+     "label": "Weekly",
+     "cadence": "Weekly",
+     "last": null,
+     "due": "2026-09-21",
+     "state": "overdue"
+    }
+   ],
+   "external": [
+    {
+     "label": "LOLER thorough examination (Zurich)",
+     "due": "2026-12-09",
+     "state": "ok"
+    }
+   ]
+  },
+  "MFJC2": {
+   "checks": [
+    {
+     "label": "Weekly",
+     "cadence": "Weekly",
+     "last": null,
+     "due": "2026-09-21",
+     "state": "overdue"
+    }
+   ],
+   "external": [
+    {
+     "label": "LOLER thorough examination (Zurich)",
+     "due": "2027-06-09",
+     "state": "ok"
+    }
+   ]
+  },
+  "ECB1": {
+   "checks": [
+    {
+     "label": "Weekly",
+     "cadence": "Weekly",
+     "last": null,
+     "due": "2026-09-21",
+     "state": "overdue"
+    }
+   ],
+   "external": [
+    {
+     "label": "LOLER thorough examination (Zurich)",
+     "due": "2027-06-09",
+     "state": "ok"
+    }
+   ]
+  },
+  "ECB2": {
+   "checks": [
+    {
+     "label": "Weekly",
+     "cadence": "Weekly",
+     "last": null,
+     "due": "2026-09-21",
+     "state": "overdue"
+    }
+   ],
+   "external": [
+    {
+     "label": "LOLER thorough examination (Zurich)",
+     "due": "2027-06-09",
+     "state": "ok"
+    }
+   ]
+  },
+  "MT1": {
+   "checks": [
+    {
+     "label": "Weekly",
+     "cadence": "Weekly",
+     "last": null,
+     "due": "2026-09-21",
+     "state": "overdue"
+    }
+   ],
+   "external": [
+    {
+     "label": "LOLER thorough examination (Zurich)",
+     "due": "2027-06-09",
+     "state": "ok"
+    }
+   ]
+  },
+  "RACK1": {
+   "checks": [
+    {
+     "label": "Weekly",
+     "cadence": "Weekly",
+     "last": null,
+     "due": "2026-09-21",
+     "state": "overdue"
+    }
+   ],
+   "external": []
+  },
+  "EXT": {
+   "checks": [
+    {
+     "label": "Monthly",
+     "cadence": "Monthly",
+     "last": null,
+     "due": "2026-10-05",
+     "state": "overdue"
+    }
+   ],
+   "external": []
+  },
+  "FIRE-AL": {
+   "checks": [
+    {
+     "label": "Weekly",
+     "cadence": "Weekly",
+     "last": "2026-09-15",
+     "due": "2026-09-21",
+     "state": "overdue"
+    }
+   ],
+   "external": []
+  },
+  "FIRE-DR": {
+   "checks": [
+    {
+     "label": "Weekly",
+     "cadence": "Monthly",
+     "last": "2026-10-12",
+     "due": "2026-10-19",
+     "state": "ok"
+    }
+   ],
+   "external": []
+  },
+  "FA1": {
+   "checks": [
+    {
+     "label": "Monthly",
+     "cadence": "Monthly",
+     "last": null,
+     "due": "2026-10-05",
+     "state": "overdue"
+    }
+   ],
+   "external": []
+  },
+  "SITE": {
+   "checks": [
+    {
+     "label": "Monthly",
+     "cadence": "Monthly",
+     "last": null,
+     "due": "2026-10-05",
+     "state": "overdue"
+    }
+   ],
+   "external": []
+  },
+  "SAW1": {
+   "checks": [
+    {
+     "label": "Weekly",
+     "cadence": "Weekly",
+     "last": null,
+     "due": "2026-09-21",
+     "state": "overdue"
+    },
+    {
+     "label": "Monthly",
+     "cadence": "Monthly",
+     "last": null,
+     "due": "2026-10-05",
+     "state": "overdue"
+    }
+   ],
+   "external": []
+  },
+  "CNC1": {
+   "checks": [
+    {
+     "label": "Weekly",
+     "cadence": "Weekly",
+     "last": null,
+     "due": "2026-09-21",
+     "state": "overdue"
+    },
+    {
+     "label": "Monthly",
+     "cadence": "Monthly",
+     "last": null,
+     "due": "2026-10-05",
+     "state": "overdue"
+    }
+   ],
+   "external": []
+  },
+  "POL1": {
+   "checks": [
+    {
+     "label": "Monthly",
+     "cadence": "Monthly",
+     "last": null,
+     "due": "2026-10-05",
+     "state": "overdue"
+    },
+    {
+     "label": "Weekly",
+     "cadence": "Weekly",
+     "last": "2026-10-12",
+     "due": "2026-10-19",
+     "state": "ok"
+    }
+   ],
+   "external": []
+  },
+  "AIR1": {
+   "checks": [
+    {
+     "label": "Weekly",
+     "cadence": "Weekly",
+     "last": null,
+     "due": "2026-09-21",
+     "state": "overdue"
+    }
+   ],
+   "external": []
+  },
+  "SAW2": {
+   "checks": [
+    {
+     "label": "Weekly",
+     "cadence": "Weekly",
+     "last": "2026-10-12",
+     "due": "2026-10-19",
+     "state": "ok"
+    }
+   ],
+   "external": []
+  },
+  "FLTA2": {
+   "checks": [
+    {
+     "label": "Weekly",
+     "cadence": "Weekly",
+     "last": "2026-10-12",
+     "due": "2026-10-19",
+     "state": "ok"
+    }
+   ],
+   "external": [
+    {
+     "label": "LOLER thorough examination (Zurich)",
+     "due": "2027-06-09",
+     "state": "ok"
+    }
+   ]
+  },
+  "RPE2": {
+   "checks": [
+    {
+     "label": "Monthly",
+     "cadence": "Monthly",
+     "last": null,
+     "due": "2026-10-15",
+     "state": "first"
+    },
+    {
+     "label": "Weekly",
+     "cadence": "Weekly",
+     "last": "2026-10-12",
+     "due": "2026-10-19",
+     "state": "ok"
+    }
+   ],
+   "external": []
+  },
+  "RPE3": {
+   "checks": [
+    {
+     "label": "Monthly",
+     "cadence": "Monthly",
+     "last": null,
+     "due": "2026-10-15",
+     "state": "first"
+    },
+    {
+     "label": "Weekly",
+     "cadence": "Weekly",
+     "last": "2026-10-13",
+     "due": "2026-10-19",
+     "state": "ok"
+    }
+   ],
+   "external": []
+  },
+  "RPE1": {
+   "checks": [
+    {
+     "label": "Monthly",
+     "cadence": "Monthly",
+     "last": null,
+     "due": "2026-10-15",
+     "state": "first"
+    }
+   ],
+   "external": []
+  },
+  "MFJC1": {
+   "checks": [],
+   "external": [
+    {
+     "label": "LOLER thorough examination (Zurich)",
+     "due": "2027-10-12",
+     "state": "ok"
+    }
+   ]
+  }
+ }
+}

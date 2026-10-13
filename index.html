@@ -24,6 +24,15 @@
   .fault b { color: #b80d0d; font-size: 20px; }
   .small { font-size: 13px; color: #666; margin-top: 14px; }
   .oou { background: #b80d0d; color: #fff; text-align: center; font-weight: 800; font-size: 22px; padding: 12px; border-radius: 10px; margin-bottom: 12px; }
+  /* "what is due" banner (13 Oct 2026) - fed by due.json from scripts/hs_due_build.py */
+  .due { border-radius: 10px; padding: 12px 14px; margin: 12px 0 4px; background: #eef1f6; }
+  .due.hot { background: #fde8e8; border: 2px solid #b80d0d; }
+  .due.warm { background: #fff4d6; border: 2px solid #b36b00; }
+  .due h3 { margin: 0 0 6px; font-size: 15px; letter-spacing: .03em; text-transform: uppercase; color: #333; }
+  .due .row { display: flex; align-items: center; gap: 10px; padding: 5px 0; font-size: 16px; }
+  .pill { flex: none; min-width: 84px; text-align: center; padding: 4px 8px; border-radius: 999px; font-size: 12px; font-weight: 800; letter-spacing: .04em; color: #fff; background: #888; }
+  .pill.overdue { background: #b80d0d; } .pill.due { background: #b36b00; } .pill.first { background: #3f4a5a; } .pill.ok { background: #2e7d32; }
+  .due .sub { font-size: 13px; color: #555; }
 </style>
 </head>
 <body>
@@ -40,12 +49,13 @@
   let id = (params.get('id') || [...params.keys()][0] || '').trim().toUpperCase();
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
-  let assets = {}, forms = {}, manuals = {};
+  let assets = {}, forms = {}, manuals = {}, dueAll = {};
   try {
-    [assets, forms, manuals] = await Promise.all([
+    [assets, forms, manuals, dueAll] = await Promise.all([
       fetch('assets.json', {cache: 'no-store'}).then(r => r.json()),
       fetch('forms.json',  {cache: 'no-store'}).then(r => r.ok ? r.json() : {}).catch(() => ({})),
-      fetch('manuals.json',{cache: 'no-store'}).then(r => r.ok ? r.json() : {}).catch(() => ({}))
+      fetch('manuals.json',{cache: 'no-store'}).then(r => r.ok ? r.json() : {}).catch(() => ({})),
+      fetch('due.json',    {cache: 'no-store'}).then(r => r.ok ? r.json() : {}).catch(() => ({}))
     ]);
   } catch (e) {
     card.innerHTML = '<h2>Could not load the asset list</h2><p class="muted">Check the signal and try again, or use the paper sheet.</p>';
@@ -82,20 +92,60 @@
     formUrl = f.url;
   }
 
+  // ---- WHAT IS DUE (13 Oct 2026, Graham: "tell the person whether it's the weekly or the monthly") ----
+  // due.json is rebuilt hourly from the diary + the check records (asset ids and dates only, no names).
+  const due = (dueAll.assets || {})[id] || null;
+  const checks = due ? (due.checks || []) : [];
+  const exts = due ? (due.external || []) : [];
+  const fmt = s => { if (!s) return ''; const d = new Date(s + 'T00:00:00'); const o = {weekday: 'short', day: 'numeric', month: 'short'};
+                     if (d.getFullYear() !== new Date().getFullYear()) o.year = 'numeric'; return d.toLocaleDateString('en-GB', o); };
+  const needsDoing = checks.filter(c => c.state === 'overdue' || c.state === 'due');
+  const hot = checks.some(c => c.state === 'overdue'), warm = !hot && checks.some(c => c.state === 'due');
+  let dueHtml = '';
+  if (checks.length || exts.length) {
+    const pillText = {overdue: 'OVERDUE', due: 'DUE TODAY', first: 'FIRST ONE', ok: 'DONE'};
+    const line = c => {
+      const when = c.state === 'overdue' ? 'was due ' + fmt(c.due) : c.state === 'due' ? 'due today' : 'next due ' + fmt(c.due);
+      const last = c.last ? 'last done ' + fmt(c.last) : 'not recorded yet';
+      return '<div class="row"><span class="pill ' + esc(c.state) + '">' + pillText[c.state] + '</span>' +
+             '<div><b>' + esc(c.label) + ' check</b> — ' + esc(when) + '<div class="sub">' + esc(last) + '</div></div></div>';
+    };
+    dueHtml += '<div class="due ' + (hot ? 'hot' : warm ? 'warm' : '') + '"><h3>' +
+               (needsDoing.length ? 'Needs doing now' : 'Nothing due today') + '</h3>' + checks.map(line).join('');
+    for (const e of exts) {
+      dueHtml += '<div class="row"><span class="pill ' + esc(e.state) + '">' + (e.state === 'overdue' ? 'OVERDUE' : 'BOOKED') + '</span>' +
+                 '<div><b>' + esc(e.label) + '</b><div class="sub">' + (e.state === 'overdue' ? 'was due ' : 'due by ') + esc(fmt(e.due)) + '</div></div></div>';
+    }
+    if (dueAll.generated) dueHtml += '<div class="sub" style="margin-top:6px">As of ' + esc(dueAll.generated.replace('T', ' ')) + '</div>';
+    dueHtml += '</div>';
+  }
+  // if exactly one check needs doing and the form has a "Check type" question we know, pre-select it
+  let btnLabel = 'Do the check →';
+  if (formUrl && needsDoing.length === 1 && f.check_type_q && f.cadence_options && f.cadence_options[needsDoing[0].cadence]) {
+    // question ids already carry their leading "r" (same as q1_id in the template), so no prefix here
+    formUrl += '&' + f.check_type_q + '=' + encodeURIComponent('"' + f.cadence_options[needsDoing[0].cadence] + '"');
+    btnLabel = 'Do the ' + needsDoing[0].label.toUpperCase() + ' check →';
+  } else if (formUrl && needsDoing.length === 1) {
+    btnLabel = 'Do the ' + needsDoing[0].label.toUpperCase() + ' check →';
+  }
+
   let html = '';
   if (withdrawn) html += '<div class="oou">WITHDRAWN — NOT IN SERVICE</div>';
   else if (oou) html += '<div class="oou">OUT OF USE — DO NOT USE</div>';
   if (a.photo) html += '<img src="' + esc(a.photo) + '" alt="" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px;margin-bottom:8px">';
   html += '<h1 class="' + (oou ? 'red' : '') + '">' + esc(id) + '</h1><h2>' + esc(a.name) + '</h2>' +
           '<div class="muted">' + esc(a.detail) + '<br>' + esc(a.location) + '</div>';
+  if (!withdrawn) html += dueHtml;
   // A manual, a maintenance form or anything else beyond the check form turns this page from a
   // staging post into a menu. Auto-forwarding would rob the reader of the other choices, so the
   // page only forwards when the check form is the ONLY destination.
   const extras = (manuals[id] || []);
-  const isMenu = extras.length > 0;
+  // A due banner also makes this a page to READ, not a staging post: no auto-forward when there is one,
+  // otherwise the lad never sees "the MONTHLY is due" before the form opens. One tap on the big button.
+  const isMenu = extras.length > 0 || dueHtml !== '';
 
   if (formUrl) {
-    html += '<a class="btn" href="' + formUrl + '">Do the check →</a>';
+    html += '<a class="btn" href="' + formUrl + '">' + esc(btnLabel) + '</a>';
     if (!isMenu) html += '<div class="muted" style="text-align:center">Opening automatically…</div>';
   } else {
     html += withdrawn
@@ -107,7 +157,7 @@
   for (const m of extras) {
     html += '<a class="btn" style="background:#3f4a5a" href="' + esc(m.url) + '">' + esc(m.label) + ' →</a>';
   }
-  if (isMenu) {
+  if (extras.length) {
     html += '<div class="muted" style="text-align:center;font-size:12px">Manuals open in SharePoint — ' +
             'sign in with your work account.</div>';
   }

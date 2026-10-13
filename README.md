@@ -11,3 +11,11 @@ pre-filled with the asset (from `forms.json`). If a form family has no link yet 
 - `publish.py` — pushes this folder to the public repo `Finchgranite/checks` (GitHub Pages)
 
 No records are stored here. Records live in the Finch Health & Safety SharePoint site.
+
+## due.json — "what is due" banner (13 Oct 2026)
+Built hourly by `scripts/hs_due_build.py` (refresh-jobs-dashboard Step 0g) from the diary map + calendar + completions + the
+checks register + the equipment register. `index.html` shows a NEEDS DOING NOW box (overdue = red pill, due today = amber,
+first one = grey, done = green) plus external exams (Zurich), and when exactly ONE check is due it pre-selects the form's
+"Check type" (forms.json `check_type_q` + `cadence_options`, family 01 only so far - add the others' question ids to extend).
+With a banner the page no longer auto-forwards; the lad taps the big button. Asset ids + dates only - no names (public repo).
+publish.py pushes due.json only when hs_due_build.py reports it written (a date or state moved), so pushes are a few a day.
