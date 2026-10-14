@@ -7,6 +7,7 @@
   "detail": "Dal Prete IWATER 4 MT water-wall booth, s/n 116-19 (2019)",
   "location": "Factory - finishing area",
   "status": "In use",
+  "merged_into": null,
   "recorded": "Weekly (Mon) - scan | Monthly - sludge tank emptied + refilled, filters cleaned, fan belts + fan drums checked, bolts tight - scan",
   "pre_use": [
    "Water level at the mark (10 cm below the top edge)",
@@ -48,6 +49,7 @@
   "detail": "Trend Airshield Pro, EN 12941 TH2P-S, APF 20",
   "location": "Factory - RPE store / wearer",
   "status": "In use",
+  "merged_into": null,
   "recorded": "Weekly wearer log | Monthly check (CHK-002 Part B) | Filter change log",
   "pre_use": [
    "Battery charged, fan running, air felt at the face",
@@ -98,6 +100,7 @@
   "detail": "CleanSpace Agile, s/n P0 001 695, EN 12941 TH2, APF 20 - ISSUED to Gerard Tyrer 15 Sep 2026",
   "location": "Wearer: Gerard Tyrer",
   "status": "In use",
+  "merged_into": null,
   "recorded": "Weekly wearer log (FORM 023 p2) | Monthly check | Filter change log",
   "pre_use": [
    "Power unit charged (3 LEDs)",
@@ -148,6 +151,7 @@
   "detail": "CleanSpace Agile, s/n P0 001 691, EN 12941 TH2, APF 20 - ISSUED to Derek Soar 21 Sep 2026",
   "location": "Wearer: Derek Soar",
   "status": "In use",
+  "merged_into": null,
   "recorded": "Weekly wearer log (FORM 023 p2) | Monthly check | Filter change log",
   "pre_use": [
    "Power unit charged (3 LEDs)",
@@ -198,6 +202,7 @@
   "detail": "Gison GPW-215CA, s/n 2674663 (bought 7 Sep 2026)",
   "location": "Factory - booth",
   "status": "In use",
+  "merged_into": null,
   "recorded": "Weekly (CHK-005)",
   "pre_use": [
    "WATER flowing at the blade BEFORE it touches stone",
@@ -233,6 +238,7 @@
   "detail": "make / model / serial / electric or air / wet or dry - to be supplied",
   "location": "Factory",
   "status": "Pending",
+  "merged_into": null,
   "recorded": "Weekly (CHK-005) once added",
   "pre_use": [
    "To be written once the drill details arrive"
@@ -261,6 +267,7 @@
   "detail": "Makita GA5040C 125 mm, 110 V via site transformer - POLISHING PADS ONLY, never a cutting or grinding disc (Graham 16 Sep 2026)",
   "location": "Factory",
   "status": "In use",
+  "merged_into": null,
   "recorded": "Weekly (CHK-005)",
   "pre_use": [
    "Polishing pad only - no disc fitted",
@@ -295,6 +302,7 @@
   "detail": "make / rating (kVA) / serial / where it lives - to be supplied",
   "location": "Factory",
   "status": "Pending",
+  "merged_into": null,
   "recorded": "Weekly (CHK-005) once added",
   "pre_use": [
    "To be written once the details arrive: casing, sockets, lead and plug sound; dry; not overloaded"
@@ -322,6 +330,7 @@
   "detail": "Gison GPW-7 wet air polisher/sander, 125mm - water-fed pneumatic; the only polishers in use (110 V electric grinders withdrawn Sep 2026)",
   "location": "Factory - booth",
   "status": "In use",
+  "merged_into": null,
   "recorded": "Weekly (CHK-005)",
   "pre_use": [
    "Hose, couplings and oiler sound",
@@ -356,6 +365,7 @@
   "detail": "Mitsubishi diesel DF18X-13401, 2145 kg @ 500 mm",
   "location": "Yard",
   "status": "In use",
+  "merged_into": null,
   "recorded": "WEEKLY recorded check (Mon) - scan + submit | Any fault any day: submit it straight away, park the truck",
   "pre_use": [
    "Authorised operator only, hi-vis, boots",
@@ -393,6 +403,7 @@
   "detail": "Goods only - SWL never marked",
   "location": "Yard",
   "status": "Withdrawn",
+  "merged_into": null,
   "recorded": "None - being disposed of",
   "pre_use": [
    "BEING SCRAPPED - do not use"
@@ -408,22 +419,24 @@
  },
  "FLTA2": {
   "photo": "photos/FLTA2.jpg",
-  "name": "FLT jib attachment (green, 1.25 t)",
+  "name": "FLT jib attachment 1.25 t + bow shackle BS-I2 (one unit)",
   "family": "Forklift",
   "form": "04",
-  "detail": "AFA0001 - green jib attachment, SWL 1.25 t, goods only (Zurich LOLER OK: cert 63733232/3 to 9 Jun 2027, passed again 12 Oct 2026; load test to be arranged - NTCE quote requested 13 Oct 2026)",
+  "detail": "AFA0001 - green jib attachment, SWL 1.25 t, goods only (Zurich LOLER OK: cert 63733232/3 to 9 Jun 2027, passed again 12 Oct 2026; load test to be arranged - NTCE quote requested 13 Oct 2026). Bow shackle BS-I2 (marked Q2 / I2, WLL 1 t) hangs on the hook and is checked with it",
   "location": "Yard",
   "status": "In use",
-  "recorded": "Weekly (Mon) - scan with the forklift check, section 'jib attachment' | Pre-use the day it is fitted (physical)",
+  "merged_into": null,
+  "recorded": "Weekly (Mon) - scan with the forklift check, section 'jib attachment + shackle' | Pre-use the day it is fitted (physical)",
   "pre_use": [
    "SWL 1.25 t and ID AFA0001 marked and legible",
    "Locking pins / fork retention secure",
    "Hook and safety latch sound - no cracks, bends, distortion",
+   "Shackle BS-I2: pin screwed fully home, no wear, bending or cracks, WLL 1 t stamp legible",
    "Fitted correctly, truck de-rated per the load chart",
    "Goods only - never people",
    "Nobody under the load"
   ],
-  "why": "LOLER reg 7: safe working load marked (1.25 t, goods only). LOLER reg 9: thorough examination every 12 months - Zurich OK (certificate to 9 Jun 2027, passed again 12 Oct 2026); load-test confirmation requested by Zurich - being arranged with NTCE. LOLER reg 9(3)(b): inspected between examinations - ours weekly, with the forklift check.",
+  "why": "LOLER reg 7: safe working load marked (1.25 t, goods only). LOLER reg 9: thorough examination every 12 months - Zurich OK (certificate to 9 Jun 2027, passed again 12 Oct 2026); load-test confirmation requested by Zurich - being arranged with NTCE. LOLER reg 9(3)(b): inspected between examinations - ours weekly, with the forklift check. The bow shackle BS-I2 on its hook is a lifting accessory in its own right (LOLER reg 9(3)(a)(i): Zurich thorough examination every 6 months, next 9 Dec 2026) - it is checked and recorded with the jib as one unit.",
   "video": "",
   "service": "",
   "weekly": [
@@ -431,7 +444,9 @@
    "Frame, fork pockets and welds - no cracks, bends, distortion, corrosion",
    "Locking pins / fork retention secure",
    "Hook not distorted; safety latch closes and springs back",
-   "Bow shackle BS-I2 checked with it"
+   "Shackle BS-I2: WLL 1 t and ID legible",
+   "Shackle body and pin: no wear, cracks, distortion, corrosion",
+   "Shackle pin screws fully home and seats correctly"
   ],
   "weekly_when": "Monday, with the forklift check",
   "monthly": [],
@@ -446,6 +461,7 @@
   "detail": "Elephant LM3RP, 75034 (2022)",
   "location": "Cutting shop",
   "status": "In use",
+  "merged_into": null,
   "recorded": "Weekly interim inspection",
   "pre_use": [
    "Pads clean, not cut or worn",
@@ -480,6 +496,7 @@
   "detail": "Vacuum Lifting Company, 1274 (2009)",
   "location": "Cutting shop",
   "status": "In use",
+  "merged_into": null,
   "recorded": "Weekly interim inspection",
   "pre_use": [
    "Pads clean, not cut or worn",
@@ -514,6 +531,7 @@
   "detail": "Sidelia, 949 (2006)",
   "location": "Polishing shop",
   "status": "In use",
+  "merged_into": null,
   "recorded": "Weekly interim inspection",
   "pre_use": [
    "Pad clean, not cut or worn",
@@ -548,6 +566,7 @@
   "detail": "Yellow, marked P",
   "location": "Polishing shop",
   "status": "Withdrawn",
+  "merged_into": null,
   "recorded": "None - withdrawn from use",
   "pre_use": [
    "NOT IN USE - Graham 16 Sep 2026"
@@ -569,6 +588,7 @@
   "detail": "Green, 15-60 mm, not marked",
   "location": "Cutting shop",
   "status": "In use",
+  "merged_into": null,
   "recorded": "Weekly interim inspection",
   "pre_use": [
    "Jaws, rubbers and pins sound",
@@ -596,25 +616,18 @@
   "photo": "photos/BS-I2.jpg",
   "name": "Bow shackle 1 t",
   "family": "Lifting gear",
-  "form": "05",
+  "form": "",
   "detail": "Marked Q2 / I2 (Zurich listed the pin as yellow in Jun 2026 - paint, not a requirement)",
   "location": "Cutting shop",
-  "status": "In use",
-  "recorded": "Weekly interim inspection",
-  "pre_use": [
-   "Pin screws fully home",
-   "No wear, bending or cracks",
-   "WLL 1 t stamp legible"
-  ],
-  "why": "LOLER reg 9(3)(a)(i): shackles are lifting accessories - thorough examination every 6 months (Zurich, next 9 Dec 2026) plus inspection between, ours weekly. LOLER reg 7: safe working load marked.",
+  "status": "Merged into FLTA2",
+  "merged_into": "FLTA2",
+  "recorded": "Checked with the jib attachment - scan the FLTA2 sign",
+  "pre_use": [],
+  "why": "",
   "video": "",
   "service": "",
-  "weekly": [
-   "SWL 1 t and ID legible",
-   "Body and pin: no wear, cracks, distortion, corrosion",
-   "Pin screws fully home and seats correctly"
-  ],
-  "weekly_when": "Monday",
+  "weekly": [],
+  "weekly_when": "",
   "monthly": [],
   "monthly_when": "",
   "other": null
@@ -627,6 +640,7 @@
   "detail": "No maker's plate - SWL 500 kg as marked by us (Zurich examined OK 12 Oct 2026, rep 63643232/4)",
   "location": "Polishing shop",
   "status": "Out of use",
+  "merged_into": null,
   "recorded": "Only: still tagged out and not used",
   "pre_use": [
    "PASSED Zurich 12 Oct 2026 - stays tagged out until Graham signs it back into use",
@@ -662,6 +676,7 @@
   "detail": "Elephant, 75034 (2022)",
   "location": "Cutting shop",
   "status": "In use",
+  "merged_into": null,
   "recorded": "Weekly interim inspection",
   "pre_use": [
    "Hook latch closes",
@@ -696,6 +711,7 @@
   "detail": "Yale, DE012333",
   "location": "Polishing shop",
   "status": "In use",
+  "merged_into": null,
   "recorded": "Weekly interim inspection",
   "pre_use": [
    "Hook latch closes",
@@ -729,6 +745,7 @@
   "detail": "RWM, 169003 (2022)",
   "location": "Cutting shop",
   "status": "In use",
+  "merged_into": null,
   "recorded": "Weekly interim inspection",
   "pre_use": [
    "Hook latch closes",
@@ -763,6 +780,7 @@
   "detail": "Pfaff, T-5060 (2005)",
   "location": "Factory",
   "status": "In use",
+  "merged_into": null,
   "recorded": "Weekly interim inspection",
   "pre_use": [
    "Wheels and brake OK",
@@ -791,6 +809,7 @@
   "detail": "GMM Brio Extra CN2",
   "location": "Cutting shop",
   "status": "In use",
+  "merged_into": null,
   "recorded": "Weekly | Monthly safety-function test",
   "pre_use": [
    "Guards and enclosure in place, nothing bypassed",
@@ -836,6 +855,7 @@
   "detail": "OUT OF USE - HSE Prohibition Notice PN-02 until guarded",
   "location": "Cutting shop",
   "status": "Out of use",
+  "merged_into": null,
   "recorded": "Only: still isolated, tagged out, not used",
   "pre_use": [
    "DO NOT USE - HSE PROHIBITION NOTICE in force"
@@ -859,6 +879,7 @@
   "detail": "Biesse / Intermac Master 38.3 (2023)",
   "location": "Cutting shop",
   "status": "In use",
+  "merged_into": null,
   "recorded": "Weekly | Monthly safety-function test",
   "pre_use": [
    "Guards, doors and interlocks in place",
@@ -903,6 +924,7 @@
   "detail": "Comandulli Musa 7+2 DX, s/n 08015 (2015), 3x415 V 14 kW - guard doors on safety interlocks, key reset on the panel",
   "location": "Polishing shop",
   "status": "In use",
+  "merged_into": null,
   "recorded": "Weekly look-over | Monthly safety test (e-stops + every guard door)",
   "pre_use": [
    "Guard doors closed and latched, nothing bypassed",
@@ -943,6 +965,7 @@
   "detail": "SCR20PM2 (C2-1806075, 2018) + 270 L vertical receiver (9885-19)",
   "location": "Compressor room",
   "status": "In use",
+  "merged_into": null,
   "recorded": "Weekly: drain receivers, leaks, gauge, safety valve, hoses",
   "pre_use": [
    "No leaks or hissing",
@@ -975,6 +998,7 @@
   "detail": "Vertical slab poles / racks - A-frames no longer used",
   "location": "Yard",
   "status": "In use",
+  "merged_into": null,
   "recorded": "Weekly visual (HSG76 para 645)",
   "pre_use": [
    "Slabs restrained, leaning IN, nothing overhanging",
@@ -1007,6 +1031,7 @@
   "detail": "Panel + call points - repaired 1 Oct 2026 (one more call point to be fitted on another exit)",
   "location": "Factory / office",
   "status": "In use",
+  "merged_into": null,
   "recorded": "WEEKLY call-point test (rotate the call point, record which one)",
   "pre_use": [],
   "why": "Fire Safety Order 2005 art 17: fire equipment kept in efficient working order under a suitable system of maintenance. The government's factories guide and BS 5839-1 set a WEEKLY call-point test. With ear defenders and masks on, the alarm is the only warning.",
@@ -1031,6 +1056,7 @@
   "detail": "NOT INSTALLED? - Graham 16 Sep; confirm, then Tony to quote (Q71)",
   "location": "Factory / office / showroom",
   "status": "Not installed",
+  "merged_into": null,
   "recorded": "Monthly function test",
   "pre_use": [],
   "why": "Fire Safety Order 2005 art 17: emergency lighting kept in efficient working order. BS 5266-1 and the government's factories guide: monthly function test, annual 3-hour test.",
@@ -1055,6 +1081,7 @@
   "detail": "Cert 11619: 7 units incl. 1 x 6 l water (new Mar 2026) - numbered EXT1-EXT7 on the labels",
   "location": "Sign next to the alarm panel",
   "status": "In use",
+  "merged_into": null,
   "recorded": "MONTHLY - one form - tick each of the 7 that is OK",
   "pre_use": [],
   "why": "Fire Safety Order 2005 art 17: extinguishers kept in efficient working order under a suitable system of maintenance. BS 5306-3 and the government's factories guide: monthly user check, annual service (PW Fire, cert 11619).",
@@ -1082,6 +1109,7 @@
   "detail": "Location: ________ (Graham to write)",
   "location": "________",
   "status": "Label only",
+  "merged_into": null,
   "recorded": "Monthly visual",
   "pre_use": [
    "In place and unobstructed",
@@ -1115,6 +1143,7 @@
   "detail": "Location: ________",
   "location": "________",
   "status": "Label only",
+  "merged_into": null,
   "recorded": "Monthly visual",
   "pre_use": [
    "In place and unobstructed",
@@ -1148,6 +1177,7 @@
   "detail": "Location: ________",
   "location": "________",
   "status": "Label only",
+  "merged_into": null,
   "recorded": "Monthly visual",
   "pre_use": [
    "In place and unobstructed",
@@ -1181,6 +1211,7 @@
   "detail": "Location: ________",
   "location": "________",
   "status": "Label only",
+  "merged_into": null,
   "recorded": "Monthly visual",
   "pre_use": [
    "In place and unobstructed",
@@ -1214,6 +1245,7 @@
   "detail": "Location: ________",
   "location": "________",
   "status": "Label only",
+  "merged_into": null,
   "recorded": "Monthly visual",
   "pre_use": [
    "In place and unobstructed",
@@ -1247,6 +1279,7 @@
   "detail": "Location: ________",
   "location": "________",
   "status": "Label only",
+  "merged_into": null,
   "recorded": "Monthly visual",
   "pre_use": [
    "In place and unobstructed",
@@ -1280,6 +1313,7 @@
   "detail": "6 l water, new Mar 2026 - Location: ________",
   "location": "________",
   "status": "Label only",
+  "merged_into": null,
   "recorded": "Monthly visual",
   "pre_use": [
    "In place and unobstructed",
@@ -1313,6 +1347,7 @@
   "detail": "All exits, routes and assembly point",
   "location": "Factory / office / showroom",
   "status": "In use",
+  "merged_into": null,
   "recorded": "Monthly (in the site walk)",
   "pre_use": [],
   "why": "Fire Safety Order 2005 art 14: emergency routes and exits kept clear and leading to safety; art 17: maintained; art 15: drills. The government's factories guide: monthly check of doors and routes, drill every 6 months.",
@@ -1338,6 +1373,7 @@
   "detail": "Kits at: ________",
   "location": "Factory / office",
   "status": "In use",
+  "merged_into": null,
   "recorded": "Monthly contents + expiry",
   "pre_use": [],
   "why": "First-Aid Regs 1981 reg 3: adequate and appropriate first-aid equipment. HSE code L74 para 38: contents examined frequently, restocked after use, out-of-date items disposed of. Silica slurry in the eye is our likely injury.",
@@ -1363,6 +1399,7 @@
   "detail": "Whole site - yard, factory, fire, welfare, paperwork",
   "location": "Whole site",
   "status": "In use",
+  "merged_into": null,
   "recorded": "Monthly by Graham or Ben",
   "pre_use": [],
   "why": "Management Regs 1999 reg 5: the employer must monitor and review its health and safety arrangements. This walk is the management check that every other check is happening - and the evidence HSE will ask for by 7 Dec 2026.",
@@ -1390,6 +1427,7 @@
   "detail": "Numatic TradeLine TRM240 M-Class, H14 HEPA filter, low-airflow indicator, 110 V version - correct for the factory yellow sockets (ordered 30 Sep 2026, Hugh Crane NU918744) - serial to add on arrival",
   "location": "Exit from the dusty area / locker point",
   "status": "Pending",
+  "merged_into": null,
   "recorded": "Weekly (CHK-005) | Filter change log",
   "pre_use": [
    "Red airflow light OFF when running (on = bag full / blockage / filter - stop and fix)",

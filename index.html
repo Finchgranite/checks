@@ -71,6 +71,8 @@
     return;
   }
 
+  // MERGED (14 Oct 2026): BS-I2 is checked as one unit with FLTA2 - the shackle's own id just forwards.
+  if (a.merged_into && assets[a.merged_into]) { location.replace(location.pathname + '?id=' + encodeURIComponent(a.merged_into)); return; }
   const oou = (a.status || '').toLowerCase() === 'out of use';
   // WITHDRAWN is not the same as OUT OF USE. Out of use means the machine is still here and
   // still needs its weekly confirmation that it is isolated, so it keeps its form. Withdrawn
