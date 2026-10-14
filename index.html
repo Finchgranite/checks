@@ -20,6 +20,8 @@
   .btn.grey { background: #888; }
   ul { padding-left: 22px; margin: 8px 0 0; }
   li { margin: 6px 0; }
+  details.chk { margin-top: 10px; padding: 6px 10px; background: #f3f4f7; border-radius: 6px; }
+  details.chk summary { cursor: pointer; font-size: 15px; }
   .fault { border: 3px solid #b80d0d; border-radius: 10px; padding: 12px 14px; margin-top: 14px; }
   .fault b { color: #b80d0d; font-size: 20px; }
   .small { font-size: 13px; color: #666; margin-top: 14px; }
@@ -161,8 +163,19 @@
     html += '<div class="muted" style="text-align:center;font-size:12px">Manuals open in SharePoint — ' +
             'sign in with your work account.</div>';
   }
-  html += '<p style="margin-top:16px"><b>' + (withdrawn ? 'Why it was withdrawn:' : oou ? 'Why it is out of use:' : 'Before you use it — every time:') + '</b></p><ul>' +
-          (a.pre_use || []).map(s => '<li>' + esc(s) + '</li>').join('') + '</ul>';
+  // the same DAILY / WEEKLY / MONTHLY lists as the printed sign (layout C, 14 Oct 2026) - from assets.json
+  const list = (title, sub, items, col) => items && items.length
+    ? '<details class="chk" style="border-left:4px solid ' + col + '"><summary><b>' + title + '</b>' + (sub ? ' <span class="muted">' + esc(sub) + '</span>' : '') + '</summary><ul>' +
+      items.map(s => '<li>' + esc(s) + '</li>').join('') + '</ul></details>' : '';
+  if (a.pre_use && a.pre_use.length) {
+    html += '<p style="margin-top:16px"><b>' + (withdrawn ? 'Why it was withdrawn:' : oou ? 'Why it is out of use:' : 'DAILY — every time you use it (nothing to submit):') + '</b></p><ul>' +
+            a.pre_use.map(s => '<li>' + esc(s) + '</li>').join('') + '</ul>';
+  }
+  if (!withdrawn) {
+    html += list('WEEKLY — scan to complete', a.weekly_when, a.weekly, '#1a2a4d') +
+            list('MONTHLY — scan to complete', a.monthly_when, a.monthly, '#056b66') +
+            (a.other ? list(esc(a.other[0]) + ' — scan to complete', a.other[1], a.other[2], '#66306f') : '');
+  }
   if (a.why) html += '<p class="muted" style="font-size:13px"><b>Why?</b> ' + esc(a.why) + '</p>';
   if (a.service) html += '<p class="muted" style="font-size:13px"><b>Service / help:</b> ' + esc(a.service) + '</p>';
   if (!withdrawn) html += '<div class="fault"><b>FAULT? STOP.</b><br>Tag it out. Report it on the form with a photo. Tell Graham or Ben.</div>';

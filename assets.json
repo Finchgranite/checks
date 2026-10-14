@@ -18,7 +18,27 @@
   ],
   "why": "COSHH reg 9(1): the booth must be kept in efficient working order and in a clean condition, checked weekly (L5 para 172) and examined every 14 months. Monthly: tank emptied and refilled, filters cleaned, fan belts and fan drums checked - the booth now takes wet-finishing mist only, so the maker's 10-15 day tank interval (dry dust) is relaxed to monthly; HSE sheet ST3A: contaminated water replaced per the supplier's instructions.",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [
+   "Fans pull air at the face (tissue test)",
+   "Water at the mark, pump on, curtain even, sludge below the line",
+   "Spray nozzles clear - none blocked",
+   "Filters not clogged (glance)",
+   "Weekly lubrication done (manual 7.1)",
+   "No leaks or loose panels, electrics dry",
+   "No dust or mist escaping with a tool running",
+   "Booth used for ALL hand grinding / polishing this week"
+  ],
+  "weekly_when": "Monday",
+  "monthly": [
+   "Sludge tank emptied WET, cleaned, refilled to the mark",
+   "Filters removed and cleaned",
+   "Fan drive belts on the motors - tension, wear, cracks",
+   "Fan blade drums cleaned",
+   "All nuts and bolts tight"
+  ],
+  "monthly_when": "every month - date on the phone",
+  "other": null
  },
  "RPE1": {
   "photo": "photos/RPE1.jpg",
@@ -37,7 +57,38 @@
   ],
   "why": "HSE Prohibition Notice PN-01: no rotary cutting or polishing without a powered mask of APF 20. COSHH reg 9(3): reusable RPE examined monthly (HSG53 para 90) and the record kept 5 years. A flat battery = no protection.",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [
+   "Battery charged - 3 LEDs",
+   "Air felt at the face on full charge",
+   "No filter-change alarm",
+   "Facepiece / bib clean, seal flat",
+   "Straps and clips OK",
+   "Stored in its bag / box",
+   "Note any alarms heard this week"
+  ],
+  "weekly_when": "Monday",
+  "monthly": [
+   "Visor / facepiece clean, no cracks, seals sound",
+   "Head harness, straps and clips adjust and hold",
+   "Filters fitted, seated, not clogged - date last changed",
+   "Battery charges and holds a shift, fan runs",
+   "Low-battery / low-flow alarm works on test",
+   "Airflow test passed",
+   "Stored clean and dry; spare filters in stock",
+   "Trend COSHH maintenance card filled in"
+  ],
+  "monthly_when": "every month - date on the phone",
+  "other": [
+   "FILTER CHANGE",
+   "whenever a filter is changed",
+   [
+    "Filters fitted - type / batch",
+    "Reason for the change",
+    "Date fitted",
+    "Flow test passed after the change"
+   ]
+  ]
  },
  "RPE2": {
   "photo": "photos/RPE2.jpg",
@@ -57,7 +108,37 @@
   ],
   "why": "HSE Prohibition Notice PN-01: no rotary cutting or polishing without a powered mask of APF 20. COSHH reg 9(3): reusable RPE examined monthly (HSG53 para 90) and the record kept 5 years. A flat battery = no protection.",
   "video": "https://www.youtube.com/watch?v=BMBp74csmbE",
-  "service": ""
+  "service": "",
+  "weekly": [
+   "Battery charged - 3 LEDs",
+   "Flow test passed - 3 LEDs steady",
+   "No filter-change alarm",
+   "Facepiece / bib clean, seal flat",
+   "Straps and clips OK",
+   "Stored in its bag / box",
+   "Note any alarms heard this week"
+  ],
+  "weekly_when": "Monday",
+  "monthly": [
+   "Visor / facepiece clean, no cracks, seals sound",
+   "Head harness, straps and clips adjust and hold",
+   "Filters fitted, seated, not clogged - date last changed",
+   "Battery charges and holds a shift, fan runs",
+   "Low-battery / low-flow alarm works on test",
+   "Airflow test passed",
+   "Stored clean and dry; spare filters in stock"
+  ],
+  "monthly_when": "every month - date on the phone",
+  "other": [
+   "FILTER CHANGE",
+   "whenever a filter is changed",
+   [
+    "Filters fitted - type / batch",
+    "Reason for the change",
+    "Date fitted",
+    "Flow test passed after the change"
+   ]
+  ]
  },
  "RPE3": {
   "photo": "photos/RPE3.jpg",
@@ -77,7 +158,37 @@
   ],
   "why": "HSE Prohibition Notice PN-01: no rotary cutting or polishing without a powered mask of APF 20. COSHH reg 9(3): reusable RPE examined monthly (HSG53 para 90) and the record kept 5 years. A flat battery = no protection.",
   "video": "https://www.youtube.com/watch?v=BMBp74csmbE",
-  "service": ""
+  "service": "",
+  "weekly": [
+   "Battery charged - 3 LEDs",
+   "Flow test passed - 3 LEDs steady",
+   "No filter-change alarm",
+   "Facepiece / bib clean, seal flat",
+   "Straps and clips OK",
+   "Stored in its bag / box",
+   "Note any alarms heard this week"
+  ],
+  "weekly_when": "Monday",
+  "monthly": [
+   "Visor / facepiece clean, no cracks, seals sound",
+   "Head harness, straps and clips adjust and hold",
+   "Filters fitted, seated, not clogged - date last changed",
+   "Battery charges and holds a shift, fan runs",
+   "Low-battery / low-flow alarm works on test",
+   "Airflow test passed",
+   "Stored clean and dry; spare filters in stock"
+  ],
+  "monthly_when": "every month - date on the phone",
+  "other": [
+   "FILTER CHANGE",
+   "whenever a filter is changed",
+   [
+    "Filters fitted - type / batch",
+    "Reason for the change",
+    "Date fitted",
+    "Flow test passed after the change"
+   ]
+  ]
  },
  "TOOL1": {
   "photo": "photos/TOOL1.jpg",
@@ -98,7 +209,21 @@
   ],
   "why": "PUWER reg 5/6: work equipment maintained and inspected at suitable intervals, result recorded - HSE sets weekly for heavy industry (HSG107). Water must flow before the blade turns (HSE sheet ST3A, Prohibition Notice PN-01).",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [
+   "Water feed clear and flowing at the blade",
+   "Air hose, couplings and clips sound - no leaks",
+   "Guard fitted and undamaged",
+   "Blade correct, tight, no cracks or missing segments",
+   "NOT used dry this week - wet slurry on the guard, not dry dust",
+   "ALL hand-tool work inside the booth, fan + water on",
+   "Powered mask + ear defenders worn",
+   "Trigger-time / vibration log kept"
+  ],
+  "weekly_when": "Monday",
+  "monthly": [],
+  "monthly_when": "",
+  "other": null
  },
  "TOOL2": {
   "photo": null,
@@ -114,7 +239,19 @@
   ],
   "why": "PUWER reg 5/6: work equipment maintained and inspected at suitable intervals, result recorded - HSE sets weekly for heavy industry (HSG107). Electricity at Work reg 4(2): kept safe by visual inspection.",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [
+   "Lead and plug undamaged - no tape, no joins",
+   "Casing and switch undamaged",
+   "Guard fitted and undamaged",
+   "ALL hand-tool work inside the booth, fan + water on",
+   "Powered mask + ear defenders worn",
+   "Trigger-time / vibration log kept"
+  ],
+  "weekly_when": "Monday",
+  "monthly": [],
+  "monthly_when": "",
+  "other": null
  },
  "TOOL4": {
   "photo": "photos/TOOL4.jpg",
@@ -135,7 +272,20 @@
   ],
   "why": "PUWER reg 5/6: inspected weekly and recorded (HSG107). Electricity at Work reg 4(2): 110 V + visual inspection keeps it safe without PAT. Prohibition Notice PN-01 covers polishing: powered mask APF 20 on, pad only.",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [
+   "Lead, plug, casing and switch undamaged - no tape, no joins",
+   "Guard and side handle fitted",
+   "Polishing pad only - never a disc",
+   "Transformer and 110 V lead dry and undamaged",
+   "ALL hand-tool work inside the booth, fan + water on",
+   "Powered mask + ear defenders worn",
+   "Trigger-time / vibration log kept"
+  ],
+  "weekly_when": "Monday",
+  "monthly": [],
+  "monthly_when": "",
+  "other": null
  },
  "TX1": {
   "photo": null,
@@ -151,7 +301,18 @@
   ],
   "why": "Electricity at Work reg 4(2): every electrical system maintained to prevent danger. PUWER reg 6: inspected at suitable intervals and recorded - weekly visual per HSE HSG107 for heavy industry.",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [
+   "Casing, sockets, lead and plug undamaged - no tape, no joins",
+   "Dry, off the floor, not overloaded",
+   "ALL hand-tool work inside the booth, fan + water on",
+   "Powered mask + ear defenders worn",
+   "Trigger-time / vibration log kept"
+  ],
+  "weekly_when": "Monday",
+  "monthly": [],
+  "monthly_when": "",
+  "other": null
  },
  "TOOL3": {
   "photo": "photos/TOOL3.jpg",
@@ -172,7 +333,20 @@
   ],
   "why": "PUWER reg 5/6: work equipment maintained and inspected at suitable intervals, result recorded - HSE sets weekly for heavy industry (HSG107). Water must flow before the pad turns (HSE sheet ST3A, Prohibition Notice PN-01).",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [
+   "Hoses and couplings sound - no leaks",
+   "Oiler OK",
+   "Guards fitted and undamaged",
+   "Water feed working",
+   "ALL hand-tool work inside the booth, fan + water on",
+   "Powered mask + ear defenders worn",
+   "Trigger-time / vibration log kept"
+  ],
+  "weekly_when": "Monday",
+  "monthly": [],
+  "monthly_when": "",
+  "other": null
  },
  "FLT1": {
   "photo": "photos/FLT1.jpg",
@@ -184,16 +358,32 @@
   "status": "In use",
   "recorded": "WEEKLY recorded check (Mon) - scan + submit | Any fault any day: submit it straight away, park the truck",
   "pre_use": [
-   "EVERY DAY before you drive - check these, nothing to submit",
    "Authorised operator only, hi-vis, boots",
    "Tyres, brakes, steering, horn, lights, beacon, reversing alarm",
    "Mast, chains, forks, hydraulics - no leaks",
    "Seatbelt on",
-   "Attachment matches the load chart"
+   "Attachment matches the load chart",
+   "Any fault: park it, scan and report it straight away"
   ],
   "why": "LOLER reg 9: thorough examination every 12 months (Zurich). PUWER reg 5/6 and HSE guide L117: the driver does a daily pre-use check and reports defects - the brake lights, fault code and hoses Zurich found are exactly what it catches.",
   "video": "",
-  "service": "AC Forklifts (we hire the truck from them) - Gary 07979 906287"
+  "service": "AC Forklifts (we hire the truck from them) - Gary 07979 906287",
+  "weekly": [
+   "Tyres, wheels and wheel nuts",
+   "Brakes - service and parking",
+   "Steering",
+   "Horn, lights, beacon, reversing alarm",
+   "Mast, chains, forks, hoses - no leaks",
+   "Hydraulics smooth - lift, tilt, side-shift",
+   "Seat, seatbelt, overhead guard, mirrors",
+   "Fuel secure, fluid levels, no dash fault code",
+   "Operator authorised, hi-vis, boots",
+   "Attachment fitted correctly, matches the load chart"
+  ],
+  "weekly_when": "Monday",
+  "monthly": [],
+  "monthly_when": "",
+  "other": null
  },
  "FLTA1": {
   "photo": null,
@@ -209,7 +399,12 @@
   ],
   "why": "LOLER reg 7: lifting equipment must be marked with its safe working load. LOLER reg 9: examined every 12 months. Unmarked, so Zurich could not examine it (June 2026) and it may not be used.",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [],
+  "weekly_when": "",
+  "monthly": [],
+  "monthly_when": "",
+  "other": null
  },
  "FLTA2": {
   "photo": "photos/FLTA2.jpg",
@@ -222,13 +417,29 @@
   "recorded": "Only: still out of use and not lifting",
   "pre_use": [
    "DO NOT USE - no current LOLER thorough examination",
-   "It was never examined in June - no SWL was marked, so Zurich could not test it",
-   "SWL 1.25 t is now marked and Zurich examine it on 12 Oct",
+   "SWL 1.25 t and ID AFA0001 are now marked on it",
+   "Zurich visited 12 Oct 2026 - waiting to hear whether the attachment was examined",
    "Back in use only when Graham says the certificate is in"
   ],
-  "why": "LOLER reg 7: lifting equipment must be marked with its safe working load - it was not, so Zurich could not examine it on 9 Jun 2026. Now marked. LOLER reg 9(3)(a)(ii): it has NO current thorough examination until Zurich attend on 12 Oct 2026.",
+  "why": "LOLER reg 7: lifting equipment must be marked with its safe working load - it was not, so Zurich could not examine it on 9 Jun 2026. SWL 1.25 t now marked. LOLER reg 9(3)(a)(ii): it has NO current thorough examination - Zurich visited 12 Oct 2026, awaiting confirmation it was examined. Out of use until the certificate is in.",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [
+   "Confirm it is STILL out of use and has not lifted"
+  ],
+  "weekly_when": "Monday",
+  "monthly": [],
+  "monthly_when": "",
+  "other": [
+   "ONCE BACK IN USE",
+   "the day it is fitted",
+   [
+    "SWL 1.25 t and ID AFA0001 marked and legible",
+    "Locking pins / fork retention secure",
+    "Hook and safety latch sound - no cracks, bends",
+    "Fitted correctly, truck de-rated per the load chart"
+   ]
+  ]
  },
  "VLD1": {
   "photo": "photos/VLD1.jpg",
@@ -248,7 +459,21 @@
   ],
   "why": "LOLER reg 9(3)(a)(i): a lifting accessory is thoroughly examined every 6 months (Zurich, next 9 Dec 2026) and inspected at suitable intervals between - ours is weekly. L113 para 201 names vacuum lifters as accessories.",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [
+   "SWL and ID plate legible",
+   "Pads: no cuts, wear, perishing or flat spots",
+   "Seals, hoses and fittings - no leaks",
+   "Vacuum hold test passed",
+   "Low-vacuum alarm works",
+   "Pump / battery runs; gauge reads correctly",
+   "Lifting eye, shackle and hook connection sound",
+   "Controls, release valve and tilt lock work"
+  ],
+  "weekly_when": "Monday",
+  "monthly": [],
+  "monthly_when": "",
+  "other": null
  },
  "VLD2": {
   "photo": "photos/VLD2.jpg",
@@ -268,7 +493,21 @@
   ],
   "why": "LOLER reg 9(3)(a)(i): a lifting accessory is thoroughly examined every 6 months (Zurich, next 9 Dec 2026) and inspected at suitable intervals between - ours is weekly. L113 para 201 names vacuum lifters as accessories.",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [
+   "SWL and ID plate legible",
+   "Pads: no cuts, wear, perishing or flat spots",
+   "Seals, hoses and fittings - no leaks",
+   "Vacuum hold test passed",
+   "Low-vacuum alarm works",
+   "Pump / battery runs; gauge reads correctly",
+   "Lifting eye, shackle and hook connection sound",
+   "Controls, release valve and tilt lock work"
+  ],
+  "weekly_when": "Monday",
+  "monthly": [],
+  "monthly_when": "",
+  "other": null
  },
  "VLD3": {
   "photo": null,
@@ -288,7 +527,21 @@
   ],
   "why": "LOLER reg 9(3)(a)(i): a lifting accessory is thoroughly examined every 6 months (Zurich, next 9 Dec 2026) and inspected at suitable intervals between - ours is weekly. L113 para 201 names vacuum lifters as accessories.",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [
+   "SWL and ID plate legible",
+   "Pads: no cuts, wear, perishing or flat spots",
+   "Seals, hoses and fittings - no leaks",
+   "Vacuum hold test passed",
+   "Low-vacuum alarm works",
+   "Pump / battery runs; gauge reads correctly",
+   "Lifting eye, shackle and hook connection sound",
+   "Controls, release valve and tilt lock work"
+  ],
+  "weekly_when": "Monday",
+  "monthly": [],
+  "monthly_when": "",
+  "other": null
  },
  "SC1": {
   "photo": null,
@@ -304,7 +557,12 @@
   ],
   "why": "Withdrawn from use 16 Sep 2026. LOLER only stops applying if it cannot be used - keep it off the floor or dispose of it.",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [],
+  "weekly_when": "",
+  "monthly": [],
+  "monthly_when": "",
+  "other": null
  },
  "SC2": {
   "photo": "photos/SC2.jpg",
@@ -323,7 +581,19 @@
   ],
   "why": "LOLER reg 9(3)(a)(i): clamps are lifting accessories - thorough examination every 6 months (Zurich, next 9 Dec 2026) plus inspection between, ours weekly. LOLER reg 7 / L113 para 202: safe working load marked or coded.",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [
+   "SWL marked and legible",
+   "Jaws / gripping pads sound, free of slurry and grit",
+   "Pins, bolts and retaining clips secure",
+   "Springs / auto-lock action works",
+   "No cracks, bends, distortion or weld damage",
+   "Lifting eye and hook connection sound"
+  ],
+  "weekly_when": "Monday",
+  "monthly": [],
+  "monthly_when": "",
+  "other": null
  },
  "BS-I2": {
   "photo": "photos/BS-I2.jpg",
@@ -341,7 +611,16 @@
   ],
   "why": "LOLER reg 9(3)(a)(i): shackles are lifting accessories - thorough examination every 6 months (Zurich, next 9 Dec 2026) plus inspection between, ours weekly. LOLER reg 7: safe working load marked.",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [
+   "SWL 1 t and ID legible",
+   "Body and pin: no wear, cracks, distortion, corrosion",
+   "Pin screws fully home and seats correctly"
+  ],
+  "weekly_when": "Monday",
+  "monthly": [],
+  "monthly_when": "",
+  "other": null
  },
  "MFJC1": {
   "photo": "photos/MFJC1.jpg",
@@ -357,9 +636,26 @@
    "No lifting until the tag is off and the weekly lifting-gear check is on it",
    "SWL 500 kg - never exceed"
   ],
-  "why": "LOLER reg 7: lifting equipment must be marked with its safe working load. LOLER reg 9: examined every 12 months. Unmarked and unexamined, so it may not be used until Zurich rate and examine it (12 Oct 2026).",
+  "why": "LOLER reg 7: lifting equipment must be marked with its safe working load (SWL 500 kg now marked). LOLER reg 9: thorough examination every 12 months - examined OK by Zurich 12 Oct 2026 (rep 63643232/4), next by 12 Oct 2027. Stays tagged out until Graham signs it back into use; load-test confirmation to be provided before the next exam.",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [
+   "Confirm it is STILL tagged out and has not been used"
+  ],
+  "weekly_when": "Monday",
+  "monthly": [],
+  "monthly_when": "",
+  "other": [
+   "ONCE BACK IN USE",
+   "weekly, with the lifting-gear check",
+   [
+    "SWL 500 kg and ID plate legible",
+    "Chain / wire: no wear, twists or damage; lubricated",
+    "Hook not distorted; latch springs back",
+    "Brake holds; limits and pendant / e-stop work",
+    "Jib slews freely; end stops in; column bolts tight"
+   ]
+  ]
  },
  "MFJC2": {
   "photo": "photos/MFJC2.jpg",
@@ -379,7 +675,21 @@
   ],
   "why": "LOLER reg 9(3)(a)(ii): lifting equipment thoroughly examined every 12 months (Zurich, next Jun 2027) and inspected at suitable intervals between - ours is weekly. PUWER reg 5: maintained in good repair.",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [
+   "SWL and ID plate legible",
+   "Chain: no wear, twists, stretched or damaged links",
+   "Chain lubricated",
+   "Hook not distorted; safety latch springs back",
+   "Brake holds - no drift when stopped",
+   "Upper and lower limits stop the hoist",
+   "Pendant, e-stop and cable sound",
+   "Jib slews freely; end stops in place; column bolts tight"
+  ],
+  "weekly_when": "Monday",
+  "monthly": [],
+  "monthly_when": "",
+  "other": null
  },
  "ECB1": {
   "photo": "photos/ECB1.jpg",
@@ -399,7 +709,20 @@
   ],
   "why": "LOLER reg 9(3)(a)(ii): lifting equipment thoroughly examined every 12 months (Zurich, next Jun 2027) and inspected at suitable intervals between - ours is weekly. Zurich June 2026: lubricate the chain.",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [
+   "SWL and ID plate legible",
+   "Chain: no wear, twists, stretched or damaged links",
+   "Chain lubricated",
+   "Hook not distorted; safety latch springs back",
+   "Brake holds - no drift when stopped",
+   "Upper and lower limits stop the hoist",
+   "Pendant, e-stop and cable sound"
+  ],
+  "weekly_when": "Monday",
+  "monthly": [],
+  "monthly_when": "",
+  "other": null
  },
  "ECB2": {
   "photo": "photos/ECB2.jpg",
@@ -419,7 +742,21 @@
   ],
   "why": "LOLER reg 9(3)(a)(ii): lifting equipment thoroughly examined every 12 months (Zurich, next Jun 2027) and inspected at suitable intervals between - ours is weekly. Zurich June 2026: lubricate the chain.",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [
+   "SWL and ID plate legible",
+   "Chain: no wear, twists, stretched or damaged links",
+   "Chain lubricated",
+   "Hook not distorted; safety latch springs back",
+   "Brake holds - no drift when stopped",
+   "Upper and lower limits stop the hoist",
+   "Pendant, e-stop and cable sound",
+   "Trolley runs freely on the beam; end stops in place"
+  ],
+  "weekly_when": "Monday",
+  "monthly": [],
+  "monthly_when": "",
+  "other": null
  },
  "MT1": {
   "photo": "photos/MT1.jpg",
@@ -437,7 +774,17 @@
   ],
   "why": "LOLER reg 9(3)(a)(ii): lifting equipment thoroughly examined every 12 months (Zurich, next Jun 2027) and inspected at suitable intervals between - ours is weekly. PUWER reg 5: maintained in good repair.",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [
+   "SWL 500 kg and ID T-5060 legible",
+   "Wheels / flanges run freely, no damage",
+   "Side plates and pins secure",
+   "Beam end stops in place"
+  ],
+  "weekly_when": "Monday",
+  "monthly": [],
+  "monthly_when": "",
+  "other": null
  },
  "SAW1": {
   "photo": "photos/SAW1.jpg",
@@ -458,7 +805,31 @@
   ],
   "why": "PUWER reg 5/6: maintained, inspected at suitable intervals, recorded. PUWER reg 11/16: guards and emergency stops kept working - tested monthly (L22 para 89). COSHH reg 9 / HSE sheet ST3A: water and mist control working before every cut.",
   "video": "",
-  "service": "Saw technician: Paul Hamilton 07714 781040"
+  "service": "Saw technician: Paul Hamilton 07714 781040",
+  "weekly": [
+   "All guards in place, none removed or bypassed",
+   "Interlocked doors not defeated - no tape, ties or bridged switches",
+   "E-stops clear to reach, reset and labelled",
+   "Water feed flowing, nozzles clear",
+   "Leads, plugs and glands sound; panel closed and dry",
+   "Lock-off padlock at the machine",
+   "No unusual noise, vibration or leaks",
+   "Slurry drained, hoses and cables routed, walkway clear"
+  ],
+  "weekly_when": "Monday",
+  "monthly": [
+   "Press EVERY e-stop in turn - machine stops each time (count them)",
+   "Open EACH interlocked guard / door - machine stops or will not start",
+   "Light curtain / area guard trips the machine",
+   "Hold-to-run controls: release = stop",
+   "Run-down after stop acceptable, brake works",
+   "Water-flow interlock / low-water warning works",
+   "Warning lights / beeper / start warning work",
+   "Leads, panels dry and undamaged, labels legible",
+   "Maker's service record up to date"
+  ],
+  "monthly_when": "every month - date on the phone",
+  "other": null
  },
  "SAW2": {
   "photo": "photos/SAW2.jpg",
@@ -474,7 +845,14 @@
   ],
   "why": "HSE Prohibition Notice PN-02 (3 Sep 2026): this saw may not be used until it is guarded to PUWER reg 11 - a guard-locking interlock that holds the door shut until the blade has stopped, or an enclosure with light curtain and braking - and HSE told.",
   "video": "",
-  "service": "Saw technician: Paul Hamilton 07714 781040"
+  "service": "Saw technician: Paul Hamilton 07714 781040",
+  "weekly": [
+   "Confirm it is STILL isolated, locked off, tagged out and unused (HSE PN-02)"
+  ],
+  "weekly_when": "Monday",
+  "monthly": [],
+  "monthly_when": "",
+  "other": null
  },
  "CNC1": {
   "photo": "photos/CNC1.jpg",
@@ -494,7 +872,31 @@
   ],
   "why": "PUWER reg 5/6: maintained, inspected at suitable intervals, recorded. PUWER reg 11/16: guards, light curtain and emergency stops kept working - tested monthly (L22 para 89). COSHH reg 9 / ST3A: water suppression working before use.",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [
+   "All guards in place, none removed or bypassed",
+   "Interlocked doors not defeated - no tape, ties or bridged switches",
+   "E-stops clear to reach, reset and labelled",
+   "Water feed flowing, nozzles clear",
+   "Leads, plugs and glands sound; panel closed and dry",
+   "Lock-off padlock at the machine",
+   "No unusual noise, vibration or leaks",
+   "Slurry drained, hoses and cables routed, walkway clear"
+  ],
+  "weekly_when": "Monday",
+  "monthly": [
+   "Press EVERY e-stop in turn - machine stops each time (count them)",
+   "Open EACH interlocked guard / door - machine stops or will not start",
+   "Light curtain / area guard trips the machine",
+   "Hold-to-run controls: release = stop",
+   "Run-down after stop acceptable, brake works",
+   "Water-flow interlock / low-water warning works",
+   "Warning lights / beeper / start warning work",
+   "Leads, panels dry and undamaged, labels legible",
+   "Maker's service record up to date"
+  ],
+  "monthly_when": "every month - date on the phone",
+  "other": null
  },
  "POL1": {
   "photo": "photos/POL1.jpg",
@@ -514,7 +916,27 @@
   ],
   "why": "PUWER reg 5/6: maintained, inspected at suitable intervals, recorded. PUWER reg 11/16: guards and emergency stops kept working - tested monthly (L22 para 89). COSHH reg 9 / ST3A: water suppression working before use.",
   "video": "",
-  "service": "Comandulli UK (LPE Group), Beverley - 08455 440587 - hello@lpe.ltd  |  Comandulli Italy service - service@comandulli.it - +39 0374 56161  |  Quote: Musa 08015"
+  "service": "Comandulli UK (LPE Group), Beverley - 08455 440587 - hello@lpe.ltd  |  Comandulli Italy service - service@comandulli.it - +39 0374 56161  |  Quote: Musa 08015",
+  "weekly": [
+   "Guard doors over the heads closed and latched, none missing",
+   "Both e-stops clear to reach, not jammed in, labels readable",
+   "Water on and flowing at every head before the stone",
+   "Control panel closed, lamps working, no water inside, cables sound",
+   "Belt and heads run smoothly - no noise, vibration, smell or leaks",
+   "Slurry drained, floor not flooded, hoses off the walkway",
+   "Key in the switch, turns freely, resets after a door trip"
+  ],
+  "weekly_when": "Monday",
+  "monthly": [
+   "Press EACH of the two e-stops while running - everything stops both times",
+   "Open EACH guard door while running - stops every time, stays off until the key reset",
+   "Door open + START pressed - nothing runs",
+   "STOP button stops belt and heads normally",
+   "ALARM lamp shows on a door open, clears after the key reset",
+   "Every head runs wet within seconds of starting"
+  ],
+  "monthly_when": "every month - date on the phone",
+  "other": null
  },
  "AIR1": {
   "photo": "photos/AIR1.jpg",
@@ -534,7 +956,19 @@
   ],
   "why": "Pressure Systems Safety Regs reg 12: the system properly maintained in good repair to prevent danger; reg 9: examined under Zurich's written scheme ZE/707250. Draining the receivers stops the corrosion that makes a receiver burst.",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [
+   "Condensate drained from all three receivers",
+   "No leaks or hissing at hoses, couplings, fittings",
+   "Gauge reads normally, below the set limit",
+   "Safety valve: no weeping, no tampering, seal intact",
+   "Hoses and couplings undamaged; whip-checks on",
+   "Belt guard and covers on; oil level OK; no unusual noise"
+  ],
+  "weekly_when": "Monday",
+  "monthly": [],
+  "monthly_when": "",
+  "other": null
  },
  "RACK1": {
   "photo": "photos/RACK1.jpg",
@@ -554,7 +988,19 @@
   ],
   "why": "PUWER reg 5/6: racking is work equipment - inspected at suitable intervals and recorded. HSE HSG76 para 645: weekly inspection with a written record; para 646: competent inspection every 12 months. A tipping slab is the sector's classic fatality.",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [
+   "Slabs restrained; nothing leaning out or overhanging",
+   "Poles, uprights and base: no damage, bends, corrosion",
+   "Ground fixings secure; rack not moved or tilted",
+   "Load notice / SWL legible; not overloaded",
+   "Fall zone clear - nothing stored or parked in front",
+   "Ground: no potholes, ice, standing water, debris"
+  ],
+  "weekly_when": "Monday",
+  "monthly": [],
+  "monthly_when": "",
+  "other": null
  },
  "FIRE-AL": {
   "photo": "photos/FIRE-AL.jpg",
@@ -565,15 +1011,20 @@
   "location": "Factory / office",
   "status": "In use",
   "recorded": "WEEKLY call-point test (rotate the call point, record which one)",
-  "pre_use": [
-   "Test WEEKLY at the same time",
-   "Tell everyone first",
-   "Note which call point was tested",
-   "Sounders heard in every area"
-  ],
+  "pre_use": [],
   "why": "Fire Safety Order 2005 art 17: fire equipment kept in efficient working order under a suitable system of maintenance. The government's factories guide and BS 5839-1 set a WEEKLY call-point test. With ear defenders and masks on, the alarm is the only warning.",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [
+   "Tell everyone first - it is a test",
+   "Test a DIFFERENT call point each week (CP1 - CP5) - note which",
+   "Alarm heard throughout the building",
+   "Panel reset, no fault lights"
+  ],
+  "weekly_when": "same time every week",
+  "monthly": [],
+  "monthly_when": "",
+  "other": null
  },
  "FIRE-EL": {
   "photo": null,
@@ -584,14 +1035,20 @@
   "location": "Factory / office / showroom",
   "status": "Not installed",
   "recorded": "Monthly function test",
-  "pre_use": [
-   "Press the test key / switch",
-   "Every fitting lights",
-   "Note any that fail"
-  ],
+  "pre_use": [],
   "why": "Fire Safety Order 2005 art 17: emergency lighting kept in efficient working order. BS 5266-1 and the government's factories guide: monthly function test, annual 3-hour test.",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [],
+  "weekly_when": "",
+  "monthly": [
+   "Press the test key / switch on every fitting - all light up",
+   "Escape-route and exit signs lit / visible",
+   "Fittings clean, undamaged, charging light on after the test",
+   "Note any fitting that fails"
+  ],
+  "monthly_when": "every month - date on the phone",
+  "other": null
  },
  "EXT": {
   "photo": "photos/EXT.jpg",
@@ -602,17 +1059,23 @@
   "location": "Sign next to the alarm panel",
   "status": "In use",
   "recorded": "MONTHLY - one form - tick each of the 7 that is OK",
-  "pre_use": [
-   "Walk to every extinguisher EXT1-EXT7",
+  "pre_use": [],
+  "why": "Fire Safety Order 2005 art 17: extinguishers kept in efficient working order under a suitable system of maintenance. BS 5306-3 and the government's factories guide: monthly user check, annual service (PW Fire, cert 11619).",
+  "video": "",
+  "service": "",
+  "weekly": [],
+  "weekly_when": "",
+  "monthly": [
+   "Walk to every extinguisher EXT1 - EXT7",
    "In place and unobstructed",
    "Pin and tamper tag intact",
    "Gauge in the green",
    "Service label in date",
-   "No damage or corrosion"
+   "No damage or corrosion",
+   "Tick each of the 7 on the ONE form"
   ],
-  "why": "Fire Safety Order 2005 art 17: extinguishers kept in efficient working order under a suitable system of maintenance. BS 5306-3 and the government's factories guide: monthly user check, annual service (PW Fire, cert 11619).",
-  "video": "",
-  "service": ""
+  "monthly_when": "every month - date on the phone",
+  "other": null
  },
  "EXT1": {
   "photo": null,
@@ -632,7 +1095,20 @@
   ],
   "why": "Fire Safety Order 2005 art 17 + BS 5306-3: monthly user check, annual service.",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [],
+  "weekly_when": "",
+  "monthly": [
+   "Walk to every extinguisher EXT1 - EXT7",
+   "In place and unobstructed",
+   "Pin and tamper tag intact",
+   "Gauge in the green",
+   "Service label in date",
+   "No damage or corrosion",
+   "Tick each of the 7 on the ONE form"
+  ],
+  "monthly_when": "every month - date on the phone",
+  "other": null
  },
  "EXT2": {
   "photo": null,
@@ -652,7 +1128,20 @@
   ],
   "why": "Fire Safety Order 2005 art 17 + BS 5306-3: monthly user check, annual service.",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [],
+  "weekly_when": "",
+  "monthly": [
+   "Walk to every extinguisher EXT1 - EXT7",
+   "In place and unobstructed",
+   "Pin and tamper tag intact",
+   "Gauge in the green",
+   "Service label in date",
+   "No damage or corrosion",
+   "Tick each of the 7 on the ONE form"
+  ],
+  "monthly_when": "every month - date on the phone",
+  "other": null
  },
  "EXT3": {
   "photo": null,
@@ -672,7 +1161,20 @@
   ],
   "why": "Fire Safety Order 2005 art 17 + BS 5306-3: monthly user check, annual service.",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [],
+  "weekly_when": "",
+  "monthly": [
+   "Walk to every extinguisher EXT1 - EXT7",
+   "In place and unobstructed",
+   "Pin and tamper tag intact",
+   "Gauge in the green",
+   "Service label in date",
+   "No damage or corrosion",
+   "Tick each of the 7 on the ONE form"
+  ],
+  "monthly_when": "every month - date on the phone",
+  "other": null
  },
  "EXT4": {
   "photo": null,
@@ -692,7 +1194,20 @@
   ],
   "why": "Fire Safety Order 2005 art 17 + BS 5306-3: monthly user check, annual service.",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [],
+  "weekly_when": "",
+  "monthly": [
+   "Walk to every extinguisher EXT1 - EXT7",
+   "In place and unobstructed",
+   "Pin and tamper tag intact",
+   "Gauge in the green",
+   "Service label in date",
+   "No damage or corrosion",
+   "Tick each of the 7 on the ONE form"
+  ],
+  "monthly_when": "every month - date on the phone",
+  "other": null
  },
  "EXT5": {
   "photo": null,
@@ -712,7 +1227,20 @@
   ],
   "why": "Fire Safety Order 2005 art 17 + BS 5306-3: monthly user check, annual service.",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [],
+  "weekly_when": "",
+  "monthly": [
+   "Walk to every extinguisher EXT1 - EXT7",
+   "In place and unobstructed",
+   "Pin and tamper tag intact",
+   "Gauge in the green",
+   "Service label in date",
+   "No damage or corrosion",
+   "Tick each of the 7 on the ONE form"
+  ],
+  "monthly_when": "every month - date on the phone",
+  "other": null
  },
  "EXT6": {
   "photo": null,
@@ -732,7 +1260,20 @@
   ],
   "why": "Fire Safety Order 2005 art 17 + BS 5306-3: monthly user check, annual service.",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [],
+  "weekly_when": "",
+  "monthly": [
+   "Walk to every extinguisher EXT1 - EXT7",
+   "In place and unobstructed",
+   "Pin and tamper tag intact",
+   "Gauge in the green",
+   "Service label in date",
+   "No damage or corrosion",
+   "Tick each of the 7 on the ONE form"
+  ],
+  "monthly_when": "every month - date on the phone",
+  "other": null
  },
  "EXT7": {
   "photo": null,
@@ -752,7 +1293,20 @@
   ],
   "why": "Fire Safety Order 2005 art 17 + BS 5306-3: monthly user check, annual service.",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [],
+  "weekly_when": "",
+  "monthly": [
+   "Walk to every extinguisher EXT1 - EXT7",
+   "In place and unobstructed",
+   "Pin and tamper tag intact",
+   "Gauge in the green",
+   "Service label in date",
+   "No damage or corrosion",
+   "Tick each of the 7 on the ONE form"
+  ],
+  "monthly_when": "every month - date on the phone",
+  "other": null
  },
  "FIRE-DR": {
   "photo": "photos/FIRE-DR.jpg",
@@ -763,14 +1317,21 @@
   "location": "Factory / office / showroom",
   "status": "In use",
   "recorded": "Monthly (in the site walk)",
-  "pre_use": [
-   "Exits open freely, not locked or blocked",
-   "Routes clear",
-   "Signs and assembly point visible"
-  ],
+  "pre_use": [],
   "why": "Fire Safety Order 2005 art 14: emergency routes and exits kept clear and leading to safety; art 17: maintained; art 15: drills. The government's factories guide: monthly check of doors and routes, drill every 6 months.",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [],
+  "weekly_when": "",
+  "monthly": [
+   "Escape routes clear of slabs, packaging, vehicles - inside and out",
+   "Fire exit doors open easily from inside; push bars work",
+   "Fire doors close onto the latch - not wedged or propped",
+   "Fire action notices, exit signs, assembly-point sign in place",
+   "Assembly point clear and accessible"
+  ],
+  "monthly_when": "every month - date on the phone",
+  "other": null
  },
  "FA1": {
   "photo": "photos/FA1.jpg",
@@ -781,14 +1342,21 @@
   "location": "Factory / office",
   "status": "In use",
   "recorded": "Monthly contents + expiry",
-  "pre_use": [
-   "Kit stocked to the contents list",
-   "Eyewash sealed and in date",
-   "First-aider notice up to date"
-  ],
+  "pre_use": [],
   "why": "First-Aid Regs 1981 reg 3: adequate and appropriate first-aid equipment. HSE code L74 para 38: contents examined frequently, restocked after use, out-of-date items disposed of. Silica slurry in the eye is our likely injury.",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [],
+  "weekly_when": "",
+  "monthly": [
+   "Kit contents complete against the contents list",
+   "Nothing out of date; used items replaced",
+   "Eyewash sealed and in date",
+   "First-aider / appointed-person notice current",
+   "Accident book and near-miss log present"
+  ],
+  "monthly_when": "every month - date on the phone",
+  "other": null
  },
  "SITE": {
   "photo": null,
@@ -799,13 +1367,23 @@
   "location": "Whole site",
   "status": "In use",
   "recorded": "Monthly by Graham or Ben",
-  "pre_use": [
-   "Walk the whole site with the form open",
-   "Every X becomes an action with an owner and a date"
-  ],
+  "pre_use": [],
   "why": "Management Regs 1999 reg 5: the employer must monitor and review its health and safety arrangements. This walk is the management check that every other check is happening - and the evidence HSE will ask for by 7 Dec 2026.",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [],
+  "weekly_when": "",
+  "monthly": [
+   "Walk the WHOLE site with the form open - Graham or Ben",
+   "Yard",
+   "Factory",
+   "Fire",
+   "Welfare, office, showroom",
+   "People and paperwork",
+   "Every X becomes an action with an owner and a date"
+  ],
+  "monthly_when": "every month - Graham or Ben",
+  "other": null
  },
  "VAC1": {
   "photo": null,
@@ -826,6 +1404,27 @@
   ],
   "why": "",
   "video": "",
-  "service": ""
+  "service": "",
+  "weekly": [
+   "Bag not overfull, filter seated, lid latched",
+   "Hose, brush and seals undamaged",
+   "110 V plug and lead sound",
+   "Airflow light stays OFF when running",
+   "ALL hand-tool work inside the booth, fan + water on",
+   "Powered mask + ear defenders worn",
+   "Trigger-time / vibration log kept"
+  ],
+  "weekly_when": "Monday",
+  "monthly": [],
+  "monthly_when": "",
+  "other": [
+   "FILTER / BAG CHANGE",
+   "whenever changed",
+   [
+    "Bag or filter fitted - type",
+    "Date fitted",
+    "Reason"
+   ]
+  ]
  }
 }
