@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T08:45",
+ "generated": "2026-10-14T08:50",
  "today": "2026-10-14",
  "assets": {
   "BOOTH1": {
@@ -237,6 +237,24 @@
     }
    ]
   },
+  "FLTA2": {
+   "checks": [
+    {
+     "label": "Weekly",
+     "cadence": "Weekly",
+     "last": null,
+     "due": "2026-09-21",
+     "state": "overdue"
+    }
+   ],
+   "external": [
+    {
+     "label": "LOLER thorough examination (Zurich)",
+     "due": "2027-06-09",
+     "state": "ok"
+    }
+   ]
+  },
   "RACK1": {
    "checks": [
     {
@@ -389,24 +407,6 @@
     }
    ],
    "external": []
-  },
-  "FLTA2": {
-   "checks": [
-    {
-     "label": "Weekly",
-     "cadence": "Weekly",
-     "last": "2026-10-12",
-     "due": "2026-10-19",
-     "state": "ok"
-    }
-   ],
-   "external": [
-    {
-     "label": "LOLER thorough examination (Zurich)",
-     "due": "2027-06-09",
-     "state": "ok"
-    }
-   ]
   },
   "RPE2": {
    "checks": [

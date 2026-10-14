@@ -411,35 +411,32 @@
   "name": "FLT jib attachment (green, 1.25 t)",
   "family": "Forklift",
   "form": "04",
-  "detail": "AFA0001 - green jib attachment 1.25 t (LOLER OK 9 Jun 2026, rep 63733232/3; load test quote requested from NTCE 13 Oct 2026)",
+  "detail": "AFA0001 - green jib attachment, SWL 1.25 t, goods only (Zurich LOLER OK: cert 63733232/3 to 9 Jun 2027, passed again 12 Oct 2026; load test to be arranged - NTCE quote requested 13 Oct 2026)",
   "location": "Yard",
-  "status": "Out of use",
-  "recorded": "Only: still out of use and not lifting",
+  "status": "In use",
+  "recorded": "Weekly (Mon) - scan with the forklift check, section 'jib attachment' | Pre-use the day it is fitted (physical)",
   "pre_use": [
-   "DO NOT USE - no current LOLER thorough examination",
-   "SWL 1.25 t and ID AFA0001 are now marked on it",
-   "Zurich visited 12 Oct 2026 - waiting to hear whether the attachment was examined",
-   "Back in use only when Graham says the certificate is in"
+   "SWL 1.25 t and ID AFA0001 marked and legible",
+   "Locking pins / fork retention secure",
+   "Hook and safety latch sound - no cracks, bends, distortion",
+   "Fitted correctly, truck de-rated per the load chart",
+   "Goods only - never people",
+   "Nobody under the load"
   ],
-  "why": "LOLER reg 7: lifting equipment must be marked with its safe working load - it was not, so Zurich could not examine it on 9 Jun 2026. SWL 1.25 t now marked. LOLER reg 9(3)(a)(ii): it has NO current thorough examination - Zurich visited 12 Oct 2026, awaiting confirmation it was examined. Out of use until the certificate is in.",
+  "why": "LOLER reg 7: safe working load marked (1.25 t, goods only). LOLER reg 9: thorough examination every 12 months - Zurich OK (certificate to 9 Jun 2027, passed again 12 Oct 2026); load-test confirmation requested by Zurich - being arranged with NTCE. LOLER reg 9(3)(b): inspected between examinations - ours weekly, with the forklift check.",
   "video": "",
   "service": "",
   "weekly": [
-   "Confirm it is STILL out of use and has not lifted"
+   "SWL 1.25 t and ID AFA0001 legible",
+   "Frame, fork pockets and welds - no cracks, bends, distortion, corrosion",
+   "Locking pins / fork retention secure",
+   "Hook not distorted; safety latch closes and springs back",
+   "Bow shackle BS-I2 checked with it"
   ],
-  "weekly_when": "Monday",
+  "weekly_when": "Monday, with the forklift check",
   "monthly": [],
   "monthly_when": "",
-  "other": [
-   "ONCE BACK IN USE",
-   "the day it is fitted",
-   [
-    "SWL 1.25 t and ID AFA0001 marked and legible",
-    "Locking pins / fork retention secure",
-    "Hook and safety latch sound - no cracks, bends",
-    "Fitted correctly, truck de-rated per the load chart"
-   ]
-  ]
+  "other": null
  },
  "VLD1": {
   "photo": "photos/VLD1.jpg",
