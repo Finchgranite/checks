@@ -19,3 +19,9 @@ first one = grey, done = green) plus external exams (Zurich), and when exactly O
 "Check type" (forms.json `check_type_q` + `cadence_options`, family 01 only so far - add the others' question ids to extend).
 With a banner the page no longer auto-forwards; the lad taps the big button. Asset ids + dates only - no names (public repo).
 publish.py pushes due.json only when hs_due_build.py reports it written (a date or state moved), so pushes are a few a day.
+
+## Check lists on the phone page (14 Oct 2026)
+`assets.json` now carries `weekly`, `weekly_when`, `monthly`, `monthly_when` and `other` (`[label, when, items]`) per asset — the same
+DAILY / WEEKLY / MONTHLY lists as the printed sign (issue 02, layout C), built by `signs/make_signs.py` from `assets.csv`.
+`index.html` shows them as collapsible blocks under the daily list. No names in these lists.
+
