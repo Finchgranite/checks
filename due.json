@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T12:02",
+ "generated": "2026-10-14T12:46",
  "today": "2026-10-14",
  "assets": {
   "BOOTH1": {
@@ -56,9 +56,9 @@
     {
      "label": "Weekly",
      "cadence": "Weekly",
-     "last": null,
-     "due": "2026-09-21",
-     "state": "overdue"
+     "last": "2026-10-14",
+     "due": "2026-10-19",
+     "state": "ok"
     }
    ],
    "external": []
