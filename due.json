@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T08:13",
+ "generated": "2026-10-15T11:17",
  "today": "2026-10-15",
  "assets": {
   "BOOTH1": {
@@ -80,9 +80,9 @@
     {
      "label": "Weekly",
      "cadence": "Weekly",
-     "last": null,
-     "due": "2026-09-21",
-     "state": "overdue"
+     "last": "2026-10-15",
+     "due": "2026-10-19",
+     "state": "ok"
     }
    ],
    "external": [
@@ -152,9 +152,9 @@
     {
      "label": "Weekly",
      "cadence": "Weekly",
-     "last": null,
-     "due": "2026-09-21",
-     "state": "overdue"
+     "last": "2026-10-15",
+     "due": "2026-10-19",
+     "state": "ok"
     }
    ],
    "external": [
@@ -312,18 +312,18 @@
   "SAW1": {
    "checks": [
     {
-     "label": "Weekly",
-     "cadence": "Weekly",
-     "last": null,
-     "due": "2026-09-21",
-     "state": "overdue"
-    },
-    {
      "label": "Monthly",
      "cadence": "Monthly",
      "last": null,
      "due": "2026-10-05",
      "state": "overdue"
+    },
+    {
+     "label": "Weekly",
+     "cadence": "Weekly",
+     "last": "2026-10-15",
+     "due": "2026-10-19",
+     "state": "ok"
     }
    ],
    "external": []
@@ -333,16 +333,16 @@
     {
      "label": "Weekly",
      "cadence": "Weekly",
-     "last": null,
-     "due": "2026-09-21",
-     "state": "overdue"
+     "last": "2026-10-15",
+     "due": "2026-10-19",
+     "state": "ok"
     },
     {
      "label": "Monthly",
      "cadence": "Monthly",
-     "last": null,
-     "due": "2026-10-05",
-     "state": "overdue"
+     "last": "2026-10-15",
+     "due": "2026-11-05",
+     "state": "ok"
     }
    ],
    "external": []
@@ -350,17 +350,17 @@
   "POL1": {
    "checks": [
     {
-     "label": "Monthly",
-     "cadence": "Monthly",
-     "last": null,
-     "due": "2026-10-05",
-     "state": "overdue"
-    },
-    {
      "label": "Weekly",
      "cadence": "Weekly",
      "last": "2026-10-12",
      "due": "2026-10-19",
+     "state": "ok"
+    },
+    {
+     "label": "Monthly",
+     "cadence": "Monthly",
+     "last": "2026-10-15",
+     "due": "2026-11-05",
      "state": "ok"
     }
    ],
