@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-14T12:46",
- "today": "2026-10-14",
+ "generated": "2026-10-15T08:13",
+ "today": "2026-10-15",
  "assets": {
   "BOOTH1": {
    "checks": [
@@ -397,7 +397,7 @@
      "cadence": "Monthly",
      "last": null,
      "due": "2026-10-15",
-     "state": "first"
+     "state": "due"
     },
     {
      "label": "Weekly",
@@ -416,7 +416,7 @@
      "cadence": "Monthly",
      "last": null,
      "due": "2026-10-15",
-     "state": "first"
+     "state": "due"
     },
     {
      "label": "Weekly",
@@ -435,7 +435,7 @@
      "cadence": "Monthly",
      "last": null,
      "due": "2026-10-15",
-     "state": "first"
+     "state": "due"
     }
    ],
    "external": []
