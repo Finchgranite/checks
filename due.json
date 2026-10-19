@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T17:53",
+ "generated": "2026-10-19T18:53",
  "today": "2026-10-19",
  "assets": {
   "BOOTH1": {
@@ -22,7 +22,7 @@
    "external": [
     {
      "label": "LEV thorough examination and test (Zurich)",
-     "due": "2027-12-09",
+     "due": "2027-10-09",
      "state": "ok"
     }
    ]
@@ -65,13 +65,6 @@
   },
   "FLT1": {
    "checks": [
-    {
-     "label": "Weekly",
-     "cadence": "Daily",
-     "last": "2026-10-12",
-     "due": "2026-10-19",
-     "state": "due"
-    },
     {
      "label": "Weekly",
      "cadence": "Weekly",
@@ -249,9 +242,9 @@
     {
      "label": "Weekly",
      "cadence": "Weekly",
-     "last": null,
-     "due": "2026-09-21",
-     "state": "overdue"
+     "last": "2026-10-19",
+     "due": "2026-10-26",
+     "state": "ok"
     }
    ],
    "external": []
@@ -285,9 +278,9 @@
     {
      "label": "Weekly",
      "cadence": "Monthly",
-     "last": "2026-10-12",
-     "due": "2026-10-19",
-     "state": "due"
+     "last": "2026-10-19",
+     "due": "2026-10-26",
+     "state": "ok"
     }
    ],
    "external": []
@@ -390,9 +383,9 @@
     {
      "label": "Weekly",
      "cadence": "Weekly",
-     "last": "2026-10-12",
-     "due": "2026-10-19",
-     "state": "due"
+     "last": "2026-10-19",
+     "due": "2026-10-26",
+     "state": "ok"
     }
    ],
    "external": []
