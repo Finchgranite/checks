@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T13:11",
+ "generated": "2026-10-19T17:12",
  "today": "2026-10-19",
  "assets": {
   "BOOTH1": {
@@ -22,7 +22,7 @@
    "external": [
     {
      "label": "LEV thorough examination and test (Zurich)",
-     "due": "2027-12-09",
+     "due": "2027-10-09",
      "state": "ok"
     }
    ]
@@ -278,9 +278,9 @@
     {
      "label": "Weekly",
      "cadence": "Monthly",
-     "last": "2026-10-12",
-     "due": "2026-10-19",
-     "state": "due"
+     "last": "2026-10-19",
+     "due": "2026-10-26",
+     "state": "ok"
     }
    ],
    "external": []
@@ -433,9 +433,9 @@
     {
      "label": "Monthly",
      "cadence": "Monthly",
-     "last": null,
-     "due": "2026-10-15",
-     "state": "overdue"
+     "last": "2026-10-19",
+     "due": "2026-11-15",
+     "state": "ok"
     }
    ],
    "external": []
