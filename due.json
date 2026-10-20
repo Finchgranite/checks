@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-19T18:53",
- "today": "2026-10-19",
+ "generated": "2026-10-20T08:02",
+ "today": "2026-10-20",
  "assets": {
   "BOOTH1": {
    "checks": [
@@ -9,7 +9,7 @@
      "cadence": "Weekly",
      "last": "2026-10-14",
      "due": "2026-10-19",
-     "state": "due"
+     "state": "overdue"
     },
     {
      "label": "Monthly",
@@ -34,7 +34,7 @@
      "cadence": "Weekly",
      "last": "2026-10-14",
      "due": "2026-10-19",
-     "state": "due"
+     "state": "overdue"
     }
    ],
    "external": []
@@ -46,7 +46,7 @@
      "cadence": "Weekly",
      "last": "2026-10-14",
      "due": "2026-10-19",
-     "state": "due"
+     "state": "overdue"
     }
    ],
    "external": []
@@ -58,7 +58,7 @@
      "cadence": "Weekly",
      "last": "2026-10-14",
      "due": "2026-10-19",
-     "state": "due"
+     "state": "overdue"
     }
    ],
    "external": []
@@ -397,7 +397,7 @@
      "cadence": "Weekly",
      "last": "2026-10-12",
      "due": "2026-10-19",
-     "state": "due"
+     "state": "overdue"
     },
     {
      "label": "Monthly",
@@ -416,7 +416,7 @@
      "cadence": "Weekly",
      "last": "2026-10-13",
      "due": "2026-10-19",
-     "state": "due"
+     "state": "overdue"
     },
     {
      "label": "Monthly",
