@@ -232,16 +232,21 @@
  },
  "TOOL2": {
   "photo": null,
-  "name": "Drill - DETAILS TO FOLLOW from Graham (16 Sep)",
+  "name": "Drill (electric, 110 V)",
   "family": "Hand tools",
   "form": "03",
-  "detail": "make / model / serial / electric or air / wet or dry - to be supplied",
+  "detail": "Make / model / serial:  ______________________________   (write on before laminating, then tell Claude for the register)",
   "location": "Factory",
-  "status": "Pending",
+  "status": "In use",
   "merged_into": null,
-  "recorded": "Weekly (CHK-005) once added",
+  "recorded": "Weekly (CHK-005)",
   "pre_use": [
-   "To be written once the drill details arrive"
+   "Lead, plug and casing undamaged - no tape, no joins",
+   "Switch works; chuck tight, bit or core not bent",
+   "Side handle fitted, chuck key out",
+   "110 V via the site transformer - lead dry, off the floor",
+   "Wet drilling only - water on the bit, never dry",
+   "Powered mask (APF 20) + ear defenders ON"
   ],
   "why": "PUWER reg 5/6: work equipment maintained and inspected at suitable intervals, result recorded - HSE sets weekly for heavy industry (HSG107). Electricity at Work reg 4(2): kept safe by visual inspection.",
   "video": "",
