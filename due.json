@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T08:23",
+ "generated": "2026-10-22T09:06",
  "today": "2026-10-22",
  "assets": {
   "BOOTH1": {
@@ -9,14 +9,16 @@
      "cadence": "Weekly",
      "last": "2026-10-14",
      "due": "2026-10-19",
-     "state": "overdue"
+     "state": "due",
+     "period": "week"
     },
     {
      "label": "Monthly",
      "cadence": "Monthly",
      "last": "2026-10-14",
      "due": "2026-11-02",
-     "state": "ok"
+     "state": "ok",
+     "period": "week"
     }
    ],
    "external": [
@@ -34,7 +36,8 @@
      "cadence": "Weekly",
      "last": "2026-10-19",
      "due": "2026-10-26",
-     "state": "ok"
+     "state": "ok",
+     "period": "week"
     }
    ],
    "external": []
@@ -46,7 +49,8 @@
      "cadence": "Weekly",
      "last": "2026-10-19",
      "due": "2026-10-20",
-     "state": "overdue"
+     "state": "due",
+     "period": "week"
     }
    ],
    "external": [
@@ -64,7 +68,8 @@
      "cadence": "Weekly",
      "last": null,
      "due": "2026-09-22",
-     "state": "overdue"
+     "state": "overdue",
+     "period": "week"
     }
    ],
    "external": [
@@ -82,7 +87,8 @@
      "cadence": "Weekly",
      "last": null,
      "due": "2026-09-22",
-     "state": "overdue"
+     "state": "overdue",
+     "period": "week"
     }
    ],
    "external": [
@@ -100,7 +106,8 @@
      "cadence": "Weekly",
      "last": "2026-10-19",
      "due": "2026-10-20",
-     "state": "overdue"
+     "state": "due",
+     "period": "week"
     }
    ],
    "external": [
@@ -118,7 +125,8 @@
      "cadence": "Weekly",
      "last": "2026-10-19",
      "due": "2026-10-20",
-     "state": "overdue"
+     "state": "due",
+     "period": "week"
     }
    ],
    "external": [
@@ -136,7 +144,8 @@
      "cadence": "Weekly",
      "last": null,
      "due": "2026-09-22",
-     "state": "overdue"
+     "state": "overdue",
+     "period": "week"
     }
    ],
    "external": [
@@ -154,7 +163,8 @@
      "cadence": "Weekly",
      "last": null,
      "due": "2026-09-22",
-     "state": "overdue"
+     "state": "overdue",
+     "period": "week"
     }
    ],
    "external": [
@@ -172,7 +182,8 @@
      "cadence": "Weekly",
      "last": null,
      "due": "2026-09-22",
-     "state": "overdue"
+     "state": "overdue",
+     "period": "week"
     }
    ],
    "external": [
@@ -190,7 +201,8 @@
      "cadence": "Weekly",
      "last": "2026-10-19",
      "due": "2026-10-20",
-     "state": "overdue"
+     "state": "due",
+     "period": "week"
     }
    ],
    "external": [
@@ -208,7 +220,8 @@
      "cadence": "Weekly",
      "last": "2026-10-19",
      "due": "2026-10-20",
-     "state": "overdue"
+     "state": "due",
+     "period": "week"
     }
    ],
    "external": []
@@ -232,7 +245,8 @@
      "cadence": "Weekly",
      "last": "2026-10-21",
      "due": "2026-10-26",
-     "state": "ok"
+     "state": "ok",
+     "period": "week"
     }
    ],
    "external": []
@@ -244,7 +258,8 @@
      "cadence": "Monthly",
      "last": "2026-10-19",
      "due": "2026-10-26",
-     "state": "ok"
+     "state": "ok",
+     "period": "week"
     }
    ],
    "external": []
@@ -276,18 +291,12 @@
   "SAW1": {
    "checks": [
     {
-     "label": "Monthly",
+     "label": "Monthly + weekly",
      "cadence": "Monthly",
      "last": null,
      "due": "2026-10-05",
-     "state": "overdue"
-    },
-    {
-     "label": "Weekly",
-     "cadence": "Weekly",
-     "last": "2026-10-19",
-     "due": "2026-10-26",
-     "state": "ok"
+     "state": "overdue",
+     "period": "week"
     }
    ],
    "external": []
@@ -299,14 +308,16 @@
      "cadence": "Weekly",
      "last": "2026-10-19",
      "due": "2026-10-26",
-     "state": "ok"
+     "state": "ok",
+     "period": "week"
     },
     {
      "label": "Monthly",
      "cadence": "Monthly",
      "last": "2026-10-15",
-     "due": "2026-11-05",
-     "state": "ok"
+     "due": "2026-11-02",
+     "state": "ok",
+     "period": "week"
     }
    ],
    "external": []
@@ -318,14 +329,16 @@
      "cadence": "Weekly",
      "last": "2026-10-19",
      "due": "2026-10-26",
-     "state": "ok"
+     "state": "ok",
+     "period": "week"
     },
     {
      "label": "Monthly",
      "cadence": "Monthly",
      "last": "2026-10-15",
-     "due": "2026-11-05",
-     "state": "ok"
+     "due": "2026-11-02",
+     "state": "ok",
+     "period": "week"
     }
    ],
    "external": []
@@ -337,7 +350,8 @@
      "cadence": "Weekly",
      "last": "2026-10-21",
      "due": "2026-10-26",
-     "state": "ok"
+     "state": "ok",
+     "period": "week"
     }
    ],
    "external": []
@@ -349,7 +363,8 @@
      "cadence": "Weekly",
      "last": "2026-10-14",
      "due": "2026-10-20",
-     "state": "overdue"
+     "state": "due",
+     "period": "week"
     }
    ],
    "external": []
@@ -361,7 +376,8 @@
      "cadence": "Weekly",
      "last": "2026-10-14",
      "due": "2026-10-20",
-     "state": "overdue"
+     "state": "due",
+     "period": "week"
     }
    ],
    "external": []
@@ -373,7 +389,8 @@
      "cadence": "Weekly",
      "last": "2026-10-14",
      "due": "2026-10-20",
-     "state": "overdue"
+     "state": "due",
+     "period": "week"
     }
    ],
    "external": []
@@ -385,7 +402,8 @@
      "cadence": "Weekly",
      "last": "2026-10-19",
      "due": "2026-10-26",
-     "state": "ok"
+     "state": "ok",
+     "period": "week"
     }
    ],
    "external": []
@@ -397,7 +415,8 @@
      "cadence": "Weekly",
      "last": "2026-10-21",
      "due": "2026-10-26",
-     "state": "ok"
+     "state": "ok",
+     "period": "week"
     },
     {
      "label": "Monthly",
@@ -416,7 +435,8 @@
      "cadence": "Weekly",
      "last": "2026-10-13",
      "due": "2026-10-19",
-     "state": "overdue"
+     "state": "due",
+     "period": "week"
     },
     {
      "label": "Monthly",

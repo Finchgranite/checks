@@ -30,7 +30,7 @@
    "No dust or mist escaping with a tool running",
    "Booth used for ALL hand grinding / polishing this week"
   ],
-  "weekly_when": "Monday",
+  "weekly_when": "Monday (any day that week counts)",
   "monthly": [
    "Sludge tank emptied WET, cleaned, refilled to the mark",
    "Filters removed and cleaned",
@@ -38,7 +38,7 @@
    "Fan blade drums cleaned",
    "All nuts and bolts tight"
   ],
-  "monthly_when": "every month - date on the phone",
+  "monthly_when": "FIRST MONDAY of the month - choose Monthly: it includes the weekly, so one scan does both",
   "other": null
  },
  "RPE1": {
@@ -837,7 +837,7 @@
    "No unusual noise, vibration or leaks",
    "Slurry drained, hoses and cables routed, walkway clear"
   ],
-  "weekly_when": "Monday",
+  "weekly_when": "Monday (any day that week counts)",
   "monthly": [
    "Press EVERY e-stop in turn - machine stops each time (count them)",
    "Open EACH interlocked guard / door - machine stops or will not start",
@@ -849,7 +849,7 @@
    "Leads, panels dry and undamaged, labels legible",
    "Maker's service record up to date"
   ],
-  "monthly_when": "every month - date on the phone",
+  "monthly_when": "FIRST MONDAY of the month - choose Monthly: it includes the weekly, so one scan does both",
   "other": null
  },
  "SAW2": {
@@ -906,7 +906,7 @@
    "No unusual noise, vibration or leaks",
    "Slurry drained, hoses and cables routed, walkway clear"
   ],
-  "weekly_when": "Monday",
+  "weekly_when": "Monday (any day that week counts)",
   "monthly": [
    "Press EVERY e-stop in turn - machine stops each time (count them)",
    "Open EACH interlocked guard / door - machine stops or will not start",
@@ -918,7 +918,7 @@
    "Leads, panels dry and undamaged, labels legible",
    "Maker's service record up to date"
   ],
-  "monthly_when": "every month - date on the phone",
+  "monthly_when": "FIRST MONDAY of the month - choose Monthly: it includes the weekly, so one scan does both",
   "other": null
  },
  "POL1": {
@@ -950,7 +950,7 @@
    "Slurry drained, floor not flooded, hoses off the walkway",
    "Key in the switch, turns freely, resets after a door trip"
   ],
-  "weekly_when": "Monday",
+  "weekly_when": "Monday (any day that week counts)",
   "monthly": [
    "Press EACH of the two e-stops while running - everything stops both times",
    "Open EACH guard door while running - stops every time, stays off until the key reset",
@@ -959,7 +959,7 @@
    "ALARM lamp shows on a door open, clears after the key reset",
    "Every head runs wet within seconds of starting"
   ],
-  "monthly_when": "every month - date on the phone",
+  "monthly_when": "FIRST MONDAY of the month - choose Monthly: it includes the weekly, so one scan does both",
   "other": null
  },
  "AIR1": {

@@ -107,9 +107,10 @@
   const hot = checks.some(c => c.state === 'overdue'), warm = !hot && checks.some(c => c.state === 'due');
   let dueHtml = '';
   if (checks.length || exts.length) {
-    const pillText = {overdue: 'OVERDUE', due: 'DUE TODAY', first: 'FIRST ONE', ok: 'DONE'};
+    const pillText = {overdue: 'OVERDUE', due: 'DUE NOW', first: 'FIRST ONE', ok: 'DONE'};
     const line = c => {
-      const when = c.state === 'overdue' ? 'was due ' + fmt(c.due) : c.state === 'due' ? 'due today' : 'next due ' + fmt(c.due);
+      const wk = c.period === 'week';   // weekly / first-Monday checks count any day that week (22 Oct 2026)
+      const when = c.state === 'overdue' ? 'was due ' + (wk ? 'the week of ' : '') + fmt(c.due) : c.state === 'due' ? (wk ? 'due this week' : 'due today') : 'next due ' + fmt(c.due);
       const last = c.last ? 'last done ' + fmt(c.last) : 'not recorded yet';
       return '<div class="row"><span class="pill ' + esc(c.state) + '">' + pillText[c.state] + '</span>' +
              '<div><b>' + esc(c.label) + ' check</b> — ' + esc(when) + '<div class="sub">' + esc(last) + '</div></div></div>';
