@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T06:46",
+ "generated": "2026-11-02T08:46",
  "today": "2026-11-02",
  "assets": {
   "BOOTH1": {
@@ -376,9 +376,9 @@
     {
      "label": "Weekly",
      "cadence": "Weekly",
-     "last": "2026-10-26",
-     "due": "2026-11-02",
-     "state": "due",
+     "last": "2026-11-02",
+     "due": "2026-11-09",
+     "state": "ok",
      "period": "week"
     }
    ],
@@ -409,9 +409,9 @@
     {
      "label": "Weekly",
      "cadence": "Weekly",
-     "last": "2026-10-26",
-     "due": "2026-11-02",
-     "state": "due",
+     "last": "2026-11-02",
+     "due": "2026-11-09",
+     "state": "ok",
      "period": "week"
     },
     {
