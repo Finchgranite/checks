@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T08:46",
+ "generated": "2026-11-03T16:46",
  "today": "2026-11-03",
  "assets": {
   "BOOTH1": {
@@ -317,11 +317,19 @@
   "POL1": {
    "checks": [
     {
-     "label": "Monthly + weekly",
+     "label": "Weekly",
+     "cadence": "Weekly",
+     "last": "2026-11-03",
+     "due": "2026-11-09",
+     "state": "ok",
+     "period": "week"
+    },
+    {
+     "label": "Monthly",
      "cadence": "Monthly",
-     "last": "2026-10-15",
-     "due": "2026-11-02",
-     "state": "due",
+     "last": "2026-11-03",
+     "due": "2026-12-07",
+     "state": "ok",
      "period": "week"
     }
    ],
