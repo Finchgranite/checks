@@ -37,9 +37,10 @@
    "TOOL2": "TOOL2 - Electric grinders, polishers, drills",
    "TOOL4": "TOOL2 - Electric grinders, polishers, drills",
    "TX1": "TOOL2 - Electric grinders, polishers, drills",
-   "TOOL3": "TOOL3 - Air polishers"
+   "TOOL3": "TOOL3 - Air polishers",
+   "VAC1": "VAC1 - Numatic TRM240 M-class vacuum"
   },
-  "built": "2026-09-17 HS-03 Hand tools check (30 items). TOOL4 and TX1 share the electric-tools branch."
+  "built": "2026-09-17 HS-03 Hand tools check (30 items). TOOL4 and TX1 share the electric-tools branch. 4 Nov 2026: VAC1 option + its own 7-question section added (forms/add-vac1-hs03.js) - the vacuum skips the All-tools section and goes straight to Faults."
  },
  "04": {
   "name": "Forklift",
