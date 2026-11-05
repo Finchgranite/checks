@@ -125,7 +125,7 @@
     dueHtml += '</div>';
   }
   // if exactly one check needs doing and the form has a "Check type" question we know, pre-select it
-  let btnLabel = 'Do the check →';
+  let btnLabel = a.family === 'Incident' ? 'REPORT IT →' : 'Do the check →';   // INCIDENT (5 Nov 2026): one form, no cadence
   if (formUrl && needsDoing.length === 1 && f.check_type_q && f.cadence_options && f.cadence_options[needsDoing[0].cadence]) {
     // question ids already carry their leading "r" (same as q1_id in the template), so no prefix here
     formUrl += '&' + f.check_type_q + '=' + encodeURIComponent('"' + f.cadence_options[needsDoing[0].cadence] + '"');
@@ -156,7 +156,7 @@
     html += withdrawn
       ? '<a class="btn grey">No check — this item has been withdrawn</a>' +
         '<div class="muted" style="text-align:center">If this is still on site, it should not be. Tell Graham or Ben.</div>'
-      : '<a class="btn grey">Form not live yet — use the paper sheet</a>' +
+      : '<a class="btn grey">' + (a.family === 'Incident' ? 'Form not live yet — tell Graham or Ben now; the accident book is in the office drawer' : 'Form not live yet — use the paper sheet') + '</a>' +
         '<div class="muted" style="text-align:center">Recorded check: ' + esc(a.recorded) + '</div>';
   }
   for (const m of extras) {
@@ -171,7 +171,7 @@
     ? '<details class="chk" style="border-left:4px solid ' + col + '"><summary><b>' + title + '</b>' + (sub ? ' <span class="muted">' + esc(sub) + '</span>' : '') + '</summary><ul>' +
       items.map(s => '<li>' + esc(s) + '</li>').join('') + '</ul></details>' : '';
   if (a.pre_use && a.pre_use.length) {
-    html += '<p style="margin-top:16px"><b>' + (withdrawn ? 'Why it was withdrawn:' : oou ? 'Why it is out of use:' : 'DAILY — every time you use it (nothing to submit):') + '</b></p><ul>' +
+    html += '<p style="margin-top:16px"><b>' + (withdrawn ? 'Why it was withdrawn:' : oou ? 'Why it is out of use:' : (a.family === 'Incident' ? 'FIRST — before you fill this in:' : 'DAILY — every time you use it (nothing to submit):')) + '</b></p><ul>' +
             a.pre_use.map(s => '<li>' + esc(s) + '</li>').join('') + '</ul>';
   }
   if (!withdrawn) {

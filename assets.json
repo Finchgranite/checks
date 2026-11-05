@@ -997,7 +997,7 @@
  },
  "RACK1": {
   "photo": "photos/RACK1.jpg",
-  "name": "Slab storage poles / racks (yard)",
+  "name": "Slab storage poles / racks",
   "family": "Machinery",
   "form": "06",
   "detail": "Vertical slab poles / racks - A-frames no longer used",
@@ -1021,7 +1021,7 @@
    "Ground fixings secure; rack not moved or tilted",
    "Load notice / SWL legible; not overloaded",
    "Fall zone clear - nothing stored or parked in front",
-   "Ground: no potholes, ice, standing water, debris"
+   "Ground: no potholes, ice or debris"
   ],
   "weekly_when": "Monday",
   "monthly": [],
@@ -1391,10 +1391,48 @@
    "Nothing out of date; used items replaced",
    "Eyewash sealed and in date",
    "First-aider / appointed-person notice current",
-   "Accident book and near-miss log present"
+   "Accident / near-miss QR sign up here; accident book in the office drawer"
   ],
   "monthly_when": "every month - date on the phone",
   "other": null
+ },
+ "INCIDENT": {
+  "photo": null,
+  "name": "Accident / near miss - REPORT IT",
+  "family": "Incident",
+  "form": "10",
+  "detail": "Any accident, near miss, dangerous occurrence, damage or work-related ill health - anywhere, any time",
+  "location": "Brew room, locker room, first-aid kit - and on your phone",
+  "status": "In use",
+  "merged_into": null,
+  "recorded": "Scan and report it today. No phone? The accident book (FSM-FORM-031) is in the office drawer - tell Graham or Ben.",
+  "pre_use": [
+   "GET HELP - first aid; 999 if serious",
+   "MAKE IT SAFE - tag it out, keep people clear",
+   "TELL Graham or Ben straight away",
+   "THEN scan and report it - today"
+  ],
+  "why": "",
+  "video": "",
+  "service": "",
+  "weekly": [],
+  "weekly_when": "",
+  "monthly": [],
+  "monthly_when": "",
+  "other": [
+   "REPORT",
+   "any time - 60 seconds",
+   [
+    "Anyone hurt - even a plaster job",
+    "Nearly hurt - slab slipped, load swung, trip",
+    "Slab fell or dropped, nobody near",
+    "Lifting gear or clamp let go",
+    "Forklift or vehicle contact",
+    "Fire, shock, chemical, dust, fume",
+    "HAVS, skin, breathing, back, hearing",
+    "Damage only - kit, van, stock, customer property"
+   ]
+  ]
  },
  "SITE": {
   "photo": null,

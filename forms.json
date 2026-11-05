@@ -115,5 +115,11 @@
   "prefill_template": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UN1lJWTlQVzMxREE3MzA2QTcwME5VMkhHSiQlQCN0PWcu&r75c3dc075a5b4020877801cad410114f=%22{ITEM}%22",
   "built": "2026-09-16 HS-08 Mark done (group form, 5 Q; 'Enable pre-filled answers' switched ON under ... > Get Pre-filled URL - without it NO prefill works)"
  },
- "_readme_due": "13 Oct 2026: optional per family - check_type_q = the Forms question id of 'Check type' / 'What are you doing today?', cadence_options = cadence word -> EXACT option text. index.html adds &r<check_type_q>=%22<option>%22 to the prefilled link when exactly one check is due/overdue, so the right branch opens. Families without it still show the due banner; the person picks."
+ "_readme_due": "13 Oct 2026: optional per family - check_type_q = the Forms question id of 'Check type' / 'What are you doing today?', cadence_options = cadence word -> EXACT option text. index.html adds &r<check_type_q>=%22<option>%22 to the prefilled link when exactly one check is due/overdue, so the right branch opens. Families without it still show the due banner; the person picks.",
+ "10": {
+  "name": "Accident / near miss (HS-10)",
+  "url": "",
+  "note": "PASTE the HS-10 response URL printed by forms/create-hs-10-incident.js into url, then python publish.py. Empty url = the page says 'Form not live yet' and shows the recorded text (book in the office drawer). No pre-fill - one form, one QR (INCIDENT).",
+  "built": "scripts written 2026-11-05 - form NOT yet created"
+ }
 }
