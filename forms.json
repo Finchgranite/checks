@@ -1,125 +1,125 @@
 {
- "_readme": "One entry per Microsoft Form family (01-07). prefill_template = the 'Get pre-filled link' URL with the URL-encoded Q1 value replaced by {ASSET}. Forms matches a Choice pre-fill on the FULL option text, not the asset id, so each family also carries an `options` map: asset id -> exact Q1 option text. index.html looks the scanned id up in `options` and falls back to the bare id. Built 2026-09-16 (01, done) and 2026-09-17 (02-07) via the Forms API.",
- "01": {
-  "name": "Dust booth",
-  "form_id": "MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UMEhETTZNUUNZTUpMNlBMTUU2VTVKUDcxWiQlQCN0PWcu",
-  "q1_id": "r691bde3e4f364861ac3a2e61cd15fd2d",
-  "prefill_template": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UMEhETTZNUUNZTUpMNlBMTUU2VTVKUDcxWiQlQCN0PWcu&r691bde3e4f364861ac3a2e61cd15fd2d={ASSET}",
-  "options": {
-   "BOOTH1": "BOOTH1 - Dust booth Dal Prete IWATER (s/n 116-19)"
+  "_readme": "One entry per Microsoft Form family (01-07). prefill_template = the 'Get pre-filled link' URL with the URL-encoded Q1 value replaced by {ASSET}. Forms matches a Choice pre-fill on the FULL option text, not the asset id, so each family also carries an `options` map: asset id -> exact Q1 option text. index.html looks the scanned id up in `options` and falls back to the bare id. Built 2026-09-16 (01, done) and 2026-09-17 (02-07) via the Forms API.",
+  "01": {
+    "name": "Dust booth",
+    "form_id": "MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UMEhETTZNUUNZTUpMNlBMTUU2VTVKUDcxWiQlQCN0PWcu",
+    "q1_id": "r691bde3e4f364861ac3a2e61cd15fd2d",
+    "prefill_template": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UMEhETTZNUUNZTUpMNlBMTUU2VTVKUDcxWiQlQCN0PWcu&r691bde3e4f364861ac3a2e61cd15fd2d={ASSET}",
+    "options": {
+      "BOOTH1": "BOOTH1 - Dust booth Dal Prete IWATER (s/n 116-19)"
+    },
+    "built": "2026-09-16 HS-01 Dust booth check (group form, 35 items, branching set)",
+    "check_type_q": "rad257d03854f4b12818b0ea79143dfa3",
+    "cadence_options": {
+      "Weekly": "Weekly",
+      "Monthly": "Monthly (sludge tank + filters, belts, fan drums, bolts)"
+    }
   },
-  "built": "2026-09-16 HS-01 Dust booth check (group form, 35 items, branching set)",
-  "check_type_q": "rad257d03854f4b12818b0ea79143dfa3",
-  "cadence_options": {
-   "Weekly": "Weekly",
-   "Monthly": "Monthly (sludge tank + filters, belts, fan drums, bolts)"
+  "02": {
+    "name": "RPE (powered respirators)",
+    "form_id": "MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UQ1E3QjZIOFJGN0dJTUFQV1REVVpFNzdNSCQlQCN0PWcu",
+    "q1_id": "re8bc306781dcc8dde47d3d380a6db786",
+    "prefill_template": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UQ1E3QjZIOFJGN0dJTUFQV1REVVpFNzdNSCQlQCN0PWcu&re8bc306781dcc8dde47d3d380a6db786={ASSET}",
+    "options": {
+      "RPE1": "RPE1 - Trend Airshield Pro (visor)",
+      "RPE2": "RPE2 - CleanSpace Agile no.1 (P0 001 695)",
+      "RPE3": "RPE3 - CleanSpace Agile no.2"
+    },
+    "built": "2026-09-17 HS-02 RPE check (34 items)"
+  },
+  "03": {
+    "name": "Hand tools",
+    "form_id": "MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UOVJJNEg3REdQN1UxSVVCQUY4QlZWSUpNNiQlQCN0PWcu",
+    "q1_id": "rddacfb2fab1e0f3c36e8b768e87e535f",
+    "prefill_template": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UOVJJNEg3REdQN1UxSVVCQUY4QlZWSUpNNiQlQCN0PWcu&rddacfb2fab1e0f3c36e8b768e87e535f={ASSET}",
+    "options": {
+      "TOOL1": "TOOL1 - Gison wet air saw 2674663",
+      "TOOL2": "TOOL2 - Electric grinders, polishers, drills",
+      "TOOL4": "TOOL2 - Electric grinders, polishers, drills",
+      "TX1": "TOOL2 - Electric grinders, polishers, drills",
+      "TOOL3": "TOOL3 - Air polishers",
+      "VAC1": "VAC1 - Numatic TRM240 M-class vacuum"
+    },
+    "built": "2026-09-17 HS-03 Hand tools check (30 items). TOOL4 and TX1 share the electric-tools branch. 4 Nov 2026: VAC1 option + its own 7-question section added (forms/add-vac1-hs03.js) - the vacuum skips the All-tools section and goes straight to Faults."
+  },
+  "04": {
+    "name": "Forklift",
+    "form_id": "MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UMFhaQUs4OTkxOVJKVDBWUUNOWUxCNzA4NCQlQCN0PWcu",
+    "q1_id": "r82364c0e1ec8a3206cecbaa13cda9a11",
+    "prefill_template": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UMFhaQUs4OTkxOVJKVDBWUUNOWUxCNzA4NCQlQCN0PWcu&r82364c0e1ec8a3206cecbaa13cda9a11={ASSET}",
+    "options": {
+      "FLT1": "FLT1 - Mitsubishi forklift DF18X-13401",
+      "FLTA2": "FLTA2 - Jib attachment 1.25 t"
+    },
+    "built": "2026-09-17 HS-04 Forklift check (31 items) FLTA1 removed 17 Sep 2026 (Vevor platform scrapped). 14 Oct 2026: section 4 = jib + bow shackle BS-I2 (one unit, 7 items) - see forms/flta2-shackle-merge-14oct.js."
+  },
+  "05": {
+    "name": "Lifting gear",
+    "form_id": "MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UMzBXUUFVQjU1OVhRV05UREFKQzNZSFo5WiQlQCN0PWcu",
+    "q1_id": "rc8c5472c224909817f2b428c56829292",
+    "prefill_template": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UMzBXUUFVQjU1OVhRV05UREFKQzNZSFo5WiQlQCN0PWcu&rc8c5472c224909817f2b428c56829292={ASSET}",
+    "options": {
+      "VLD1": "VLD1 - Elephant vacuum lifter 625 kg",
+      "VLD2": "VLD2 - Vacuum Lifting Co 315 kg",
+      "VLD3": "VLD3 - Sidelia vacuum lifter 200 kg",
+      "SC2": "SC2 - Aligator scissor clamp 1000 kg",
+      "MFJC2": "MFJC2 - Elephant jib crane 1000 kg",
+      "ECB1": "ECB1 - Yale chain block 0.5 t",
+      "ECB2": "ECB2 - RWM chain block 1000 kg",
+      "MT1": "MT1 - Pfaff trolley 500 kg",
+      "MFJC1": "MFJC1 - Polishing-shop jib crane (OUT OF USE)"
+    },
+    "built": "2026-09-17 HS-05 Lifting gear check (46 items). SC1 withdrawn 16 Sep, not an option. BS-I2 merged into FLTA2 (HS-04 section 4) 14 Oct 2026."
+  },
+  "06": {
+    "name": "Machinery, compressor, racks",
+    "form_id": "MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UOVVQQkhKM0pYRVBYSFVOREZRWVY2MzBSRSQlQCN0PWcu",
+    "q1_id": "r5c1c0a84ebbdbd53673b6896b5041fe6",
+    "prefill_template": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UOVVQQkhKM0pYRVBYSFVOREZRWVY2MzBSRSQlQCN0PWcu&r5c1c0a84ebbdbd53673b6896b5041fe6={ASSET}",
+    "options": {
+      "SAW1": "SAW1 - GMM Brio bridge saw",
+      "CNC1": "CNC1 - Biesse Master 38.3 CNC",
+      "POL1": "POL1 - Musa edge polisher",
+      "SAW2": "SAW2 - Cobalm Ideal (OUT OF USE)",
+      "AIR1": "AIR1 - Compressor and receivers",
+      "RACK1": "RACK1 - Slab racks, yard"
+    },
+    "built": "2026-09-17 HS-06 Machinery, air and racks check (48 items)"
+  },
+  "07": {
+    "name": "Fire, first aid, site walk",
+    "form_id": "MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UMTVEMFlVVkE5TDFSNzM3QkdCM1hFMTAwVyQlQCN0PWcu",
+    "q1_id": "r4c90205364f15ddd7f2b04befa1afbef",
+    "prefill_template": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UMTVEMFlVVkE5TDFSNzM3QkdCM1hFMTAwVyQlQCN0PWcu&r4c90205364f15ddd7f2b04befa1afbef={ASSET}",
+    "options": {
+      "FIRE-AL": "FIRE-AL - Fire alarm",
+      "FIRE-EL": "FIRE-EL - Emergency lighting",
+      "EXT": "EXT - Fire extinguishers (all 7)",
+      "EXT1": "EXT - Fire extinguishers (all 7)",
+      "EXT2": "EXT - Fire extinguishers (all 7)",
+      "EXT3": "EXT - Fire extinguishers (all 7)",
+      "EXT4": "EXT - Fire extinguishers (all 7)",
+      "EXT5": "EXT - Fire extinguishers (all 7)",
+      "EXT6": "EXT - Fire extinguishers (all 7)",
+      "EXT7": "EXT - Fire extinguishers (all 7)",
+      "FIRE-DR": "FIRE-DR - Fire doors and escape routes",
+      "FA1": "FA1 - First-aid kits and eyewash",
+      "SITE": "SITE - Monthly site walk"
+    },
+    "built": "2026-09-17 HS-07 Fire, first aid and site check (41 items). Likert grids replaced by tick-lists - see the build log."
+  },
+  "done": {
+    "name": "Mark done (any diary item)",
+    "form_id": "MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UN1lJWTlQVzMxREE3MzA2QTcwME5VMkhHSiQlQCN0PWcu",
+    "q1_id": "r75c3dc075a5b4020877801cad410114f",
+    "prefill_template": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UN1lJWTlQVzMxREE3MzA2QTcwME5VMkhHSiQlQCN0PWcu&r75c3dc075a5b4020877801cad410114f=%22{ITEM}%22",
+    "built": "2026-09-16 HS-08 Mark done (group form, 5 Q; 'Enable pre-filled answers' switched ON under ... > Get Pre-filled URL - without it NO prefill works)"
+  },
+  "_readme_due": "13 Oct 2026: optional per family - check_type_q = the Forms question id of 'Check type' / 'What are you doing today?', cadence_options = cadence word -> EXACT option text. index.html adds &r<check_type_q>=%22<option>%22 to the prefilled link when exactly one check is due/overdue, so the right branch opens. Families without it still show the due banner; the person picks.",
+  "10": {
+    "name": "Accident / near miss (HS-10)",
+    "url": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UMEZEM1BJUzlVMUlWRkVNTkRSUjI1WTc0UCQlQCN0PWcu",
+    "note": "PASTE the HS-10 response URL printed by forms/create-hs-10-incident.js into url, then python publish.py. Empty url = the page says 'Form not live yet' and shows the recorded text (book in the office drawer). No pre-fill - one form, one QR (INCIDENT).",
+    "built": "form created 2026-11-05 (Graham, create-hs-10-incident.js); list Incidents 5bfb006e-c6de-46cb-bc72-3d5266f9875e"
   }
- },
- "02": {
-  "name": "RPE (powered respirators)",
-  "form_id": "MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UQ1E3QjZIOFJGN0dJTUFQV1REVVpFNzdNSCQlQCN0PWcu",
-  "q1_id": "re8bc306781dcc8dde47d3d380a6db786",
-  "prefill_template": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UQ1E3QjZIOFJGN0dJTUFQV1REVVpFNzdNSCQlQCN0PWcu&re8bc306781dcc8dde47d3d380a6db786={ASSET}",
-  "options": {
-   "RPE1": "RPE1 - Trend Airshield Pro (visor)",
-   "RPE2": "RPE2 - CleanSpace Agile no.1 (P0 001 695)",
-   "RPE3": "RPE3 - CleanSpace Agile no.2"
-  },
-  "built": "2026-09-17 HS-02 RPE check (34 items)"
- },
- "03": {
-  "name": "Hand tools",
-  "form_id": "MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UOVJJNEg3REdQN1UxSVVCQUY4QlZWSUpNNiQlQCN0PWcu",
-  "q1_id": "rddacfb2fab1e0f3c36e8b768e87e535f",
-  "prefill_template": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UOVJJNEg3REdQN1UxSVVCQUY4QlZWSUpNNiQlQCN0PWcu&rddacfb2fab1e0f3c36e8b768e87e535f={ASSET}",
-  "options": {
-   "TOOL1": "TOOL1 - Gison wet air saw 2674663",
-   "TOOL2": "TOOL2 - Electric grinders, polishers, drills",
-   "TOOL4": "TOOL2 - Electric grinders, polishers, drills",
-   "TX1": "TOOL2 - Electric grinders, polishers, drills",
-   "TOOL3": "TOOL3 - Air polishers",
-   "VAC1": "VAC1 - Numatic TRM240 M-class vacuum"
-  },
-  "built": "2026-09-17 HS-03 Hand tools check (30 items). TOOL4 and TX1 share the electric-tools branch. 4 Nov 2026: VAC1 option + its own 7-question section added (forms/add-vac1-hs03.js) - the vacuum skips the All-tools section and goes straight to Faults."
- },
- "04": {
-  "name": "Forklift",
-  "form_id": "MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UMFhaQUs4OTkxOVJKVDBWUUNOWUxCNzA4NCQlQCN0PWcu",
-  "q1_id": "r82364c0e1ec8a3206cecbaa13cda9a11",
-  "prefill_template": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UMFhaQUs4OTkxOVJKVDBWUUNOWUxCNzA4NCQlQCN0PWcu&r82364c0e1ec8a3206cecbaa13cda9a11={ASSET}",
-  "options": {
-   "FLT1": "FLT1 - Mitsubishi forklift DF18X-13401",
-   "FLTA2": "FLTA2 - Jib attachment 1.25 t"
-  },
-  "built": "2026-09-17 HS-04 Forklift check (31 items) FLTA1 removed 17 Sep 2026 (Vevor platform scrapped). 14 Oct 2026: section 4 = jib + bow shackle BS-I2 (one unit, 7 items) - see forms/flta2-shackle-merge-14oct.js."
- },
- "05": {
-  "name": "Lifting gear",
-  "form_id": "MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UMzBXUUFVQjU1OVhRV05UREFKQzNZSFo5WiQlQCN0PWcu",
-  "q1_id": "rc8c5472c224909817f2b428c56829292",
-  "prefill_template": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UMzBXUUFVQjU1OVhRV05UREFKQzNZSFo5WiQlQCN0PWcu&rc8c5472c224909817f2b428c56829292={ASSET}",
-  "options": {
-   "VLD1": "VLD1 - Elephant vacuum lifter 625 kg",
-   "VLD2": "VLD2 - Vacuum Lifting Co 315 kg",
-   "VLD3": "VLD3 - Sidelia vacuum lifter 200 kg",
-   "SC2": "SC2 - Aligator scissor clamp 1000 kg",
-   "MFJC2": "MFJC2 - Elephant jib crane 1000 kg",
-   "ECB1": "ECB1 - Yale chain block 0.5 t",
-   "ECB2": "ECB2 - RWM chain block 1000 kg",
-   "MT1": "MT1 - Pfaff trolley 500 kg",
-   "MFJC1": "MFJC1 - Polishing-shop jib crane (OUT OF USE)"
-  },
-  "built": "2026-09-17 HS-05 Lifting gear check (46 items). SC1 withdrawn 16 Sep, not an option. BS-I2 merged into FLTA2 (HS-04 section 4) 14 Oct 2026."
- },
- "06": {
-  "name": "Machinery, compressor, racks",
-  "form_id": "MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UOVVQQkhKM0pYRVBYSFVOREZRWVY2MzBSRSQlQCN0PWcu",
-  "q1_id": "r5c1c0a84ebbdbd53673b6896b5041fe6",
-  "prefill_template": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UOVVQQkhKM0pYRVBYSFVOREZRWVY2MzBSRSQlQCN0PWcu&r5c1c0a84ebbdbd53673b6896b5041fe6={ASSET}",
-  "options": {
-   "SAW1": "SAW1 - GMM Brio bridge saw",
-   "CNC1": "CNC1 - Biesse Master 38.3 CNC",
-   "POL1": "POL1 - Musa edge polisher",
-   "SAW2": "SAW2 - Cobalm Ideal (OUT OF USE)",
-   "AIR1": "AIR1 - Compressor and receivers",
-   "RACK1": "RACK1 - Slab racks, yard"
-  },
-  "built": "2026-09-17 HS-06 Machinery, air and racks check (48 items)"
- },
- "07": {
-  "name": "Fire, first aid, site walk",
-  "form_id": "MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UMTVEMFlVVkE5TDFSNzM3QkdCM1hFMTAwVyQlQCN0PWcu",
-  "q1_id": "r4c90205364f15ddd7f2b04befa1afbef",
-  "prefill_template": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UMTVEMFlVVkE5TDFSNzM3QkdCM1hFMTAwVyQlQCN0PWcu&r4c90205364f15ddd7f2b04befa1afbef={ASSET}",
-  "options": {
-   "FIRE-AL": "FIRE-AL - Fire alarm",
-   "FIRE-EL": "FIRE-EL - Emergency lighting",
-   "EXT": "EXT - Fire extinguishers (all 7)",
-   "EXT1": "EXT - Fire extinguishers (all 7)",
-   "EXT2": "EXT - Fire extinguishers (all 7)",
-   "EXT3": "EXT - Fire extinguishers (all 7)",
-   "EXT4": "EXT - Fire extinguishers (all 7)",
-   "EXT5": "EXT - Fire extinguishers (all 7)",
-   "EXT6": "EXT - Fire extinguishers (all 7)",
-   "EXT7": "EXT - Fire extinguishers (all 7)",
-   "FIRE-DR": "FIRE-DR - Fire doors and escape routes",
-   "FA1": "FA1 - First-aid kits and eyewash",
-   "SITE": "SITE - Monthly site walk"
-  },
-  "built": "2026-09-17 HS-07 Fire, first aid and site check (41 items). Likert grids replaced by tick-lists - see the build log."
- },
- "done": {
-  "name": "Mark done (any diary item)",
-  "form_id": "MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UN1lJWTlQVzMxREE3MzA2QTcwME5VMkhHSiQlQCN0PWcu",
-  "q1_id": "r75c3dc075a5b4020877801cad410114f",
-  "prefill_template": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UN1lJWTlQVzMxREE3MzA2QTcwME5VMkhHSiQlQCN0PWcu&r75c3dc075a5b4020877801cad410114f=%22{ITEM}%22",
-  "built": "2026-09-16 HS-08 Mark done (group form, 5 Q; 'Enable pre-filled answers' switched ON under ... > Get Pre-filled URL - without it NO prefill works)"
- },
- "_readme_due": "13 Oct 2026: optional per family - check_type_q = the Forms question id of 'Check type' / 'What are you doing today?', cadence_options = cadence word -> EXACT option text. index.html adds &r<check_type_q>=%22<option>%22 to the prefilled link when exactly one check is due/overdue, so the right branch opens. Families without it still show the due banner; the person picks.",
- "10": {
-  "name": "Accident / near miss (HS-10)",
-  "url": "",
-  "note": "PASTE the HS-10 response URL printed by forms/create-hs-10-incident.js into url, then python publish.py. Empty url = the page says 'Form not live yet' and shows the recorded text (book in the office drawer). No pre-fill - one form, one QR (INCIDENT).",
-  "built": "scripts written 2026-11-05 - form NOT yet created"
- }
 }
