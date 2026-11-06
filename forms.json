@@ -120,6 +120,6 @@
     "name": "Accident / near miss (HS-10)",
     "url": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MZpsrwt2ZEe4W1Q-Ufb_dDrdttA_LqpPhIT5imcV4A5UMEZEM1BJUzlVMUlWRkVNTkRSUjI1WTc0UCQlQCN0PWcu",
     "note": "PASTE the HS-10 response URL printed by forms/create-hs-10-incident.js into url, then python publish.py. Empty url = the page says 'Form not live yet' and shows the recorded text (book in the office drawer). No pre-fill - one form, one QR (INCIDENT).",
-    "built": "form created 2026-11-05 (Graham, create-hs-10-incident.js); list Incidents 5bfb006e-c6de-46cb-bc72-3d5266f9875e"
+    "built": "form created 2026-11-05 (Graham, create-hs-10-incident.js); list Incidents 5bfb006e-c6de-46cb-bc72-3d5266f9875e; flow HS-A-10 f482a3de-aded-44ec-8044-3b796d337989 (On)"
   }
 }
