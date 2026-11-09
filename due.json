@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T07:15",
+ "generated": "2026-11-09T08:46",
  "today": "2026-11-09",
  "assets": {
   "BOOTH1": {
@@ -291,11 +291,19 @@
   "SAW1": {
    "checks": [
     {
-     "label": "Monthly + weekly",
+     "label": "Weekly",
+     "cadence": "Weekly",
+     "last": "2026-11-09",
+     "due": "2026-11-16",
+     "state": "ok",
+     "period": "week"
+    },
+    {
+     "label": "Monthly",
      "cadence": "Monthly",
-     "last": null,
-     "due": "2026-10-05",
-     "state": "overdue",
+     "last": "2026-11-09",
+     "due": "2026-12-07",
+     "state": "ok",
      "period": "week"
     }
    ],
@@ -306,9 +314,9 @@
     {
      "label": "Weekly",
      "cadence": "Weekly",
-     "last": "2026-11-02",
-     "due": "2026-11-09",
-     "state": "due",
+     "last": "2026-11-09",
+     "due": "2026-11-16",
+     "state": "ok",
      "period": "week"
     },
     {
@@ -400,9 +408,9 @@
     {
      "label": "Weekly",
      "cadence": "Weekly",
-     "last": "2026-11-02",
-     "due": "2026-11-09",
-     "state": "due",
+     "last": "2026-11-09",
+     "due": "2026-11-16",
+     "state": "ok",
      "period": "week"
     }
    ],
@@ -431,19 +439,19 @@
   "RPE3": {
    "checks": [
     {
-     "label": "Weekly",
-     "cadence": "Weekly",
-     "last": "2026-11-02",
-     "due": "2026-11-09",
-     "state": "due",
-     "period": "week"
-    },
-    {
      "label": "Monthly",
      "cadence": "Monthly",
      "last": "2026-10-19",
      "due": "2026-11-15",
      "state": "ok"
+    },
+    {
+     "label": "Weekly",
+     "cadence": "Weekly",
+     "last": "2026-11-09",
+     "due": "2026-11-16",
+     "state": "ok",
+     "period": "week"
     }
    ],
    "external": []
