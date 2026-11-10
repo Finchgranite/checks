@@ -47,8 +47,8 @@
   "family": "RPE",
   "form": "02",
   "detail": "Trend Airshield Pro, EN 12941 TH2P-S, APF 20",
-  "location": "Factory - RPE store / wearer",
-  "status": "In use",
+  "location": "Stores - stock cupboard, boxed with charger (SPARE)",
+  "status": "Spare - in stores",
   "merged_into": null,
   "recorded": "Weekly wearer log | Monthly check (CHK-002 Part B) | Filter change log",
   "pre_use": [
@@ -231,37 +231,37 @@
   "other": null
  },
  "TOOL2": {
-  "photo": null,
-  "name": "Drill (electric, 110 V)",
+  "photo": "photos/TOOL2.jpg",
+  "name": "Wet diamond core drill (electric, 110 V)",
   "family": "Hand tools",
   "form": "03",
-  "detail": "Make / model / serial:  ______________________________   (write on before laminating, then tell Claude for the register)",
-  "location": "Factory",
+  "detail": "Eibenstock END 1550 P, 110 V 1500 W, s/n 2015 0007 (2015), max core 68 mm, 1800-4400 rpm",
+  "location": "Factory - in its Eibenstock case (sign on the case)",
   "status": "In use",
   "merged_into": null,
-  "recorded": "Weekly (CHK-005)",
+  "recorded": "Monthly (CHK-005) - rarely used, 95% of drilling is on the CNC; pre-use list every time it comes out of the box",
   "pre_use": [
    "Lead, plug and casing undamaged - no tape, no joins",
-   "Switch works; chuck tight, bit or core not bent",
-   "Side handle fitted, chuck key out",
    "110 V via the site transformer - lead dry, off the floor",
-   "Wet drilling only - water on the bit, never dry",
+   "Switch works; core bit tight, not bent, segments intact",
+   "Side handle fitted, spanner out",
+   "Water feed connected and ON before the core touches stone - never dry",
    "Powered mask (APF 20) + ear defenders ON"
   ],
-  "why": "PUWER reg 5/6: work equipment maintained and inspected at suitable intervals, result recorded - HSE sets weekly for heavy industry (HSG107). Electricity at Work reg 4(2): kept safe by visual inspection.",
+  "why": "PUWER reg 5/6: work equipment maintained and inspected at intervals set by how much it is used and the risk, result recorded. This drill is rarely used (95% of drilling is on the CNC), so: pre-use look-over every time it comes out of the box + a recorded check once a month (Graham, 10 Nov 2026). Electricity at Work reg 4(2): kept safe by visual inspection.",
   "video": "",
   "service": "",
-  "weekly": [
+  "weekly": [],
+  "weekly_when": "",
+  "monthly": [
    "Lead and plug undamaged - no tape, no joins",
-   "Casing and switch undamaged",
-   "Guard fitted and undamaged",
+   "Casing, switch and water connection undamaged, no leaks",
+   "Core bits straight, segments intact",
    "ALL hand-tool work inside the booth, fan + water on",
    "Powered mask + ear defenders worn",
    "Trigger-time / vibration log kept"
   ],
-  "weekly_when": "Monday",
-  "monthly": [],
-  "monthly_when": "",
+  "monthly_when": "once a month - any day, or the first time it is used that month",
   "other": null
  },
  "TOOL4": {
@@ -1353,21 +1353,25 @@
   "location": "Factory / office / showroom",
   "status": "In use",
   "merged_into": null,
-  "recorded": "Monthly (in the site walk)",
-  "pre_use": [],
-  "why": "Fire Safety Order 2005 art 14: emergency routes and exits kept clear and leading to safety; art 17: maintained; art 15: drills. The government's factories guide: monthly check of doors and routes, drill every 6 months.",
+  "recorded": "WEEKLY walk-round - scan (any day Mon-Fri greens that week)",
+  "pre_use": [
+   "Every day, eyes open: nothing stacked in a route or against an exit door",
+   "Exit doors not wedged, chained or blocked outside",
+   "Signs still up, assembly point clear"
+  ],
+  "why": "Fire Safety Order 2005 art 14: emergency routes and exits kept clear and leading to safety; art 17: maintained; art 15: drills. The government's factories guide says monthly; we walk it WEEKLY (Graham, 17 Sep 2026) because slabs and packaging move every day. Drill every 6 months.",
   "video": "",
   "service": "",
-  "weekly": [],
-  "weekly_when": "",
-  "monthly": [
+  "weekly": [
    "Escape routes clear of slabs, packaging, vehicles - inside and out",
    "Fire exit doors open easily from inside; push bars work",
    "Fire doors close onto the latch - not wedged or propped",
    "Fire action notices, exit signs, assembly-point sign in place",
    "Assembly point clear and accessible"
   ],
-  "monthly_when": "every month - date on the phone",
+  "weekly_when": "any day Mon-Fri",
+  "monthly": [],
+  "monthly_when": "",
   "other": null
  },
  "FA1": {
