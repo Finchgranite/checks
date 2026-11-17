@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T10:46",
+ "generated": "2026-11-17T12:46",
  "today": "2026-11-17",
  "assets": {
   "BOOTH1": {
@@ -7,9 +7,9 @@
     {
      "label": "Weekly",
      "cadence": "Weekly",
-     "last": "2026-11-09",
-     "due": "2026-11-16",
-     "state": "due",
+     "last": "2026-11-17",
+     "due": "2026-11-23",
+     "state": "ok",
      "period": "week"
     },
     {
@@ -34,9 +34,9 @@
     {
      "label": "Weekly",
      "cadence": "Weekly",
-     "last": "2026-11-10",
-     "due": "2026-11-16",
-     "state": "due",
+     "last": "2026-11-17",
+     "due": "2026-11-23",
+     "state": "ok",
      "period": "week"
     }
    ],
@@ -104,9 +104,9 @@
     {
      "label": "Weekly",
      "cadence": "Weekly",
-     "last": "2026-11-10",
-     "due": "2026-11-17",
-     "state": "due",
+     "last": "2026-11-17",
+     "due": "2026-11-24",
+     "state": "ok",
      "period": "week"
     }
    ],
@@ -180,9 +180,9 @@
     {
      "label": "Weekly",
      "cadence": "Weekly",
-     "last": null,
-     "due": "2026-09-22",
-     "state": "overdue",
+     "last": "2026-11-17",
+     "due": "2026-11-24",
+     "state": "ok",
      "period": "week"
     }
    ],
@@ -199,9 +199,9 @@
     {
      "label": "Weekly",
      "cadence": "Weekly",
-     "last": "2026-11-10",
-     "due": "2026-11-17",
-     "state": "due",
+     "last": "2026-11-17",
+     "due": "2026-11-24",
+     "state": "ok",
      "period": "week"
     }
    ],
@@ -218,9 +218,9 @@
     {
      "label": "Weekly",
      "cadence": "Weekly",
-     "last": "2026-11-09",
-     "due": "2026-11-17",
-     "state": "due",
+     "last": "2026-11-17",
+     "due": "2026-11-24",
+     "state": "ok",
      "period": "week"
     }
    ],
@@ -369,9 +369,9 @@
     {
      "label": "Weekly",
      "cadence": "Weekly",
-     "last": "2026-11-09",
-     "due": "2026-11-17",
-     "state": "due",
+     "last": "2026-11-17",
+     "due": "2026-11-24",
+     "state": "ok",
      "period": "week"
     }
    ],
@@ -394,9 +394,9 @@
     {
      "label": "Weekly",
      "cadence": "Weekly",
-     "last": "2026-11-10",
-     "due": "2026-11-17",
-     "state": "due",
+     "last": "2026-11-17",
+     "due": "2026-11-24",
+     "state": "ok",
      "period": "week"
     }
    ],
