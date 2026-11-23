@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T06:47",
+ "generated": "2026-11-23T08:46",
  "today": "2026-11-23",
  "assets": {
   "BOOTH1": {
@@ -293,9 +293,9 @@
     {
      "label": "Weekly",
      "cadence": "Weekly",
-     "last": "2026-11-17",
-     "due": "2026-11-23",
-     "state": "due",
+     "last": "2026-11-23",
+     "due": "2026-11-30",
+     "state": "ok",
      "period": "week"
     },
     {
@@ -335,9 +335,9 @@
     {
      "label": "Weekly",
      "cadence": "Weekly",
-     "last": "2026-11-16",
-     "due": "2026-11-23",
-     "state": "due",
+     "last": "2026-11-23",
+     "due": "2026-11-30",
+     "state": "ok",
      "period": "week"
     },
     {
@@ -407,9 +407,9 @@
     {
      "label": "Weekly",
      "cadence": "Weekly",
-     "last": "2026-11-16",
-     "due": "2026-11-23",
-     "state": "due",
+     "last": "2026-11-23",
+     "due": "2026-11-30",
+     "state": "ok",
      "period": "week"
     }
    ],
@@ -440,9 +440,9 @@
     {
      "label": "Weekly",
      "cadence": "Weekly",
-     "last": "2026-11-16",
-     "due": "2026-11-23",
-     "state": "due",
+     "last": "2026-11-23",
+     "due": "2026-11-30",
+     "state": "ok",
      "period": "week"
     },
     {
