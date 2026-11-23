@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-22T06:46",
- "today": "2026-11-22",
+ "generated": "2026-11-23T06:47",
+ "today": "2026-11-23",
  "assets": {
   "BOOTH1": {
    "checks": [
@@ -9,7 +9,7 @@
      "cadence": "Weekly",
      "last": "2026-11-17",
      "due": "2026-11-23",
-     "state": "ok",
+     "state": "due",
      "period": "week"
     },
     {
@@ -36,7 +36,7 @@
      "cadence": "Weekly",
      "last": "2026-11-17",
      "due": "2026-11-23",
-     "state": "ok",
+     "state": "due",
      "period": "week"
     }
    ],
@@ -49,7 +49,7 @@
      "cadence": "Weekly",
      "last": "2026-11-16",
      "due": "2026-11-24",
-     "state": "ok",
+     "state": "due",
      "period": "week"
     }
    ],
@@ -68,7 +68,7 @@
      "cadence": "Weekly",
      "last": "2026-11-17",
      "due": "2026-11-24",
-     "state": "ok",
+     "state": "due",
      "period": "week"
     }
    ],
@@ -87,7 +87,7 @@
      "cadence": "Weekly",
      "last": "2026-11-17",
      "due": "2026-11-24",
-     "state": "ok",
+     "state": "due",
      "period": "week"
     }
    ],
@@ -106,7 +106,7 @@
      "cadence": "Weekly",
      "last": "2026-11-17",
      "due": "2026-11-24",
-     "state": "ok",
+     "state": "due",
      "period": "week"
     }
    ],
@@ -125,7 +125,7 @@
      "cadence": "Weekly",
      "last": "2026-11-16",
      "due": "2026-11-24",
-     "state": "ok",
+     "state": "due",
      "period": "week"
     }
    ],
@@ -144,7 +144,7 @@
      "cadence": "Weekly",
      "last": "2026-11-17",
      "due": "2026-11-24",
-     "state": "ok",
+     "state": "due",
      "period": "week"
     }
    ],
@@ -163,7 +163,7 @@
      "cadence": "Weekly",
      "last": "2026-11-17",
      "due": "2026-11-24",
-     "state": "ok",
+     "state": "due",
      "period": "week"
     }
    ],
@@ -182,7 +182,7 @@
      "cadence": "Weekly",
      "last": "2026-11-17",
      "due": "2026-11-24",
-     "state": "ok",
+     "state": "due",
      "period": "week"
     }
    ],
@@ -201,7 +201,7 @@
      "cadence": "Weekly",
      "last": "2026-11-17",
      "due": "2026-11-24",
-     "state": "ok",
+     "state": "due",
      "period": "week"
     }
    ],
@@ -220,7 +220,7 @@
      "cadence": "Weekly",
      "last": "2026-11-17",
      "due": "2026-11-24",
-     "state": "ok",
+     "state": "due",
      "period": "week"
     }
    ],
@@ -245,7 +245,7 @@
      "cadence": "Weekly",
      "last": "2026-11-17",
      "due": "2026-11-23",
-     "state": "ok",
+     "state": "due",
      "period": "week"
     }
    ],
@@ -258,7 +258,7 @@
      "cadence": "Monthly",
      "last": "2026-11-17",
      "due": "2026-11-23",
-     "state": "ok",
+     "state": "due",
      "period": "week"
     }
    ],
@@ -295,7 +295,7 @@
      "cadence": "Weekly",
      "last": "2026-11-17",
      "due": "2026-11-23",
-     "state": "ok",
+     "state": "due",
      "period": "week"
     },
     {
@@ -316,7 +316,7 @@
      "cadence": "Weekly",
      "last": "2026-11-17",
      "due": "2026-11-23",
-     "state": "ok",
+     "state": "due",
      "period": "week"
     },
     {
@@ -337,7 +337,7 @@
      "cadence": "Weekly",
      "last": "2026-11-16",
      "due": "2026-11-23",
-     "state": "ok",
+     "state": "due",
      "period": "week"
     },
     {
@@ -358,7 +358,7 @@
      "cadence": "Weekly",
      "last": "2026-11-17",
      "due": "2026-11-23",
-     "state": "ok",
+     "state": "due",
      "period": "week"
     }
    ],
@@ -371,7 +371,7 @@
      "cadence": "Weekly",
      "last": "2026-11-17",
      "due": "2026-11-24",
-     "state": "ok",
+     "state": "due",
      "period": "week"
     }
    ],
@@ -396,7 +396,7 @@
      "cadence": "Weekly",
      "last": "2026-11-17",
      "due": "2026-11-24",
-     "state": "ok",
+     "state": "due",
      "period": "week"
     }
    ],
@@ -409,7 +409,7 @@
      "cadence": "Weekly",
      "last": "2026-11-16",
      "due": "2026-11-23",
-     "state": "ok",
+     "state": "due",
      "period": "week"
     }
    ],
@@ -422,7 +422,7 @@
      "cadence": "Weekly",
      "last": "2026-11-16",
      "due": "2026-11-23",
-     "state": "ok",
+     "state": "due",
      "period": "week"
     },
     {
@@ -442,7 +442,7 @@
      "cadence": "Weekly",
      "last": "2026-11-16",
      "due": "2026-11-23",
-     "state": "ok",
+     "state": "due",
      "period": "week"
     },
     {
@@ -462,7 +462,7 @@
      "cadence": "Weekly",
      "last": "2026-11-17",
      "due": "2026-11-24",
-     "state": "ok",
+     "state": "due",
      "period": "week"
     }
    ],
